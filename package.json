@@ -1,0 +1,9 @@
+{
+  "name": "beachhydrovac-website",
+  "version": "1.0.0",
+  "description": "Beach Hydrovac - Specialized Hydro-Excavation Services",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "preview": "python -m http.server 8000"
+  }
+}
