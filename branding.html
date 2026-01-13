@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Guidelines | BeachHydrovac</title>
+    <meta name="description" content="BeachHydrovac brand identity guidelines, design principles, and visual standards.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Minimal 3-Color Palette */
+        .deep-navy { color: #1a365d; }
+        .bg-deep-navy { background-color: #1a365d; }
+        .golden-sun { color: #f7bb14; }
+        .bg-golden-sun { background-color: #f7bb14; }
+
+        /* Typography */
+        .font-inter { font-family: 'Inter', sans-serif; }
+        .font-montserrat { font-family: 'Montserrat', sans-serif; }
+        .font-roboto { font-family: 'Roboto', sans-serif; }
+
+        /* Gradients */
+        .golden-gradient {
+            background: linear-gradient(135deg, #f7bb14 0%, #ffd65a 100%);
+        }
+        .logo-shadow {
+            filter: drop-shadow(0 2px 8px rgba(0,0,0,0.15));
+        }
+
+        .veteran-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #B91C1C 0%, #DC2626 100%);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 9999px;
+            font-weight: bold;
+            font-size: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .color-swatch {
+            width: 100%;
+            height: 120px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .font-example {
+            padding: 20px;
+            border: 2px solid #e5e7eb;
+            border-radius: 12px;
+            margin-bottom: 16px;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'deep-navy': '#1a365d',
+                        'golden-sun': '#f7bb14',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-roboto text-gray-900 bg-white">
+
+    <!-- Navigation -->
+    <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-white shadow-md sticky top-0 z-50">
+        <div class="flex items-center">
+            <img src="/images/logo-main.svg" alt="Beach Hydrovac Logo" class="h-20 md:h-24 logo-shadow">
+        </div>
+        <div class="hidden md:flex space-x-8 font-semibold deep-navy">
+            <a href="/" class="hover:text-golden-sun transition">Home</a>
+            <a href="/services.html" class="hover:text-golden-sun transition">Services</a>
+            <a href="/about.html" class="hover:text-golden-sun transition">About</a>
+            <a href="/contact.html" class="hover:text-golden-sun transition">Contact</a>
+        </div>
+        <a href="tel:7577855177" class="bg-golden-sun text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-bold hover:bg-deep-navy transition shadow-lg text-sm md:text-base">
+            <i class="fas fa-phone mr-2"></i>757-785-5177
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-deep-navy py-20 md:py-32 text-white">
+        <div class="max-w-6xl mx-auto px-6 md:px-12 text-center">
+            <h1 class="font-inter font-black text-4xl md:text-6xl mb-6">
+                Brand Guidelines
+            </h1>
+            <p class="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
+                The design philosophy and visual identity behind BeachHydrovac
+            </p>
+        </div>
+    </section>
+
+    <!-- Brand Philosophy -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-8 deep-navy">Design Philosophy</h2>
+
+            <div class="bg-gray-50 p-8 rounded-2xl mb-12">
+                <p class="text-lg text-deep-navy leading-relaxed mb-6">
+                    BeachHydrovac's brand identity balances two essential characteristics:
+                    <strong class="golden-sun">professional industrial capability</strong> with
+                    <strong class="golden-sun">warm Virginia Beach approachability</strong>.
+                </p>
+                <p class="text-lg text-deep-navy leading-relaxed">
+                    The visual system reflects both the technical precision required for hydro-excavation work
+                    and the local, family-owned nature of the business. This 50/50 balance creates trust
+                    with both large commercial clients and local contractors.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-deep-navy p-8 rounded-2xl text-white">
+                    <i class="fas fa-hard-hat text-4xl golden-sun mb-4"></i>
+                    <h3 class="font-montserrat font-bold text-2xl mb-4">Industrial Strength</h3>
+                    <ul class="space-y-3 text-gray-100">
+                        <li>• Deep navy conveys professionalism</li>
+                        <li>• Clean typography ensures clarity</li>
+                        <li>• Technical capability showcase</li>
+                        <li>• Commercial client confidence</li>
+                    </ul>
+                </div>
+
+                <div class="bg-golden-sun p-8 rounded-2xl text-white">
+                    <i class="fas fa-sun text-4xl text-white mb-4"></i>
+                    <h3 class="font-montserrat font-bold text-2xl mb-4">Beach Warmth</h3>
+                    <ul class="space-y-3">
+                        <li>• Golden sun reflects Virginia Beach</li>
+                        <li>• Approachable local business</li>
+                        <li>• Veteran-owned authenticity</li>
+                        <li>• Community connection</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Color Palette -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-4 deep-navy text-center">Color Palette</h2>
+            <p class="text-center text-lg text-deep-navy mb-12 max-w-3xl mx-auto">
+                Simplified from 7 colors to <strong>3 core colors</strong> for maximum impact and consistency
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- Deep Navy -->
+                <div>
+                    <div class="color-swatch bg-deep-navy mb-4"></div>
+                    <h3 class="font-montserrat font-bold text-xl mb-2 deep-navy">Deep Navy</h3>
+                    <p class="text-sm font-mono mb-2 text-gray-600">#1a365d</p>
+                    <p class="text-deep-navy mb-3">
+                        Primary brand color representing trust, professionalism, and industrial capability.
+                    </p>
+                    <div class="text-sm text-gray-600">
+                        <strong>Usage:</strong><br>
+                        • Headers and body text<br>
+                        • Navigation elements<br>
+                        • Footer backgrounds<br>
+                        • Professional sections
+                    </div>
+                </div>
+
+                <!-- Golden Sun -->
+                <div>
+                    <div class="color-swatch bg-golden-sun mb-4"></div>
+                    <h3 class="font-montserrat font-bold text-xl mb-2 deep-navy">Golden Sun</h3>
+                    <p class="text-sm font-mono mb-2 text-gray-600">#f7bb14</p>
+                    <p class="text-deep-navy mb-3">
+                        Accent color evoking Virginia Beach sunshine, warmth, and local identity.
+                    </p>
+                    <div class="text-sm text-gray-600">
+                        <strong>Usage:</strong><br>
+                        • Call-to-action buttons<br>
+                        • Accent elements<br>
+                        • Hover states<br>
+                        • Highlighting key info
+                    </div>
+                </div>
+
+                <!-- White -->
+                <div>
+                    <div class="color-swatch bg-white border-2 border-gray-200 mb-4"></div>
+                    <h3 class="font-montserrat font-bold text-xl mb-2 deep-navy">Pure White</h3>
+                    <p class="text-sm font-mono mb-2 text-gray-600">#ffffff</p>
+                    <p class="text-deep-navy mb-3">
+                        Clean canvas ensuring readability and modern aesthetic.
+                    </p>
+                    <div class="text-sm text-gray-600">
+                        <strong>Usage:</strong><br>
+                        • Backgrounds<br>
+                        • Text on dark sections<br>
+                        • Card backgrounds<br>
+                        • Breathing room
+                    </div>
+                </div>
+            </div>
+
+            <!-- Why We Simplified -->
+            <div class="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 class="font-montserrat font-bold text-2xl mb-4 deep-navy">
+                    <i class="fas fa-lightbulb golden-sun mr-2"></i>
+                    Why We Simplified to 3 Colors
+                </h3>
+                <div class="space-y-4 text-deep-navy">
+                    <p class="leading-relaxed">
+                        <strong>Initial Design:</strong> Started with 7 colors (sandy beige, sunset orange, warm coral,
+                        ocean teal, soft cream, warm blue, plus navy and gold).
+                    </p>
+                    <p class="leading-relaxed">
+                        <strong>Client Feedback:</strong> "It's just way too much colors" - This was the turning point.
+                    </p>
+                    <p class="leading-relaxed">
+                        <strong>Solution:</strong> Reduced to 3 core colors (deep navy, golden sun, white) for:
+                    </p>
+                    <ul class="list-disc pl-8 space-y-2">
+                        <li>Stronger brand recognition</li>
+                        <li>Easier maintenance and consistency</li>
+                        <li>More professional appearance</li>
+                        <li>Better accessibility and contrast</li>
+                        <li>Cleaner, more modern look</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Typography -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-8 deep-navy">Typography System</h2>
+
+            <div class="font-example">
+                <h3 class="font-montserrat font-bold text-lg mb-2 golden-sun">Inter - Headlines</h3>
+                <p class="font-inter font-black text-4xl deep-navy mb-2">Virginia Beach Hydro-Excavation</p>
+                <p class="text-sm text-gray-600">
+                    <strong>Usage:</strong> Primary headlines, hero text, major section titles<br>
+                    <strong>Weights:</strong> 700 (Bold), 900 (Black)<br>
+                    <strong>Why:</strong> Bold, modern, geometric - commands attention
+                </p>
+            </div>
+
+            <div class="font-example">
+                <h3 class="font-montserrat font-bold text-lg mb-2 golden-sun">Montserrat - Subheadings</h3>
+                <p class="font-montserrat font-bold text-2xl deep-navy mb-2">Professional Services</p>
+                <p class="text-sm text-gray-600">
+                    <strong>Usage:</strong> Subheadings, card titles, section headers<br>
+                    <strong>Weights:</strong> 600 (Semi-bold), 700 (Bold)<br>
+                    <strong>Why:</strong> Versatile, professional, pairs well with Inter
+                </p>
+            </div>
+
+            <div class="font-example">
+                <h3 class="font-montserrat font-bold text-lg mb-2 golden-sun">Roboto - Body Text</h3>
+                <p class="font-roboto text-lg deep-navy mb-2">
+                    BeachHydrovac provides professional hydro-excavation services throughout Virginia Beach
+                    and surrounding areas. Our experienced team delivers safe, precise excavation solutions.
+                </p>
+                <p class="text-sm text-gray-600">
+                    <strong>Usage:</strong> Body copy, descriptions, general content<br>
+                    <strong>Weights:</strong> 400 (Regular), 500 (Medium)<br>
+                    <strong>Why:</strong> Highly readable, neutral, excellent for long-form content
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logo Usage -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-8 deep-navy">Logo Usage</h2>
+
+            <div class="grid md:grid-cols-2 gap-8 mb-8">
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <h3 class="font-montserrat font-bold text-xl mb-4 deep-navy">
+                        <i class="fas fa-check-circle golden-sun mr-2"></i>Correct Usage
+                    </h3>
+                    <ul class="space-y-3 text-deep-navy">
+                        <li>• Navigation: h-20 md:h-24 (prominent)</li>
+                        <li>• Always maintain aspect ratio</li>
+                        <li>• Use drop shadow for depth</li>
+                        <li>• Clear space around logo</li>
+                        <li>• Single logo in navigation only</li>
+                    </ul>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-lg">
+                    <h3 class="font-montserrat font-bold text-xl mb-4 deep-navy">
+                        <i class="fas fa-times-circle text-red-600 mr-2"></i>Avoid
+                    </h3>
+                    <ul class="space-y-3 text-deep-navy">
+                        <li>• Duplicate logos on same page</li>
+                        <li>• Stretching or distorting</li>
+                        <li>• Placing on busy backgrounds</li>
+                        <li>• Too small (< h-16 on desktop)</li>
+                        <li>• Multiple hero logos</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="bg-white p-8 rounded-2xl shadow-lg">
+                <h3 class="font-montserrat font-bold text-xl mb-4 deep-navy">Design Evolution</h3>
+                <p class="text-deep-navy mb-4 leading-relaxed">
+                    <strong>Initial Design:</strong> Hero section included large logo (h-32 md:h-48) above headline,
+                    plus "A Specialized Division of AIM Locating" tagline.
+                </p>
+                <p class="text-deep-navy mb-4 leading-relaxed">
+                    <strong>Client Request:</strong> Remove hero logo and AIM tagline for cleaner, more focused messaging.
+                </p>
+                <p class="text-deep-navy leading-relaxed">
+                    <strong>Final Solution:</strong> Single prominent logo in navigation (h-20 md:h-24), hero section
+                    leads with headline. Added top margin (mt-16 md:mt-20) to vertically balance the hero content.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Principles -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-12 deep-navy text-center">Core Design Principles</h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-golden-sun rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-compress text-white text-xl"></i>
+                    </div>
+                    <h3 class="font-montserrat font-bold text-xl mb-3 deep-navy">Simplicity</h3>
+                    <p class="text-deep-navy leading-relaxed">
+                        Less is more. Reduced from 7 colors to 3, removed duplicate logos, streamlined messaging.
+                        Every element serves a purpose.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-golden-sun rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-balance-scale text-white text-xl"></i>
+                    </div>
+                    <h3 class="font-montserrat font-bold text-xl mb-3 deep-navy">Balance</h3>
+                    <p class="text-deep-navy leading-relaxed">
+                        50/50 industrial credibility and beach warmth. Navy for professionalism,
+                        golden sun for approachability. Technical capability meets local charm.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-golden-sun rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-eye text-white text-xl"></i>
+                    </div>
+                    <h3 class="font-montserrat font-bold text-xl mb-3 deep-navy">Clarity</h3>
+                    <p class="text-deep-navy leading-relaxed">
+                        Clear typography hierarchy, strong contrast ratios, readable body text.
+                        Information is easy to find and understand at a glance.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-golden-sun rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-handshake text-white text-xl"></i>
+                    </div>
+                    <h3 class="font-montserrat font-bold text-xl mb-3 deep-navy">Trust</h3>
+                    <p class="text-deep-navy leading-relaxed">
+                        Veteran-owned badge, professional imagery, consistent branding.
+                        Visual design reinforces reliability and expertise.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-golden-sun rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-mobile-alt text-white text-xl"></i>
+                    </div>
+                    <h3 class="font-montserrat font-bold text-xl mb-3 deep-navy">Responsive</h3>
+                    <p class="text-deep-navy leading-relaxed">
+                        Mobile-first design with Tailwind CSS. Logo scales appropriately,
+                        buttons stack on mobile, content flows naturally on all screen sizes.
+                    </p>
+                </div>
+
+                <div class="bg-gray-50 p-8 rounded-2xl">
+                    <div class="w-12 h-12 bg-golden-sun rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-sync text-white text-xl"></i>
+                    </div>
+                    <h3 class="font-montserrat font-bold text-xl mb-3 deep-navy">Consistency</h3>
+                    <p class="text-deep-navy leading-relaxed">
+                        Same color palette, typography, and spacing across all pages.
+                        Navigation and footer identical site-wide for predictable experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Design Journey -->
+    <section class="py-16 md:py-24 bg-deep-navy text-white">
+        <div class="max-w-4xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-12 text-center">The Design Journey</h2>
+
+            <div class="space-y-8">
+                <div class="bg-white/10 p-6 rounded-xl backdrop-blur-sm">
+                    <div class="flex items-start gap-4">
+                        <div class="w-8 h-8 bg-golden-sun rounded-full flex items-center justify-center flex-shrink-0 font-bold text-deep-navy">
+                            1
+                        </div>
+                        <div>
+                            <h3 class="font-montserrat font-bold text-xl mb-2">Initial Vision</h3>
+                            <p class="text-gray-200 leading-relaxed">
+                                Started with warm beach theme: sandy beige, sunset orange, warm coral, ocean teal,
+                                soft cream, warm blue. Client wanted "beach-like warm colors."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 p-6 rounded-xl backdrop-blur-sm">
+                    <div class="flex items-start gap-4">
+                        <div class="w-8 h-8 bg-golden-sun rounded-full flex items-center justify-center flex-shrink-0 font-bold text-deep-navy">
+                            2
+                        </div>
+                        <div>
+                            <h3 class="font-montserrat font-bold text-xl mb-2">The Dilemma</h3>
+                            <p class="text-gray-200 leading-relaxed">
+                                Client torn between "machine operated business" professionalism and "warm beach vibe."
+                                Created hybrid approach: deep navy for credibility + golden sun (#f7bb14) for warmth.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 p-6 rounded-xl backdrop-blur-sm">
+                    <div class="flex items-start gap-4">
+                        <div class="w-8 h-8 bg-golden-sun rounded-full flex items-center justify-center flex-shrink-0 font-bold text-deep-navy">
+                            3
+                        </div>
+                        <div>
+                            <h3 class="font-montserrat font-bold text-xl mb-2">Critical Feedback</h3>
+                            <p class="text-gray-200 leading-relaxed">
+                                <strong class="golden-sun">"It's just way too much colors"</strong> - Turning point.
+                                Simplified from 7 colors to 3 core colors. Immediate visual improvement.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 p-6 rounded-xl backdrop-blur-sm">
+                    <div class="flex items-start gap-4">
+                        <div class="w-8 h-8 bg-golden-sun rounded-full flex items-center justify-center flex-shrink-0 font-bold text-deep-navy">
+                            4
+                        </div>
+                        <div>
+                            <h3 class="font-montserrat font-bold text-xl mb-2">Refinement Phase</h3>
+                            <p class="text-gray-200 leading-relaxed">
+                                Updated headline to "Virginia Beach Hydro-Excavation Services." Increased logo sizes.
+                                Fixed text contrast issues. Removed duplicate hero logo and AIM tagline.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white/10 p-6 rounded-xl backdrop-blur-sm">
+                    <div class="flex items-start gap-4">
+                        <div class="w-8 h-8 bg-golden-sun rounded-full flex items-center justify-center flex-shrink-0 font-bold text-deep-navy">
+                            5
+                        </div>
+                        <div>
+                            <h3 class="font-montserrat font-bold text-xl mb-2">Final Polish</h3>
+                            <p class="text-gray-200 leading-relaxed">
+                                Swapped hero/CTA colors on secondary pages (navy hero, golden CTA). Changed "Our Services"
+                                button to white for contrast. Added vertical spacing to hero. Result: Clean, professional,
+                                welcoming.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Implementation Notes -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-8 deep-navy">Implementation Notes</h2>
+
+            <div class="space-y-6">
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <h3 class="font-montserrat font-bold text-lg mb-3 deep-navy">
+                        <i class="fas fa-code golden-sun mr-2"></i>Technical Stack
+                    </h3>
+                    <ul class="space-y-2 text-deep-navy">
+                        <li>• <strong>Framework:</strong> Tailwind CSS via CDN</li>
+                        <li>• <strong>Fonts:</strong> Google Fonts (Inter, Montserrat, Roboto)</li>
+                        <li>• <strong>Icons:</strong> Font Awesome 6.0</li>
+                        <li>• <strong>Deployment:</strong> Vercel + GitHub</li>
+                        <li>• <strong>Pages:</strong> 4 static HTML pages</li>
+                    </ul>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <h3 class="font-montserrat font-bold text-lg mb-3 deep-navy">
+                        <i class="fas fa-palette golden-sun mr-2"></i>Color Code Reference
+                    </h3>
+                    <div class="font-mono text-sm space-y-2 text-deep-navy">
+                        <div class="flex justify-between items-center p-3 bg-white rounded">
+                            <span>Deep Navy:</span>
+                            <span class="font-bold">#1a365d</span>
+                        </div>
+                        <div class="flex justify-between items-center p-3 bg-white rounded">
+                            <span>Golden Sun:</span>
+                            <span class="font-bold">#f7bb14</span>
+                        </div>
+                        <div class="flex justify-between items-center p-3 bg-white rounded">
+                            <span>Golden Gradient:</span>
+                            <span class="font-bold">#f7bb14 → #ffd65a</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-xl">
+                    <h3 class="font-montserrat font-bold text-lg mb-3 deep-navy">
+                        <i class="fas fa-ruler golden-sun mr-2"></i>Spacing Standards
+                    </h3>
+                    <ul class="space-y-2 text-deep-navy">
+                        <li>• <strong>Logo (Nav):</strong> h-20 md:h-24</li>
+                        <li>• <strong>Section Padding:</strong> py-16 md:py-24</li>
+                        <li>• <strong>Hero Top Margin:</strong> mt-16 md:mt-20</li>
+                        <li>• <strong>Button Padding:</strong> px-8 py-4</li>
+                        <li>• <strong>Max Content Width:</strong> max-w-6xl</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 md:py-24 golden-gradient text-white">
+        <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
+            <h2 class="font-inter font-black text-3xl md:text-5xl mb-6">
+                Questions About Our Brand?
+            </h2>
+            <p class="text-lg md:text-xl mb-8 leading-relaxed">
+                This brand guide documents the design decisions and visual standards for BeachHydrovac.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="/" class="bg-white text-deep-navy hover:bg-deep-navy hover:text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                    <i class="fas fa-home mr-2"></i>Back to Home
+                </a>
+                <a href="/contact.html" class="bg-deep-navy hover:bg-white hover:text-deep-navy text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                    <i class="fas fa-envelope mr-2"></i>Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-deep-navy text-white py-12">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="font-montserrat font-bold text-lg mb-4">BeachHydrovac</h4>
+                    <p class="text-gray-200 mb-4">Professional hydro-excavation services for Virginia and surrounding states.</p>
+                    <div class="veteran-badge">
+                        <i class="fas fa-flag-usa"></i>
+                        <span>VETERAN OWNED</span>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-montserrat font-bold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="/" class="hover:text-golden-sun transition">Home</a></li>
+                        <li><a href="/services.html" class="hover:text-golden-sun transition">Services</a></li>
+                        <li><a href="/about.html" class="hover:text-golden-sun transition">About</a></li>
+                        <li><a href="/contact.html" class="hover:text-golden-sun transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-montserrat font-bold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-200">
+                        <li><i class="fas fa-phone mr-2"></i> 757-785-5177</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> Virginia Beach, VA</li>
+                        <li><i class="fas fa-building mr-2"></i> A Division of AIM Locating</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-500 pt-8 text-center text-gray-300">
+                <p>&copy; 2026 BeachHydrovac. All rights reserved. A division of AIM Locating.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
