@@ -9,33 +9,23 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
-        /* Hybrid Beach + Industrial Color Palette */
+        /* Minimal 3-Color Palette */
         .deep-navy { color: #1a365d; }
         .bg-deep-navy { background-color: #1a365d; }
-        .sandy-beige { color: #E8D4B0; }
-        .bg-sandy-beige { background-color: #E8D4B0; }
-        .sunset-orange { color: #E07A5F; }
-        .bg-sunset-orange { background-color: #E07A5F; }
-        .golden-sun { color: #f7bb14; }
+                .golden-sun { color: #f7bb14; }
         .bg-golden-sun { background-color: #f7bb14; }
-        .ocean-teal { color: #2A9D8F; }
-        .bg-ocean-teal { background-color: #2A9D8F; }
-        .soft-cream { color: #FFF8F0; }
-        .bg-soft-cream { background-color: #FFF8F0; }
-        .warm-blue { color: #457B9D; }
-        .bg-warm-blue { background-color: #457B9D; }
-
+        
         .font-inter { font-family: 'Inter', sans-serif; }
         .font-montserrat { font-family: 'Montserrat', sans-serif; }
         .font-roboto { font-family: 'Roboto', sans-serif; }
 
-        .warm-beach-gradient {
+        .golden-gradient {
             background: linear-gradient(135deg, #E07A5F 0%, #f7bb14 50%, #E8D4B0 100%);
         }
-        .ocean-gradient {
+        .bg-deep-navy {
             background: linear-gradient(135deg, #2A9D8F 0%, #457B9D 100%);
         }
-        .soft-gradient {
+        .bg-white {
             background: linear-gradient(135deg, #FFF8F0 0%, #E8D4B0 100%);
         }
         .logo-shadow {
@@ -80,13 +70,11 @@
             theme: {
                 extend: {
                     colors: {
-                        'sandy-beige': '#E8D4B0',
-                        'sunset-orange': '#E07A5F',
-                        'golden-sun': '#f7bb14',
-                        'ocean-teal': '#2A9D8F',
-                        'soft-cream': '#FFF8F0',
+                                                'golden-sun': '#f7bb14',
+                        'golden-sun': '#2A9D8F',
+                        'white': '#FFF8F0',
                         'deep-navy': '#1a365d',
-                        'warm-blue': '#457B9D',
+                        'deep-navy': '#457B9D',
                     }
                 }
             }
@@ -96,23 +84,23 @@
 <body class="font-roboto text-gray-900 bg-white">
 
     <!-- Navigation -->
-    <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-soft-cream shadow-md sticky top-0 z-50">
+    <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-white shadow-md sticky top-0 z-50">
         <div class="flex items-center">
             <img src="/images/logo-main.svg" alt="Beach Hydrovac Logo" class="h-12 md:h-16 logo-shadow">
         </div>
-        <div class="hidden md:flex space-x-8 font-semibold warm-blue">
-            <a href="/" class="hover:text-sunset-orange transition">Home</a>
-            <a href="/services.html" class="hover:text-sunset-orange transition">Services</a>
-            <a href="/about.html" class="hover:text-sunset-orange transition">About</a>
-            <a href="/contact.html" class="text-sunset-orange">Contact</a>
+        <div class="hidden md:flex space-x-8 font-semibold deep-navy">
+            <a href="/" class="hover:text-golden-sun transition">Home</a>
+            <a href="/services.html" class="hover:text-golden-sun transition">Services</a>
+            <a href="/about.html" class="hover:text-golden-sun transition">About</a>
+            <a href="/contact.html" class="text-golden-sun">Contact</a>
         </div>
-        <a href="tel:7577855177" class="bg-sunset-orange text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-bold hover:bg-ocean-teal transition shadow-lg text-sm md:text-base">
+        <a href="tel:7577855177" class="bg-golden-sun text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-bold hover:bg-golden-sun transition shadow-lg text-sm md:text-base">
             <i class="fas fa-phone mr-2"></i>757-785-5177
         </a>
     </nav>
 
     <!-- Hero Section -->
-    <section class="warm-beach-gradient py-20 md:py-32 text-white">
+    <section class="golden-gradient py-20 md:py-32 text-white">
         <div class="max-w-6xl mx-auto px-6 md:px-12 text-center">
             <h1 class="font-inter font-black text-4xl md:text-6xl mb-6">
                 Let's Talk About Your Project
@@ -137,27 +125,27 @@
 
                     <form action="#" method="POST" class="space-y-6">
                         <div>
-                            <label for="name" class="block text-sm font-semibold warm-blue mb-2">Full Name *</label>
+                            <label for="name" class="block text-sm font-semibold deep-navy mb-2">Full Name *</label>
                             <input type="text" id="name" name="name" required class="form-input" placeholder="John Smith">
                         </div>
 
                         <div>
-                            <label for="company" class="block text-sm font-semibold warm-blue mb-2">Company Name</label>
+                            <label for="company" class="block text-sm font-semibold deep-navy mb-2">Company Name</label>
                             <input type="text" id="company" name="company" class="form-input" placeholder="ABC Construction">
                         </div>
 
                         <div>
-                            <label for="email" class="block text-sm font-semibold warm-blue mb-2">Email *</label>
+                            <label for="email" class="block text-sm font-semibold deep-navy mb-2">Email *</label>
                             <input type="email" id="email" name="email" required class="form-input" placeholder="john@example.com">
                         </div>
 
                         <div>
-                            <label for="phone" class="block text-sm font-semibold warm-blue mb-2">Phone Number *</label>
+                            <label for="phone" class="block text-sm font-semibold deep-navy mb-2">Phone Number *</label>
                             <input type="tel" id="phone" name="phone" required class="form-input" placeholder="(757) 555-0123">
                         </div>
 
                         <div>
-                            <label for="service" class="block text-sm font-semibold warm-blue mb-2">Service Needed *</label>
+                            <label for="service" class="block text-sm font-semibold deep-navy mb-2">Service Needed *</label>
                             <select id="service" name="service" required class="form-input">
                                 <option value="">Select a service...</option>
                                 <option value="potholing">Potholing / Daylighting</option>
@@ -169,12 +157,12 @@
                         </div>
 
                         <div>
-                            <label for="location" class="block text-sm font-semibold warm-blue mb-2">Project Location *</label>
+                            <label for="location" class="block text-sm font-semibold deep-navy mb-2">Project Location *</label>
                             <input type="text" id="location" name="location" required class="form-input" placeholder="City, State">
                         </div>
 
                         <div>
-                            <label for="timeline" class="block text-sm font-semibold warm-blue mb-2">Project Timeline</label>
+                            <label for="timeline" class="block text-sm font-semibold deep-navy mb-2">Project Timeline</label>
                             <select id="timeline" name="timeline" class="form-input">
                                 <option value="">When do you need this?</option>
                                 <option value="urgent">Urgent (Within 1 week)</option>
@@ -185,11 +173,11 @@
                         </div>
 
                         <div>
-                            <label for="message" class="block text-sm font-semibold warm-blue mb-2">Project Details *</label>
+                            <label for="message" class="block text-sm font-semibold deep-navy mb-2">Project Details *</label>
                             <textarea id="message" name="message" required class="form-input" placeholder="Tell us about your project: location details, scope of work, utilities involved, etc."></textarea>
                         </div>
 
-                        <button type="submit" class="w-full bg-sunset-orange hover:bg-ocean-teal text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                        <button type="submit" class="w-full bg-golden-sun hover:bg-golden-sun text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
                             <i class="fas fa-paper-plane mr-2"></i>Send Quote Request
                         </button>
 
@@ -205,22 +193,22 @@
 
                     <div class="space-y-6 mb-8">
                         <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-ocean-teal/10 rounded-full flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-phone text-xl ocean-teal"></i>
+                            <div class="w-12 h-12 bg-golden-sun/10 rounded-full flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-phone text-xl golden-sun"></i>
                             </div>
                             <div>
-                                <h3 class="font-montserrat font-bold warm-blue mb-1">Phone</h3>
-                                <p class="text-gray-700"><a href="tel:7577855177" class="text-sunset-orange hover:underline">757-785-5177</a></p>
+                                <h3 class="font-montserrat font-bold deep-navy mb-1">Phone</h3>
+                                <p class="text-gray-700"><a href="tel:7577855177" class="text-golden-sun hover:underline">757-785-5177</a></p>
                                 <p class="text-sm text-gray-600">Monday - Friday, 7:00 AM - 5:00 PM</p>
                             </div>
                         </div>
 
                         <div class="flex items-start gap-4">
-                            <div class="w-12 h-12 bg-sunset-orange/10 rounded-full flex items-center justify-center flex-shrink-0">
-                                <i class="fas fa-map-marker-alt text-xl sunset-orange"></i>
+                            <div class="w-12 h-12 bg-golden-sun/10 rounded-full flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-map-marker-alt text-xl golden-sun"></i>
                             </div>
                             <div>
-                                <h3 class="font-montserrat font-bold warm-blue mb-1">Location</h3>
+                                <h3 class="font-montserrat font-bold deep-navy mb-1">Location</h3>
                                 <p class="text-gray-700">Virginia Beach, VA</p>
                                 <p class="text-sm text-gray-600">Serving VA, NC, MD & DE</p>
                             </div>
@@ -231,44 +219,44 @@
                                 <i class="fas fa-clock text-xl golden-sun"></i>
                             </div>
                             <div>
-                                <h3 class="font-montserrat font-bold warm-blue mb-1">Response Time</h3>
+                                <h3 class="font-montserrat font-bold deep-navy mb-1">Response Time</h3>
                                 <p class="text-gray-700">Typically within 24 hours</p>
                                 <p class="text-sm text-gray-600">Emergency services available</p>
                             </div>
                         </div>
                     </div>
 
-                    <div class="ocean-gradient p-8 rounded-2xl shadow-xl text-white mb-8">
+                    <div class="bg-deep-navy p-8 rounded-2xl shadow-xl text-white mb-8">
                         <h3 class="font-montserrat font-bold text-xl mb-4">Prefer to Call?</h3>
                         <p class="mb-6 text-gray-100">
                             Speak directly with our team to discuss your project requirements and get immediate answers to your questions.
                         </p>
-                        <a href="tel:7577855177" class="inline-block bg-white text-warm-blue hover:bg-sunset-orange hover:text-white px-6 py-3 rounded-full font-bold transition shadow-lg">
+                        <a href="tel:7577855177" class="inline-block bg-white text-deep-navy hover:bg-golden-sun hover:text-white px-6 py-3 rounded-full font-bold transition shadow-lg">
                             <i class="fas fa-phone mr-2"></i>Call 757-785-5177
                         </a>
                     </div>
 
-                    <div class="bg-soft-cream p-6 rounded-xl">
+                    <div class="bg-white p-6 rounded-xl">
                         <h3 class="font-montserrat font-bold text-lg deep-navy mb-3">Service Coverage</h3>
                         <ul class="space-y-2 text-gray-700">
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Virginia Beach & Hampton Roads</span>
                             </li>
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Richmond & Central Virginia</span>
                             </li>
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Eastern North Carolina</span>
                             </li>
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Southern Maryland</span>
                             </li>
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Delaware</span>
                             </li>
                         </ul>
@@ -280,33 +268,33 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-16 md:py-24 soft-gradient">
+    <section class="py-16 md:py-24 bg-white">
         <div class="max-w-4xl mx-auto px-6 md:px-12">
             <h2 class="font-inter font-black text-3xl md:text-4xl mb-12 deep-navy text-center">Common Questions</h2>
 
             <div class="space-y-6">
                 <div class="bg-white p-6 rounded-xl shadow-lg">
-                    <h3 class="font-montserrat font-bold text-lg warm-blue mb-2">How quickly can you start my project?</h3>
+                    <h3 class="font-montserrat font-bold text-lg deep-navy mb-2">How quickly can you start my project?</h3>
                     <p class="text-gray-700">Our typical lead time is 3-7 days, but we can often accommodate urgent requests within 24-48 hours. Emergency services are available for utility strikes and critical situations.</p>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-lg">
-                    <h3 class="font-montserrat font-bold text-lg warm-blue mb-2">Do you provide free quotes?</h3>
+                    <h3 class="font-montserrat font-bold text-lg deep-navy mb-2">Do you provide free quotes?</h3>
                     <p class="text-gray-700">Yes! We provide detailed, no-obligation quotes based on your project scope. Most quotes are delivered within 24 hours of receiving your project details.</p>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-lg">
-                    <h3 class="font-montserrat font-bold text-lg warm-blue mb-2">What information do you need for a quote?</h3>
+                    <h3 class="font-montserrat font-bold text-lg deep-navy mb-2">What information do you need for a quote?</h3>
                     <p class="text-gray-700">To provide an accurate quote, we need: project location, type of excavation needed, estimated depth and length, timeline, and any access restrictions. The more details you provide, the more accurate our estimate.</p>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-lg">
-                    <h3 class="font-montserrat font-bold text-lg warm-blue mb-2">Do you work with residential clients?</h3>
+                    <h3 class="font-montserrat font-bold text-lg deep-navy mb-2">Do you work with residential clients?</h3>
                     <p class="text-gray-700">Our primary focus is commercial, industrial, and municipal projects. However, we can accommodate residential projects on a case-by-case basis, especially for larger excavation needs.</p>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-lg">
-                    <h3 class="font-montserrat font-bold text-lg warm-blue mb-2">Are you licensed and insured?</h3>
+                    <h3 class="font-montserrat font-bold text-lg deep-navy mb-2">Are you licensed and insured?</h3>
                     <p class="text-gray-700">Yes. BeachHydrovac is fully licensed, bonded, and insured for commercial excavation work in Virginia and surrounding states. Certificates of insurance are available upon request.</p>
                 </div>
             </div>
@@ -314,7 +302,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 md:py-24 ocean-gradient text-white">
+    <section class="py-16 md:py-24 bg-deep-navy text-white">
         <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
             <h2 class="font-inter font-black text-3xl md:text-5xl mb-6">
                 Ready to Get Started?
@@ -323,10 +311,10 @@
                 Contact us today for a free consultation and quote for your hydro-excavation project.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="tel:7577855177" class="bg-white text-warm-blue hover:bg-sunset-orange hover:text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                <a href="tel:7577855177" class="bg-white text-deep-navy hover:bg-golden-sun hover:text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
                     <i class="fas fa-phone mr-2"></i>Call 757-785-5177
                 </a>
-                <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;" class="bg-sunset-orange hover:bg-white hover:text-warm-blue px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                <a href="#" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;" class="bg-golden-sun hover:bg-white hover:text-deep-navy px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
                     Fill Out Quote Form
                 </a>
             </div>

@@ -9,33 +9,23 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
-        /* Hybrid Beach + Industrial Color Palette */
+        /* Minimal 3-Color Palette */
         .deep-navy { color: #1a365d; }
         .bg-deep-navy { background-color: #1a365d; }
-        .sandy-beige { color: #E8D4B0; }
-        .bg-sandy-beige { background-color: #E8D4B0; }
-        .sunset-orange { color: #E07A5F; }
-        .bg-sunset-orange { background-color: #E07A5F; }
-        .golden-sun { color: #f7bb14; }
+                .golden-sun { color: #f7bb14; }
         .bg-golden-sun { background-color: #f7bb14; }
-        .ocean-teal { color: #2A9D8F; }
-        .bg-ocean-teal { background-color: #2A9D8F; }
-        .soft-cream { color: #FFF8F0; }
-        .bg-soft-cream { background-color: #FFF8F0; }
-        .warm-blue { color: #457B9D; }
-        .bg-warm-blue { background-color: #457B9D; }
-
+        
         .font-inter { font-family: 'Inter', sans-serif; }
         .font-montserrat { font-family: 'Montserrat', sans-serif; }
         .font-roboto { font-family: 'Roboto', sans-serif; }
 
-        .warm-beach-gradient {
+        .golden-gradient {
             background: linear-gradient(135deg, #E07A5F 0%, #f7bb14 50%, #E8D4B0 100%);
         }
-        .ocean-gradient {
+        .bg-deep-navy {
             background: linear-gradient(135deg, #2A9D8F 0%, #457B9D 100%);
         }
-        .soft-gradient {
+        .bg-white {
             background: linear-gradient(135deg, #FFF8F0 0%, #E8D4B0 100%);
         }
         .logo-shadow {
@@ -60,13 +50,11 @@
             theme: {
                 extend: {
                     colors: {
-                        'sandy-beige': '#E8D4B0',
-                        'sunset-orange': '#E07A5F',
-                        'golden-sun': '#f7bb14',
-                        'ocean-teal': '#2A9D8F',
-                        'soft-cream': '#FFF8F0',
+                                                'golden-sun': '#f7bb14',
+                        'golden-sun': '#2A9D8F',
+                        'white': '#FFF8F0',
                         'deep-navy': '#1a365d',
-                        'warm-blue': '#457B9D',
+                        'deep-navy': '#457B9D',
                     }
                 }
             }
@@ -76,23 +64,23 @@
 <body class="font-roboto text-gray-900 bg-white">
 
     <!-- Navigation -->
-    <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-soft-cream shadow-md sticky top-0 z-50">
+    <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-white shadow-md sticky top-0 z-50">
         <div class="flex items-center">
             <img src="/images/logo-main.svg" alt="Beach Hydrovac Logo" class="h-12 md:h-16 logo-shadow">
         </div>
-        <div class="hidden md:flex space-x-8 font-semibold warm-blue">
-            <a href="/" class="hover:text-sunset-orange transition">Home</a>
-            <a href="/services.html" class="hover:text-sunset-orange transition">Services</a>
-            <a href="/about.html" class="text-sunset-orange">About</a>
-            <a href="/contact.html" class="hover:text-sunset-orange transition">Contact</a>
+        <div class="hidden md:flex space-x-8 font-semibold deep-navy">
+            <a href="/" class="hover:text-golden-sun transition">Home</a>
+            <a href="/services.html" class="hover:text-golden-sun transition">Services</a>
+            <a href="/about.html" class="text-golden-sun">About</a>
+            <a href="/contact.html" class="hover:text-golden-sun transition">Contact</a>
         </div>
-        <a href="tel:7577855177" class="bg-sunset-orange text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-bold hover:bg-ocean-teal transition shadow-lg text-sm md:text-base">
+        <a href="tel:7577855177" class="bg-golden-sun text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-bold hover:bg-golden-sun transition shadow-lg text-sm md:text-base">
             <i class="fas fa-phone mr-2"></i>757-785-5177
         </a>
     </nav>
 
     <!-- Hero Section -->
-    <section class="warm-beach-gradient py-20 md:py-32 text-white">
+    <section class="golden-gradient py-20 md:py-32 text-white">
         <div class="max-w-6xl mx-auto px-6 md:px-12 text-center">
             <div class="veteran-badge mb-6 inline-flex">
                 <i class="fas fa-flag-usa"></i>
@@ -114,7 +102,7 @@
 
             <div class="prose prose-lg max-w-none">
                 <p class="text-lg text-gray-700 mb-6 leading-relaxed">
-                    BeachHydrovac was founded with a simple mission: <strong class="sunset-orange">protect Virginia's underground infrastructure with the same dedication we brought to serving our country.</strong>
+                    BeachHydrovac was founded with a simple mission: <strong class="golden-sun">protect Virginia's underground infrastructure with the same dedication we brought to serving our country.</strong>
                 </p>
 
                 <p class="text-lg text-gray-700 mb-6 leading-relaxed">
@@ -129,22 +117,22 @@
     </section>
 
     <!-- AIM Partnership -->
-    <section class="py-16 md:py-24 soft-gradient">
+    <section class="py-16 md:py-24 bg-white">
         <div class="max-w-6xl mx-auto px-6 md:px-12">
             <div class="flex flex-col md:flex-row items-center gap-8">
                 <div class="md:w-1/2">
                     <h2 class="font-inter font-black text-3xl md:text-4xl mb-6 deep-navy">
-                        A Division of <span class="sunset-orange">AIM Locating</span>
+                        A Division of <span class="golden-sun">AIM Locating</span>
                     </h2>
                     <p class="text-lg text-gray-700 mb-4 leading-relaxed">
                         BeachHydrovac operates as a specialized division of <strong>AIM Locating</strong> (Advanced Infrastructure Mapping), one of Virginia's leading subsurface utility engineering firms.
                     </p>
                     <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-                        This partnership creates a unique advantage: <strong class="ocean-teal">"Map First, Dig Second."</strong> When you hire BeachHydrovac, you're getting the combined expertise of locating specialists and excavation professionals working together seamlessly.
+                        This partnership creates a unique advantage: <strong class="golden-sun">"Map First, Dig Second."</strong> When you hire BeachHydrovac, you're getting the combined expertise of locating specialists and excavation professionals working together seamlessly.
                     </p>
                 </div>
                 <div class="md:w-1/2">
-                    <div class="ocean-gradient p-8 rounded-2xl shadow-2xl text-white">
+                    <div class="bg-deep-navy p-8 rounded-2xl shadow-2xl text-white">
                         <h3 class="font-montserrat font-bold text-2xl mb-6">The AIM + BeachHydrovac Advantage</h3>
                         <ul class="space-y-4 text-lg">
                             <li class="flex items-start gap-3">
@@ -182,18 +170,18 @@
 
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="text-center">
-                    <div class="w-20 h-20 bg-ocean-teal/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-medal text-4xl ocean-teal"></i>
+                    <div class="w-20 h-20 bg-golden-sun/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-medal text-4xl golden-sun"></i>
                     </div>
-                    <h3 class="font-montserrat font-bold text-xl warm-blue mb-3">Excellence</h3>
+                    <h3 class="font-montserrat font-bold text-xl deep-navy mb-3">Excellence</h3>
                     <p class="text-gray-600 leading-relaxed">We don't cut corners. Every project is completed to the highest standards, whether it's a single pothole or a large-scale excavation.</p>
                 </div>
 
                 <div class="text-center">
-                    <div class="w-20 h-20 bg-sunset-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                        <i class="fas fa-handshake text-4xl sunset-orange"></i>
+                    <div class="w-20 h-20 bg-golden-sun/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-handshake text-4xl golden-sun"></i>
                     </div>
-                    <h3 class="font-montserrat font-bold text-xl warm-blue mb-3">Integrity</h3>
+                    <h3 class="font-montserrat font-bold text-xl deep-navy mb-3">Integrity</h3>
                     <p class="text-gray-600 leading-relaxed">Honest communication, transparent pricing, and doing what we say we'll do. Your trust is our most valuable asset.</p>
                 </div>
 
@@ -201,7 +189,7 @@
                     <div class="w-20 h-20 bg-golden-sun/10 rounded-full flex items-center justify-center mx-auto mb-4">
                         <i class="fas fa-heart text-4xl golden-sun"></i>
                     </div>
-                    <h3 class="font-montserrat font-bold text-xl warm-blue mb-3">Community</h3>
+                    <h3 class="font-montserrat font-bold text-xl deep-navy mb-3">Community</h3>
                     <p class="text-gray-600 leading-relaxed">We're proud to call Virginia Beach home. Supporting local infrastructure means supporting our neighbors and community.</p>
                 </div>
             </div>
@@ -209,15 +197,15 @@
     </section>
 
     <!-- Why Choose Us -->
-    <section class="py-16 md:py-24 soft-gradient">
+    <section class="py-16 md:py-24 bg-white">
         <div class="max-w-6xl mx-auto px-6 md:px-12">
             <h2 class="font-inter font-black text-3xl md:text-4xl mb-12 deep-navy text-center">Why Contractors Choose BeachHydrovac</h2>
 
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="bg-white p-6 rounded-xl shadow-lg">
                     <div class="flex items-start gap-4">
-                        <div class="w-12 h-12 bg-ocean-teal/10 rounded-full flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-truck text-xl ocean-teal"></i>
+                        <div class="w-12 h-12 bg-golden-sun/10 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-truck text-xl golden-sun"></i>
                         </div>
                         <div>
                             <h3 class="font-montserrat font-bold text-lg deep-navy mb-2">Industrial-Grade Equipment</h3>
@@ -228,8 +216,8 @@
 
                 <div class="bg-white p-6 rounded-xl shadow-lg">
                     <div class="flex items-start gap-4">
-                        <div class="w-12 h-12 bg-sunset-orange/10 rounded-full flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-clock text-xl sunset-orange"></i>
+                        <div class="w-12 h-12 bg-golden-sun/10 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-clock text-xl golden-sun"></i>
                         </div>
                         <div>
                             <h3 class="font-montserrat font-bold text-lg deep-navy mb-2">Reliable Scheduling</h3>
@@ -252,8 +240,8 @@
 
                 <div class="bg-white p-6 rounded-xl shadow-lg">
                     <div class="flex items-start gap-4">
-                        <div class="w-12 h-12 bg-ocean-teal/10 rounded-full flex items-center justify-center flex-shrink-0">
-                            <i class="fas fa-users text-xl ocean-teal"></i>
+                        <div class="w-12 h-12 bg-golden-sun/10 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-users text-xl golden-sun"></i>
                         </div>
                         <div>
                             <h3 class="font-montserrat font-bold text-lg deep-navy mb-2">Experienced Operators</h3>
@@ -276,49 +264,49 @@
                 </p>
 
                 <div class="grid md:grid-cols-2 gap-6">
-                    <div class="bg-soft-cream p-6 rounded-xl">
-                        <h3 class="font-montserrat font-bold text-lg warm-blue mb-4">Primary Service Area</h3>
+                    <div class="bg-white p-6 rounded-xl">
+                        <h3 class="font-montserrat font-bold text-lg deep-navy mb-4">Primary Service Area</h3>
                         <ul class="space-y-2 text-gray-700">
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Virginia Beach</span>
                             </li>
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Norfolk</span>
                             </li>
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Chesapeake</span>
                             </li>
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Portsmouth</span>
                             </li>
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Hampton Roads Region</span>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="bg-soft-cream p-6 rounded-xl">
-                        <h3 class="font-montserrat font-bold text-lg warm-blue mb-4">Extended Coverage</h3>
+                    <div class="bg-white p-6 rounded-xl">
+                        <h3 class="font-montserrat font-bold text-lg deep-navy mb-4">Extended Coverage</h3>
                         <ul class="space-y-2 text-gray-700">
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle sunset-orange"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Richmond & Central Virginia</span>
                             </li>
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle sunset-orange"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Eastern North Carolina</span>
                             </li>
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle sunset-orange"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Southern Maryland</span>
                             </li>
                             <li class="flex items-center gap-2">
-                                <i class="fas fa-check-circle sunset-orange"></i>
+                                <i class="fas fa-check-circle golden-sun"></i>
                                 <span>Delaware</span>
                             </li>
                         </ul>
@@ -329,7 +317,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 md:py-24 ocean-gradient text-white">
+    <section class="py-16 md:py-24 bg-deep-navy text-white">
         <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
             <h2 class="font-inter font-black text-3xl md:text-5xl mb-6">
                 Ready to Work With a Team You Can Trust?
@@ -338,10 +326,10 @@
                 Experience the BeachHydrovac difference on your next project.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="tel:7577855177" class="bg-white text-warm-blue hover:bg-sunset-orange hover:text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                <a href="tel:7577855177" class="bg-white text-deep-navy hover:bg-golden-sun hover:text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
                     <i class="fas fa-phone mr-2"></i>Call 757-785-5177
                 </a>
-                <a href="/contact.html" class="bg-sunset-orange hover:bg-white hover:text-warm-blue px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                <a href="/contact.html" class="bg-golden-sun hover:bg-white hover:text-deep-navy px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
                     Request Quote
                 </a>
             </div>

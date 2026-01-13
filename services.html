@@ -9,33 +9,23 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <style>
-        /* Hybrid Beach + Industrial Color Palette */
+        /* Minimal 3-Color Palette */
         .deep-navy { color: #1a365d; }
         .bg-deep-navy { background-color: #1a365d; }
-        .sandy-beige { color: #E8D4B0; }
-        .bg-sandy-beige { background-color: #E8D4B0; }
-        .sunset-orange { color: #E07A5F; }
-        .bg-sunset-orange { background-color: #E07A5F; }
-        .golden-sun { color: #f7bb14; }
+                .golden-sun { color: #f7bb14; }
         .bg-golden-sun { background-color: #f7bb14; }
-        .ocean-teal { color: #2A9D8F; }
-        .bg-ocean-teal { background-color: #2A9D8F; }
-        .soft-cream { color: #FFF8F0; }
-        .bg-soft-cream { background-color: #FFF8F0; }
-        .warm-blue { color: #457B9D; }
-        .bg-warm-blue { background-color: #457B9D; }
-
+        
         .font-inter { font-family: 'Inter', sans-serif; }
         .font-montserrat { font-family: 'Montserrat', sans-serif; }
         .font-roboto { font-family: 'Roboto', sans-serif; }
 
-        .warm-beach-gradient {
+        .golden-gradient {
             background: linear-gradient(135deg, #E07A5F 0%, #f7bb14 50%, #E8D4B0 100%);
         }
-        .ocean-gradient {
+        .bg-deep-navy {
             background: linear-gradient(135deg, #2A9D8F 0%, #457B9D 100%);
         }
-        .soft-gradient {
+        .bg-white {
             background: linear-gradient(135deg, #FFF8F0 0%, #E8D4B0 100%);
         }
         .logo-shadow {
@@ -61,13 +51,8 @@
                 extend: {
                     colors: {
                         'deep-navy': '#1a365d',
-                        'sandy-beige': '#E8D4B0',
-                        'sunset-orange': '#E07A5F',
-                        'golden-sun': '#f7bb14',
-                        'ocean-teal': '#2A9D8F',
-                        'soft-cream': '#FFF8F0',
-                        'warm-blue': '#457B9D',
-                    }
+                                                'golden-sun': '#f7bb14',
+                                            }
                 }
             }
         }
@@ -76,23 +61,23 @@
 <body class="font-roboto text-gray-900 bg-white">
 
     <!-- Navigation -->
-    <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-soft-cream shadow-md sticky top-0 z-50">
+    <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-white shadow-md sticky top-0 z-50">
         <div class="flex items-center">
             <img src="/images/logo-main.svg" alt="Beach Hydrovac Logo" class="h-12 md:h-16 logo-shadow">
         </div>
-        <div class="hidden md:flex space-x-8 font-semibold warm-blue">
-            <a href="/" class="hover:text-sunset-orange transition">Home</a>
-            <a href="/services.html" class="text-sunset-orange">Services</a>
-            <a href="/about.html" class="hover:text-sunset-orange transition">About</a>
-            <a href="/contact.html" class="hover:text-sunset-orange transition">Contact</a>
+        <div class="hidden md:flex space-x-8 font-semibold deep-navy">
+            <a href="/" class="hover:text-golden-sun transition">Home</a>
+            <a href="/services.html" class="text-golden-sun">Services</a>
+            <a href="/about.html" class="hover:text-golden-sun transition">About</a>
+            <a href="/contact.html" class="hover:text-golden-sun transition">Contact</a>
         </div>
-        <a href="tel:7577855177" class="bg-sunset-orange text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-bold hover:bg-ocean-teal transition shadow-lg text-sm md:text-base">
+        <a href="tel:7577855177" class="bg-golden-sun text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-bold hover:bg-golden-sun transition shadow-lg text-sm md:text-base">
             <i class="fas fa-phone mr-2"></i>757-785-5177
         </a>
     </nav>
 
     <!-- Hero Section -->
-    <section class="warm-beach-gradient py-20 md:py-32 text-white">
+    <section class="golden-gradient py-20 md:py-32 text-white">
         <div class="max-w-6xl mx-auto px-6 md:px-12 text-center">
             <h1 class="font-inter font-black text-4xl md:text-6xl mb-6">
                 Professional Hydro-Excavation Services
@@ -111,8 +96,8 @@
             <div class="mb-20">
                 <div class="flex flex-col md:flex-row items-start gap-8">
                     <div class="md:w-1/3">
-                        <div class="w-24 h-24 bg-ocean-teal/10 rounded-2xl flex items-center justify-center mb-4">
-                            <i class="fas fa-eye text-5xl ocean-teal"></i>
+                        <div class="w-24 h-24 bg-golden-sun/10 rounded-2xl flex items-center justify-center mb-4">
+                            <i class="fas fa-eye text-5xl golden-sun"></i>
                         </div>
                     </div>
                     <div class="md:w-2/3">
@@ -120,23 +105,23 @@
                         <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                             The cornerstone of safe excavation. We use high-pressure water and vacuum technology to safely expose underground utilities without damage—providing SUE Level A verification that engineers trust.
                         </p>
-                        <div class="bg-soft-cream p-6 rounded-xl">
+                        <div class="bg-white p-6 rounded-xl">
                             <h3 class="font-montserrat font-bold text-xl deep-navy mb-3">Why Choose Hydro-Excavation?</h3>
                             <ul class="space-y-2 text-gray-700">
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle ocean-teal mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>No Damage Risk:</strong> Water can't break pipes or cables</span>
                                 </li>
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle ocean-teal mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>Precise Exposure:</strong> See exact depth, material, and condition</span>
                                 </li>
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle ocean-teal mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>Documentation Ready:</strong> Photos for engineering records</span>
                                 </li>
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle ocean-teal mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>Faster Than Digging:</strong> No waiting for hand excavation crews</span>
                                 </li>
                             </ul>
@@ -149,8 +134,8 @@
             <div class="mb-20">
                 <div class="flex flex-col md:flex-row-reverse items-start gap-8">
                     <div class="md:w-1/3">
-                        <div class="w-24 h-24 bg-sunset-orange/10 rounded-2xl flex items-center justify-center mb-4">
-                            <i class="fas fa-grip-lines text-5xl sunset-orange"></i>
+                        <div class="w-24 h-24 bg-golden-sun/10 rounded-2xl flex items-center justify-center mb-4">
+                            <i class="fas fa-grip-lines text-5xl golden-sun"></i>
                         </div>
                     </div>
                     <div class="md:w-2/3">
@@ -158,23 +143,23 @@
                         <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                             Creating narrow, clean trenches for installing pipes, cables, or conduit. Hydro-excavation produces surgical precision with minimal soil disturbance and faster restoration.
                         </p>
-                        <div class="bg-soft-cream p-6 rounded-xl">
+                        <div class="bg-white p-6 rounded-xl">
                             <h3 class="font-montserrat font-bold text-xl deep-navy mb-3">Advantages of Hydro Slot Trenching</h3>
                             <ul class="space-y-2 text-gray-700">
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle sunset-orange mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>Minimal Backfill:</strong> Less material to remove and replace</span>
                                 </li>
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle sunset-orange mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>Clean Edges:</strong> Straight, vertical walls for proper installation</span>
                                 </li>
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle sunset-orange mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>Reduced Restoration:</strong> Less area to repave or landscape</span>
                                 </li>
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle sunset-orange mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>Utility-Safe:</strong> Won't damage existing underground infrastructure</span>
                                 </li>
                             </ul>
@@ -196,7 +181,7 @@
                         <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                             Our industrial vacuum truck features 600 feet of hose reach, enabling excavation in areas where traditional equipment can't go. Perfect for congested sites or restricted-access environments.
                         </p>
-                        <div class="bg-soft-cream p-6 rounded-xl">
+                        <div class="bg-white p-6 rounded-xl">
                             <h3 class="font-montserrat font-bold text-xl deep-navy mb-3">Ideal Applications</h3>
                             <ul class="space-y-2 text-gray-700">
                                 <li class="flex items-start gap-2">
@@ -225,8 +210,8 @@
             <div class="mb-20">
                 <div class="flex flex-col md:flex-row-reverse items-start gap-8">
                     <div class="md:w-1/3">
-                        <div class="w-24 h-24 bg-ocean-teal/10 rounded-2xl flex items-center justify-center mb-4">
-                            <i class="fas fa-certificate text-5xl ocean-teal"></i>
+                        <div class="w-24 h-24 bg-golden-sun/10 rounded-2xl flex items-center justify-center mb-4">
+                            <i class="fas fa-certificate text-5xl golden-sun"></i>
                         </div>
                     </div>
                     <div class="md:w-2/3">
@@ -234,23 +219,23 @@
                         <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                             The gold standard of subsurface utility mapping. We physically expose utilities to provide engineers with precise, verifiable data for design and construction planning.
                         </p>
-                        <div class="bg-soft-cream p-6 rounded-xl">
+                        <div class="bg-white p-6 rounded-xl">
                             <h3 class="font-montserrat font-bold text-xl deep-navy mb-3">What You Get</h3>
                             <ul class="space-y-2 text-gray-700">
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle ocean-teal mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>Exact Depth & Location:</strong> Measured to survey-grade accuracy</span>
                                 </li>
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle ocean-teal mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>Material Identification:</strong> Steel, PVC, copper, fiber—confirmed visually</span>
                                 </li>
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle ocean-teal mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>Condition Assessment:</strong> Corrosion, damage, or integrity issues noted</span>
                                 </li>
                                 <li class="flex items-start gap-2">
-                                    <i class="fas fa-check-circle ocean-teal mt-1"></i>
+                                    <i class="fas fa-check-circle golden-sun mt-1"></i>
                                     <span><strong>Photo Documentation:</strong> Visual proof for engineering records</span>
                                 </li>
                             </ul>
@@ -263,19 +248,19 @@
     </section>
 
     <!-- Additional Services -->
-    <section class="py-16 md:py-24 soft-gradient">
+    <section class="py-16 md:py-24 bg-white">
         <div class="max-w-6xl mx-auto px-6 md:px-12">
-            <h2 class="font-inter font-black text-3xl md:text-4xl text-center mb-12 warm-blue">Additional Capabilities</h2>
+            <h2 class="font-inter font-black text-3xl md:text-4xl text-center mb-12 deep-navy">Additional Capabilities</h2>
 
             <div class="grid md:grid-cols-3 gap-8">
                 <div class="bg-white p-6 rounded-xl shadow-lg">
-                    <i class="fas fa-industry text-4xl ocean-teal mb-4"></i>
+                    <i class="fas fa-industry text-4xl golden-sun mb-4"></i>
                     <h3 class="font-montserrat font-bold text-xl deep-navy mb-3">Industrial Projects</h3>
                     <p class="text-gray-600 leading-relaxed">Large-scale commercial and industrial excavation with high-volume capacity.</p>
                 </div>
 
                 <div class="bg-white p-6 rounded-xl shadow-lg">
-                    <i class="fas fa-hard-hat text-4xl sunset-orange mb-4"></i>
+                    <i class="fas fa-hard-hat text-4xl golden-sun mb-4"></i>
                     <h3 class="font-montserrat font-bold text-xl deep-navy mb-3">Utility Coordination</h3>
                     <p class="text-gray-600 leading-relaxed">Working with AIM Locating ensures "Map First, Dig Second" workflow.</p>
                 </div>
@@ -290,7 +275,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-16 md:py-24 ocean-gradient text-white">
+    <section class="py-16 md:py-24 bg-deep-navy text-white">
         <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
             <h2 class="font-inter font-black text-3xl md:text-5xl mb-6">
                 Need Hydro-Excavation Services?
@@ -299,10 +284,10 @@
                 Contact Beach Hydrovac for professional excavation solutions tailored to your project needs.
             </p>
             <div class="flex flex-col sm:flex-row justify-center gap-4">
-                <a href="tel:7577855177" class="bg-white text-warm-blue hover:bg-sunset-orange hover:text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                <a href="tel:7577855177" class="bg-white text-deep-navy hover:bg-golden-sun hover:text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
                     <i class="fas fa-phone mr-2"></i>Call 757-785-5177
                 </a>
-                <a href="/contact.html" class="bg-sunset-orange hover:bg-white hover:text-warm-blue px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                <a href="/contact.html" class="bg-golden-sun hover:bg-white hover:text-deep-navy px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
                     Request Quote
                 </a>
             </div>
