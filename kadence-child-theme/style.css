@@ -1,0 +1,485 @@
+/*
+Theme Name: BeachHydrovac Kadence Child
+Theme URI: https://beachhydrovac.com
+Description: Professional child theme for BeachHydrovac built on Kadence Theme with "Warm Tech" branding
+Author: BeachHydrovac Team
+Author URI: https://beachhydrovac.com
+Template: kadence
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: beachhydrovac-kadence-child
+Tags: hydro-excavation, business, professional, kadence-child
+*/
+
+/* ========================================
+   BEACHHYDROVAC BRAND IDENTITY
+   "Warm Tech" Color Palette
+   ======================================== */
+
+:root {
+    /* Brand Colors */
+    --beachhydrovac-deep-atlantic: #00416A;
+    --beachhydrovac-safety-cyan: #27AEFD;
+    --beachhydrovac-warm-shoreline: #D4A373;
+
+    /* Override Kadence Theme Colors */
+    --global-palette1: #00416A;  /* Deep Atlantic */
+    --global-palette2: #27AEFD;  /* Safety Cyan */
+    --global-palette3: #D4A373;  /* Warm Shoreline */
+    --global-palette4: #FFFFFF;  /* White */
+    --global-palette5: #F9FAFB;  /* Gray 50 */
+    --global-palette6: #6B7280;  /* Gray 600 */
+    --global-palette7: #374151;  /* Gray 700 */
+    --global-palette8: #1F2937;  /* Gray 800 */
+    --global-palette9: #111827;  /* Gray 900 */
+}
+
+/* ========================================
+   TYPOGRAPHY - BeachHydrovac Brand Fonts
+   ======================================== */
+
+/* Headings - Inter Black 900 (The Muscle) */
+h1, h2, h3, h4, h5, h6,
+.entry-title,
+.site-title,
+.kadence-heading,
+.wp-block-heading {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+    font-weight: 900;
+    color: var(--beachhydrovac-deep-atlantic);
+}
+
+/* Sub-headings - Montserrat Bold 700 (The Precision) */
+.sub-heading,
+.wp-block-kadence-advancedheading.has-kb-font-family-montserrat,
+.tagline {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 700;
+}
+
+/* Body Text - Roboto Regular 400 (The Functionalism) */
+body,
+p,
+.entry-content,
+.site-content {
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+    line-height: 1.75;
+}
+
+/* ========================================
+   BUTTONS - BeachHydrovac Style
+   ======================================== */
+
+/* Primary Buttons */
+.wp-block-button__link,
+.wp-element-button,
+.button,
+.kadence-button,
+a.kb-button,
+.wp-block-kadence-advancedbtn .kt-button {
+    background-color: var(--beachhydrovac-safety-cyan) !important;
+    color: white !important;
+    border-radius: 9999px !important;
+    padding: 14px 36px !important;
+    font-weight: 700 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    transition: all 0.3s ease !important;
+    border: none !important;
+    box-shadow: 0 4px 12px rgba(39, 174, 253, 0.3);
+}
+
+.wp-block-button__link:hover,
+.wp-element-button:hover,
+.button:hover,
+.kadence-button:hover,
+a.kb-button:hover,
+.wp-block-kadence-advancedbtn .kt-button:hover {
+    background-color: var(--beachhydrovac-deep-atlantic) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 65, 106, 0.4);
+}
+
+/* Secondary/Outline Buttons */
+.wp-block-button.is-style-outline .wp-block-button__link,
+.button-secondary {
+    background-color: transparent !important;
+    border: 2px solid var(--beachhydrovac-warm-shoreline) !important;
+    color: var(--beachhydrovac-warm-shoreline) !important;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover,
+.button-secondary:hover {
+    background-color: var(--beachhydrovac-warm-shoreline) !important;
+    color: white !important;
+}
+
+/* ========================================
+   HEADER & NAVIGATION
+   ======================================== */
+
+/* Header */
+#masthead,
+.site-header-wrap {
+    background-color: white;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Navigation Links */
+.header-navigation .header-menu-container > ul > li > a,
+.primary-navigation a {
+    color: var(--beachhydrovac-deep-atlantic);
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    transition: color 0.3s ease;
+}
+
+.header-navigation .header-menu-container > ul > li > a:hover,
+.primary-navigation a:hover {
+    color: var(--beachhydrovac-safety-cyan);
+}
+
+/* Mobile Menu */
+.mobile-toggle-open-container .menu-toggle-icon {
+    color: var(--beachhydrovac-deep-atlantic);
+}
+
+/* ========================================
+   HERO SECTIONS & BANNERS
+   ======================================== */
+
+.hero-section,
+.wp-block-cover,
+.banner-section {
+    position: relative;
+}
+
+.hero-text-shadow h1,
+.hero-text-shadow h2,
+.wp-block-cover h2 {
+    text-shadow:
+        0 2px 4px rgba(0,0,0,0.5),
+        0 4px 8px rgba(0,0,0,0.4),
+        0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* ========================================
+   CONTENT SECTIONS
+   ======================================== */
+
+/* Content Width */
+.entry-content {
+    max-width: 100%;
+}
+
+/* Paragraphs */
+.entry-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+
+/* Lists */
+.entry-content ul,
+.entry-content ol {
+    margin-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+
+.entry-content li {
+    margin-bottom: 0.75rem;
+}
+
+/* Links */
+.entry-content a {
+    color: var(--beachhydrovac-safety-cyan);
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.entry-content a:hover {
+    color: var(--beachhydrovac-deep-atlantic);
+}
+
+/* ========================================
+   BLOG POSTS & CARDS
+   ======================================== */
+
+/* Blog Post Archive */
+.wp-block-post-template li,
+.loop-entry {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.wp-block-post-template li:hover,
+.loop-entry:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+/* Featured Images */
+.wp-block-post-featured-image img,
+.post-thumbnail img {
+    border-radius: 16px 16px 0 0;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.wp-block-post-template li:hover .wp-block-post-featured-image img,
+.loop-entry:hover .post-thumbnail img {
+    transform: scale(1.05);
+}
+
+/* Post Title */
+.entry-title a {
+    color: var(--beachhydrovac-deep-atlantic);
+    transition: color 0.3s ease;
+}
+
+.entry-title a:hover {
+    color: var(--beachhydrovac-safety-cyan);
+}
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+#colophon,
+.site-footer {
+    background-color: var(--beachhydrovac-deep-atlantic);
+    color: #E5E7EB;
+}
+
+.site-footer a {
+    color: var(--beachhydrovac-safety-cyan);
+    transition: color 0.3s ease;
+}
+
+.site-footer a:hover {
+    color: var(--beachhydrovac-warm-shoreline);
+}
+
+.footer-widget h2,
+.footer-widget h3 {
+    color: white;
+}
+
+/* ========================================
+   GUTENBERG BLOCKS - Custom Styling
+   ======================================== */
+
+/* Kadence Advanced Heading */
+.wp-block-kadence-advancedheading {
+    margin-bottom: 1.5rem;
+}
+
+/* Kadence Row Layout */
+.wp-block-kadence-rowlayout {
+    margin-bottom: 2rem;
+}
+
+/* Kadence Icon */
+.kt-svg-icon {
+    color: var(--beachhydrovac-safety-cyan);
+}
+
+/* Cover Block Overlay */
+.wp-block-cover__inner-container {
+    position: relative;
+    z-index: 2;
+}
+
+/* ========================================
+   UTILITY CLASSES
+   ======================================== */
+
+/* Brand Gradient Background */
+.beachhydrovac-gradient,
+.warm-tech-gradient {
+    background: linear-gradient(135deg, var(--beachhydrovac-deep-atlantic) 0%, var(--beachhydrovac-safety-cyan) 100%);
+}
+
+/* Text Colors */
+.text-deep-atlantic {
+    color: var(--beachhydrovac-deep-atlantic) !important;
+}
+
+.text-safety-cyan {
+    color: var(--beachhydrovac-safety-cyan) !important;
+}
+
+.text-warm-shoreline {
+    color: var(--beachhydrovac-warm-shoreline) !important;
+}
+
+/* Background Colors */
+.bg-deep-atlantic {
+    background-color: var(--beachhydrovac-deep-atlantic) !important;
+}
+
+.bg-safety-cyan {
+    background-color: var(--beachhydrovac-safety-cyan) !important;
+}
+
+.bg-warm-shoreline {
+    background-color: var(--beachhydrovac-warm-shoreline) !important;
+}
+
+/* Shadow */
+.shadow-beachhydrovac {
+    box-shadow: 0 10px 30px rgba(0, 65, 106, 0.15);
+}
+
+/* ========================================
+   RESPONSIVE ADJUSTMENTS
+   ======================================== */
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .wp-block-button__link,
+    .button,
+    .kadence-button {
+        padding: 12px 28px !important;
+        font-size: 0.95rem !important;
+    }
+}
+
+/* ========================================
+   PERFORMANCE OPTIMIZATIONS
+   ======================================== */
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* GPU Acceleration for Transforms */
+.wp-block-post-template li,
+.loop-entry,
+.button {
+    will-change: transform;
+}
+
+/* Reduce Motion for Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* ========================================
+   ADD YOUR CUSTOM STYLES BELOW
+   ======================================== */
+
+/* ========================================
+   WORKING BEAUTIFUL CSS - DESIGN FIXES
+   ======================================== */
+
+/* Fix dark background issue */
+body {
+  background-color: #ffffff !important;
+  color: #2D3748 !important;
+}
+
+.site,
+.site-content,
+.entry-content {
+  background-color: #ffffff !important;
+}
+
+/* Hero section improvements */
+.entry-hero,
+.page-hero-section,
+article .entry-content > *:first-child {
+  min-height: 600px !important;
+  background: linear-gradient(135deg,
+    rgba(0, 65, 106, 0.9) 0%,
+    rgba(39, 174, 253, 0.8) 100%
+  ) !important;
+  padding: 80px 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  margin-bottom: 60px !important;
+}
+
+.entry-content h1:first-of-type,
+h1.entry-title {
+  color: white !important;
+  font-size: 3.5rem !important;
+  font-weight: 800 !important;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.2 !important;
+}
+
+/* Fix dark sections */
+.content-bg,
+.dark-section,
+[style*="background-color: #2d3748"],
+[style*="background-color: #1a202c"] {
+  background-color: #ffffff !important;
+}
+
+/* Card improvements */
+.wp-block-columns {
+  gap: 30px !important;
+  margin-bottom: 40px !important;
+}
+
+.wp-block-column {
+  background: white !important;
+  padding: 30px !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 20px rgba(0, 65, 106, 0.08) !important;
+  transition: all 0.3s ease !important;
+}
+
+.wp-block-column:hover {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 12px 35px rgba(0, 65, 106, 0.15) !important;
+}
+
+/* Section fixes */
+.entry-content h2:nth-of-type(1),
+.entry-content h2:nth-of-type(2) {
+  text-align: center !important;
+  color: var(--beachhydrovac-deep-atlantic) !important;
+  margin-top: 60px !important;
+}
+
+.wp-block-group,
+.wp-block-cover {
+  background-color: transparent !important;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .entry-content h1:first-of-type,
+  h1.entry-title {
+    font-size: 2rem !important;
+  }
+}

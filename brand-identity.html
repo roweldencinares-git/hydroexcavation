@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Identity Standards | BeachHydrovac</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Custom Brand Colors - "Warm Tech" Palette */
+        .deep-atlantic { color: #00416A; }
+        .bg-deep-atlantic { background-color: #00416A; }
+        .safety-cyan { color: #27AEFD; }
+        .bg-safety-cyan { background-color: #27AEFD; }
+        .warm-shoreline { color: #D4A373; }
+        .bg-warm-shoreline { background-color: #D4A373; }
+        .border-deep-atlantic { border-color: #00416A; }
+        .border-safety-cyan { border-color: #27AEFD; }
+        .border-warm-shoreline { border-color: #D4A373; }
+
+        /* Typography System */
+        .font-inter { font-family: 'Inter', sans-serif; }
+        .font-montserrat { font-family: 'Montserrat', sans-serif; }
+        .font-roboto { font-family: 'Roboto', sans-serif; }
+
+        /* Gradient */
+        .brand-gradient {
+            background: linear-gradient(135deg, #00416A 0%, #27AEFD 100%);
+        }
+        .warm-gradient {
+            background: linear-gradient(135deg, #00416A 0%, #27AEFD 50%, #D4A373 100%);
+        }
+
+        /* Color Swatch */
+        .color-swatch {
+            width: 100%;
+            height: 120px;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Logo shadow */
+        .logo-shadow {
+            filter: drop-shadow(0 2px 8px rgba(0,0,0,0.15));
+        }
+
+        /* Veteran Badge */
+        .veteran-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #B91C1C 0%, #DC2626 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 9999px;
+            font-weight: bold;
+            font-size: 0.875rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'deep-atlantic': '#00416A',
+                        'safety-cyan': '#27AEFD',
+                        'warm-shoreline': '#D4A373',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-roboto text-gray-900 bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-white shadow-md sticky top-0 z-50">
+        <div class="flex items-center">
+            <img src="/images/logo-main.svg" alt="Beach Hydrovac Logo" class="h-12 md:h-16 logo-shadow">
+        </div>
+        <div class="hidden md:flex space-x-8 font-semibold deep-atlantic">
+            <a href="/index.html" class="hover:text-safety-cyan transition">Home</a>
+            <a href="#story" class="hover:text-safety-cyan transition">Brand Story</a>
+            <a href="#visual" class="hover:text-safety-cyan transition">Visual Identity</a>
+            <a href="#language" class="hover:text-safety-cyan transition">Language</a>
+        </div>
+        <a href="/index.html#contact" class="bg-safety-cyan text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-bold hover:bg-deep-atlantic transition shadow-lg text-sm md:text-base">
+            <i class="fas fa-arrow-left mr-2"></i>Back to Site
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="warm-gradient text-white py-16 md:py-24">
+        <div class="max-w-6xl mx-auto px-6 md:px-12 text-center">
+            <div class="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-bold mb-6">
+                Version 1.0 (Warm Tech)
+            </div>
+            <h1 class="font-inter font-black text-4xl md:text-6xl mb-6 leading-tight">
+                BRAND IDENTITY STANDARDS
+            </h1>
+            <p class="font-montserrat text-xl md:text-2xl mb-4 opacity-90">
+                BeachHydrovac Identity System
+            </p>
+            <p class="text-lg opacity-80 mb-6">
+                A Specialized Division of AIM (Advanced Infrastructure Mapping)
+            </p>
+            <div class="veteran-badge mx-auto">
+                <i class="fas fa-star"></i>
+                <span>Veteran Owned</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page 1: Brand Story & Positioning -->
+    <section id="story" class="py-16 md:py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <div class="text-center mb-12">
+                <span class="bg-deep-atlantic text-white px-4 py-2 rounded-full text-sm font-bold">PAGE 1</span>
+                <h2 class="font-inter font-black text-3xl md:text-5xl deep-atlantic mt-4 mb-6">BRAND STORY & POSITIONING</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-12">
+                <!-- Local Edge -->
+                <div class="bg-gradient-to-br from-blue-50 to-orange-50 p-8 rounded-xl border-l-4 border-warm-shoreline shadow-lg">
+                    <h3 class="font-montserrat font-bold text-xl deep-atlantic mb-4">1.1 The "Local Edge" Strategy</h3>
+                    <p class="leading-relaxed text-gray-700">
+                        While national competitors (like Badger) focus on massive, industrial "cold" branding, <strong>Beach Hydrovac is positioned as a local, veteran-owned alternative.</strong>
+                    </p>
+                </div>
+
+                <!-- Value Proposition -->
+                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-xl border-l-4 border-safety-cyan shadow-lg">
+                    <h3 class="font-montserrat font-bold text-xl deep-atlantic mb-4">1.2 The Value Proposition</h3>
+                    <p class="leading-relaxed text-gray-700 mb-4">
+                        We combine the technical "brains" of <strong>AIM Locating</strong> (Advanced Infrastructure Mapping) with the specialized "muscle" of our new Hydrovac Truck.
+                    </p>
+                    <p class="leading-relaxed text-gray-700 font-semibold safety-cyan">
+                        We aren't just digging holes; we are protecting Virginia's underground infrastructure.
+                    </p>
+                </div>
+
+                <!-- Target Audience -->
+                <div class="bg-gradient-to-br from-blue-50 to-slate-50 p-8 rounded-xl border-l-4 border-deep-atlantic shadow-lg">
+                    <h3 class="font-montserrat font-bold text-xl deep-atlantic mb-4">1.3 Target Audience</h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <strong class="deep-atlantic">Primary:</strong>
+                            <p class="text-gray-700">Electrical & Civil Contractors (who need precision trenching)</p>
+                        </li>
+                        <li>
+                            <strong class="deep-atlantic">Secondary:</strong>
+                            <p class="text-gray-700">Municipalities/HRSD (who require high-volume vacuum capacity)</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 2: Color Psychology -->
+    <section id="visual" class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <div class="text-center mb-12">
+                <span class="bg-deep-atlantic text-white px-4 py-2 rounded-full text-sm font-bold">PAGE 2</span>
+                <h2 class="font-inter font-black text-3xl md:text-5xl deep-atlantic mt-4 mb-6">COLOR PSYCHOLOGY</h2>
+                <p class="font-montserrat text-xl warm-shoreline mb-2">"Warm Tech" Palette</p>
+                <p class="text-gray-600 max-w-3xl mx-auto">
+                    A warm and beachy feel without losing professional seriousness. We achieve this by using a Dual-Blue base with a Sand-Tone accent.
+                </p>
+            </div>
+
+            <!-- Color Swatches -->
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Deep Atlantic -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="color-swatch bg-deep-atlantic"></div>
+                    <h4 class="font-montserrat font-bold text-xl deep-atlantic mb-2">Deep Atlantic</h4>
+                    <div class="font-mono text-sm text-gray-600 mb-4">#00416A</div>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Visual Goal:</strong> Professionalism and Trust</p>
+                    <p class="text-sm text-gray-600">Parent company tie-in. Signals authority and stability.</p>
+                </div>
+
+                <!-- Safety Cyan -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="color-swatch bg-safety-cyan"></div>
+                    <h4 class="font-montserrat font-bold text-xl deep-atlantic mb-2">Safety Cyan</h4>
+                    <div class="font-mono text-sm text-gray-600 mb-4">#27AEFD</div>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Visual Goal:</strong> The "Hydro" Element</p>
+                    <p class="text-sm text-gray-600">Modern, fast, and clean. Represents water technology.</p>
+                </div>
+
+                <!-- Warm Shoreline -->
+                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition">
+                    <div class="color-swatch bg-warm-shoreline"></div>
+                    <h4 class="font-montserrat font-bold text-xl deep-atlantic mb-2">Warm Shoreline</h4>
+                    <div class="font-mono text-sm text-gray-600 mb-4">#D4A373</div>
+                    <p class="text-sm text-gray-600 mb-2"><strong>Visual Goal:</strong> The "Beach" Element</p>
+                    <p class="text-sm text-gray-600">Replaces cold industrial grey with a warm, local sand tone.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 3: Typography -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <div class="text-center mb-12">
+                <span class="bg-deep-atlantic text-white px-4 py-2 rounded-full text-sm font-bold">PAGE 3</span>
+                <h2 class="font-inter font-black text-3xl md:text-5xl deep-atlantic mt-4 mb-6">TYPOGRAPHY RATIONALE</h2>
+            </div>
+
+            <div class="space-y-8">
+                <!-- Inter Black -->
+                <div class="bg-gradient-to-r from-blue-50 to-transparent p-8 rounded-xl border-l-4 border-deep-atlantic">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                        <h3 class="font-montserrat font-bold text-xl deep-atlantic">3.1 Heading: Inter (Black 900)</h3>
+                        <span class="font-mono text-sm text-gray-600">font-family: 'Inter', sans-serif;</span>
+                    </div>
+                    <div class="font-inter font-black text-5xl md:text-7xl deep-atlantic mb-6">BEACH</div>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold deep-atlantic mb-2">The Muscle</h4>
+                            <p class="text-gray-700">Used for "BEACH." It feels heavy, like the truck. It tells the contractor we have the power to handle Virginia clay.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold deep-atlantic mb-2">The Modernity</h4>
+                            <p class="text-gray-700">We pair this with a lighter weight for "HYDROVAC" to show we are a high-tech division, not a legacy backhoe company.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Montserrat -->
+                <div class="bg-gradient-to-r from-cyan-50 to-transparent p-8 rounded-xl border-l-4 border-safety-cyan">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                        <h3 class="font-montserrat font-bold text-xl deep-atlantic">3.2 Sub-Heading: Montserrat (Semi-Bold 700)</h3>
+                        <span class="font-mono text-sm text-gray-600">font-family: 'Montserrat', sans-serif;</span>
+                    </div>
+                    <div class="font-montserrat font-bold text-3xl md:text-4xl text-gray-800 mb-4">A DIVISION OF AIM</div>
+                    <div>
+                        <h4 class="font-semibold deep-atlantic mb-2">The Precision</h4>
+                        <p class="text-gray-700">Used for "A DIVISION OF AIM." Its geometric, circular letters represent the surgical accuracy of our test holes.</p>
+                    </div>
+                </div>
+
+                <!-- Roboto -->
+                <div class="bg-gradient-to-r from-orange-50 to-transparent p-8 rounded-xl border-l-4 border-warm-shoreline">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                        <h3 class="font-montserrat font-bold text-xl deep-atlantic">3.3 Body: Roboto (Regular 400)</h3>
+                        <span class="font-mono text-sm text-gray-600">font-family: 'Roboto', sans-serif;</span>
+                    </div>
+                    <div class="font-roboto text-lg text-gray-700 mb-4">
+                        High-volume production capacity with 600ft hose reach. Mechanical boom precision for all-day site capacity. We protect Virginia's underground infrastructure with surgical accuracy.
+                    </div>
+                    <div>
+                        <h4 class="font-semibold deep-atlantic mb-2">The Functionalism</h4>
+                        <p class="text-gray-700">Used for service descriptions. It is clean and no-nonsense, signaling that we are easy to work with and data-driven.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 4: Logo Architecture -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <div class="text-center mb-12">
+                <span class="bg-deep-atlantic text-white px-4 py-2 rounded-full text-sm font-bold">PAGE 4</span>
+                <h2 class="font-inter font-black text-3xl md:text-5xl deep-atlantic mt-4 mb-6">LOGO ARCHITECTURE</h2>
+            </div>
+
+            <div class="bg-white p-8 md:p-12 rounded-xl shadow-lg">
+                <h3 class="font-montserrat font-bold text-2xl deep-atlantic mb-6">4.1 Design Logic</h3>
+
+                <!-- Logo Display -->
+                <div class="bg-gradient-to-br from-deep-atlantic to-safety-cyan p-12 rounded-xl mb-8 text-center">
+                    <img src="/images/logo-main.svg" alt="BeachHydrovac Logo" class="h-32 md:h-48 mx-auto logo-shadow">
+                </div>
+
+                <!-- Logo Components -->
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="border-l-4 border-deep-atlantic pl-6">
+                        <h4 class="font-montserrat font-bold text-lg deep-atlantic mb-3">Minimalist Truck Boom</h4>
+                        <p class="text-gray-700">The logo features a minimalist truck boom silhouette that represents our mechanical precision.</p>
+                    </div>
+                    <div class="border-l-4 border-safety-cyan pl-6">
+                        <h4 class="font-montserrat font-bold text-lg deep-atlantic mb-3">The "Beach" Connection</h4>
+                        <p class="text-gray-700">Instead of a tidal wave (which looks destructive), we use a subtle curved horizon line in the "Warm Shoreline" (#D4A373) color.</p>
+                    </div>
+                    <div class="border-l-4 border-warm-shoreline pl-6">
+                        <h4 class="font-montserrat font-bold text-lg deep-atlantic mb-3">The Veteran Badge</h4>
+                        <p class="text-gray-700">A small, discreet "Veteran Owned" seal is placed near the footer of the brand lockup to build immediate trust with government and local contractors.</p>
+                    </div>
+                </div>
+
+                <!-- Typography Hierarchy -->
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h4 class="font-montserrat font-bold text-lg deep-atlantic mb-4">Typography in Logo</h4>
+                    <div class="space-y-3">
+                        <div class="flex flex-col md:flex-row md:items-center gap-4">
+                            <span class="font-inter font-black text-4xl deep-atlantic">BEACH</span>
+                            <span class="text-gray-600">(Inter Black - The Heavy Muscle)</span>
+                        </div>
+                        <div class="flex flex-col md:flex-row md:items-center gap-4">
+                            <span class="font-inter text-3xl text-gray-700">HYDROVAC</span>
+                            <span class="text-gray-600">(Inter Regular - The Technical Process)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 5: Operational Language -->
+    <section id="language" class="py-16 md:py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <div class="text-center mb-12">
+                <span class="bg-deep-atlantic text-white px-4 py-2 rounded-full text-sm font-bold">PAGE 5</span>
+                <h2 class="font-inter font-black text-3xl md:text-5xl deep-atlantic mt-4 mb-6">OPERATIONAL LANGUAGE</h2>
+                <p class="font-montserrat text-xl safety-cyan">Moving from Portable to Professional</p>
+            </div>
+
+            <div class="bg-gradient-to-br from-red-50 to-white p-8 md:p-10 rounded-xl border-2 border-red-200 mb-8">
+                <h3 class="font-montserrat font-bold text-2xl text-red-700 mb-4 flex items-center gap-3">
+                    <i class="fas fa-times-circle"></i>
+                    AVOID (Old Language)
+                </h3>
+                <div class="grid md:grid-cols-3 gap-4">
+                    <div class="bg-white p-4 rounded-lg border border-red-200">
+                        <p class="text-gray-700 line-through">"Small digging"</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg border border-red-200">
+                        <p class="text-gray-700 line-through">"Portable vacuum"</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg border border-red-200">
+                        <p class="text-gray-700 line-through">"Backyard work"</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gradient-to-br from-green-50 to-white p-8 md:p-10 rounded-xl border-2 border-green-200">
+                <h3 class="font-montserrat font-bold text-2xl text-green-700 mb-6 flex items-center gap-3">
+                    <i class="fas fa-check-circle"></i>
+                    EMPHASIZE (Professional Language)
+                </h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-lg border-l-4 border-safety-cyan shadow-md">
+                        <h4 class="font-bold deep-atlantic mb-2 text-lg">High-Volume Production</h4>
+                        <p class="text-gray-700">Emphasize our capacity to handle large-scale commercial and municipal projects.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg border-l-4 border-deep-atlantic shadow-md">
+                        <h4 class="font-bold deep-atlantic mb-2 text-lg">Mechanical Boom Precision</h4>
+                        <p class="text-gray-700">Highlight the advanced technology and surgical accuracy of our equipment.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg border-l-4 border-warm-shoreline shadow-md">
+                        <h4 class="font-bold deep-atlantic mb-2 text-lg">600ft Hose Reach</h4>
+                        <p class="text-gray-700">Showcase our capability to access restricted and remote locations.</p>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg border-l-4 border-safety-cyan shadow-md">
+                        <h4 class="font-bold deep-atlantic mb-2 text-lg">All-Day Site Capacity</h4>
+                        <p class="text-gray-700">Demonstrate our ability to support full-day operations without interruption.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Page 6: The AIM Connection -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <div class="text-center mb-12">
+                <span class="bg-deep-atlantic text-white px-4 py-2 rounded-full text-sm font-bold">PAGE 6</span>
+                <h2 class="font-inter font-black text-3xl md:text-5xl deep-atlantic mt-4 mb-6">THE AIM CONNECTION</h2>
+                <p class="font-montserrat text-2xl safety-cyan">"Map First, Dig Second"</p>
+            </div>
+
+            <div class="bg-white p-8 md:p-12 rounded-xl shadow-lg mb-8">
+                <div class="grid md:grid-cols-2 gap-8 items-center mb-8">
+                    <div>
+                        <h3 class="font-montserrat font-bold text-2xl deep-atlantic mb-4">Partnership Strategy</h3>
+                        <p class="leading-relaxed text-gray-700 mb-6">
+                            The brand guidelines require that <strong>every piece of marketing mentions AIM Locating.</strong>
+                        </p>
+                        <div class="bg-safety-cyan/10 p-6 rounded-lg border-l-4 border-safety-cyan">
+                            <p class="font-semibold deep-atlantic mb-3">The Logic:</p>
+                            <ul class="space-y-2 text-gray-700">
+                                <li class="flex items-start gap-2">
+                                    <i class="fas fa-arrow-right safety-cyan mt-1"></i>
+                                    <span><strong>AIM</strong> finds the line</span>
+                                </li>
+                                <li class="flex items-start gap-2">
+                                    <i class="fas fa-arrow-right safety-cyan mt-1"></i>
+                                    <span><strong>Beach Hydrovac</strong> digs it</span>
+                                </li>
+                            </ul>
+                            <p class="mt-4 text-gray-700">
+                                This eliminates the "blame game" between the locator and the excavator.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-gradient-to-br from-deep-atlantic to-safety-cyan p-8 rounded-xl text-white text-center">
+                        <i class="fas fa-handshake text-6xl mb-4 opacity-80"></i>
+                        <h4 class="font-montserrat font-bold text-2xl mb-3">Trust Partnership</h4>
+                        <p class="opacity-90">
+                            AIM Locating + Beach Hydrovac = Complete Subsurface Solution
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h4 class="font-montserrat font-bold text-lg deep-atlantic mb-3">Brand Lockup Requirement</h4>
+                    <p class="text-gray-700">
+                        In the website footer and on truck doors, the <strong>AIM logo should appear alongside Beach Hydrovac</strong> as a "Trust Partner."
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 md:py-20 brand-gradient text-white text-center">
+        <div class="max-w-4xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-6">Ready to Apply These Standards?</h2>
+            <p class="text-lg md:text-xl mb-8 opacity-95 leading-relaxed">
+                Download the full brand guidelines or contact us for asset files and implementation support.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="tel:7577855177" class="bg-white text-deep-atlantic px-8 py-4 rounded-full font-bold hover:bg-warm-shoreline hover:text-white transition shadow-xl">
+                    <i class="fas fa-phone mr-2"></i>757-785-5177
+                </a>
+                <a href="mailto:info@beachhydrovac.com" class="border-2 border-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-deep-atlantic transition shadow-xl">
+                    <i class="fas fa-envelope mr-2"></i>Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with AIM Partnership -->
+    <footer class="bg-deep-atlantic text-gray-300 py-12 px-6 md:px-12">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-8">
+                <div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-6">
+                    <img src="/images/logo-main.svg" alt="Beach Hydrovac" class="h-16 logo-shadow">
+                    <div class="flex items-center gap-3">
+                        <span class="text-safety-cyan text-2xl">+</span>
+                        <span class="font-montserrat font-bold text-white text-lg">AIM Locating</span>
+                    </div>
+                </div>
+                <div class="veteran-badge mx-auto mb-6">
+                    <i class="fas fa-star"></i>
+                    <span>Veteran Owned</span>
+                </div>
+                <p class="text-white font-montserrat font-bold mb-2">BeachHydrovac Brand Identity Standards</p>
+                <p class="text-sm mb-6">Version 1.0 (Warm Tech) | &copy; 2025 Beach Hydrovac LLC</p>
+            </div>
+            <div class="text-center">
+                <a href="/index.html" class="inline-block text-safety-cyan hover:text-warm-shoreline transition">
+                    <i class="fas fa-arrow-left mr-2"></i>Return to Main Website
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

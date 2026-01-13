@@ -1,0 +1,263 @@
+<!-- wp:cover {"url":"YOUR_HERO_IMAGE_URL","dimRatio":70,"overlayColor":"deep-atlantic","minHeight":300,"align":"full"} -->
+<div class="wp-block-cover alignfull" style="min-height:300px"><span aria-hidden="true" class="wp-block-cover__background has-deep-atlantic-background-color has-background-dim-70 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="YOUR_HERO_IMAGE_URL" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"3.5rem","fontWeight":"900"}}} -->
+<h1 class="wp-block-heading has-text-align-center" style="font-size:3.5rem;font-weight:900">Get In Touch</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.25rem"}}} -->
+<p class="has-text-align-center" style="font-size:1.25rem">Let's discuss your hydro-excavation project</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"white","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group has-white-background-color has-background" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"4rem"}}}} -->
+<div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"style":{"typography":{"fontSize":"2rem","fontWeight":"900"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:2rem;font-weight:900">Contact Information</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"2rem"}}}} -->
+<p style="margin-bottom:2rem">Reach out to our team directly. We're local, responsive, and ready to help with your next project.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"1.5rem","right":"1.5rem","bottom":"1.5rem","left":"1.5rem"},"margin":{"bottom":"1.5rem"}},"border":{"width":"1px","color":"#e5e7eb","radius":"12px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;margin-bottom:1.5rem;padding-top:1.5rem;padding-right:1.5rem;padding-bottom:1.5rem;padding-left:1.5rem"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.25rem"}},"textColor":"safety-cyan"} -->
+<h3 class="wp-block-heading has-safety-cyan-color has-text-color" style="font-size:1.25rem">📞 Phone</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.5rem","fontWeight":"700"}},"textColor":"deep-atlantic"} -->
+<p class="has-deep-atlantic-color has-text-color" style="font-size:1.5rem;font-weight:700"><a href="tel:7577855177">757-785-5177</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem"}}} -->
+<p style="font-size:0.9rem">Monday - Friday: 7:00 AM - 5:00 PM<br>Saturday: By appointment<br>Sunday: Closed</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"1.5rem","right":"1.5rem","bottom":"1.5rem","left":"1.5rem"},"margin":{"bottom":"1.5rem"}},"border":{"width":"1px","color":"#e5e7eb","radius":"12px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;margin-bottom:1.5rem;padding-top:1.5rem;padding-right:1.5rem;padding-bottom:1.5rem;padding-left:1.5rem"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.25rem"}},"textColor":"safety-cyan"} -->
+<h3 class="wp-block-heading has-safety-cyan-color has-text-color" style="font-size:1.25rem">✉️ Email</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.25rem","fontWeight":"700"}},"textColor":"deep-atlantic"} -->
+<p class="has-deep-atlantic-color has-text-color" style="font-size:1.25rem;font-weight:700"><a href="mailto:info@beachhydrovac.com">info@beachhydrovac.com</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem"}}} -->
+<p style="font-size:0.9rem">We respond to all inquiries within 24 hours</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"1.5rem","right":"1.5rem","bottom":"1.5rem","left":"1.5rem"},"margin":{"bottom":"1.5rem"}},"border":{"width":"1px","color":"#e5e7eb","radius":"12px"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;margin-bottom:1.5rem;padding-top:1.5rem;padding-right:1.5rem;padding-bottom:1.5rem;padding-left:1.5rem"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"1.25rem"}},"textColor":"safety-cyan"} -->
+<h3 class="wp-block-heading has-safety-cyan-color has-text-color" style="font-size:1.25rem">📍 Location</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.125rem","fontWeight":"700"}},"textColor":"deep-atlantic"} -->
+<p class="has-deep-atlantic-color has-text-color" style="font-size:1.125rem;font-weight:700">Virginia Beach, VA 23456</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem"}}} -->
+<p style="font-size:0.9rem">Serving Virginia, North Carolina, Maryland, and Delaware</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"2rem"}}},"textColor":"deep-atlantic"} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color" style="margin-top:2rem">🤝 AIM Partnership</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Beach Hydrovac is a specialized division of <strong>Advanced Infrastructure Mapping (AIM Locating)</strong>.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>For utility location and subsurface mapping services, visit:<br><a href="https://aimlocatingva.com" target="_blank" rel="noreferrer noopener">aimlocatingva.com</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"width":"50%"} -->
+<div class="wp-block-column" style="flex-basis:50%"><!-- wp:heading {"style":{"typography":{"fontSize":"2rem","fontWeight":"900"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:2rem;font-weight:900">Request a Quote</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"2rem"}}}} -->
+<p style="margin-bottom:2rem">Fill out the form below and we'll get back to you within 24 hours with a detailed quote.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}},"border":{"width":"1px","color":"#fbbf24","radius":"12px"}},"backgroundColor":"contrast-2"} -->
+<p class="has-contrast-2-background-color has-background has-border-color" style="border-color:#fbbf24;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><strong>⚠️ Contact Form Setup Required</strong><br><br>To add a contact form here, install a form plugin:<br><br><strong>Recommended:</strong> <a href="https://wordpress.org/plugins/contact-form-7/" target="_blank" rel="noreferrer noopener">Contact Form 7</a> (Free)<br><strong>Alternative:</strong> <a href="https://wordpress.org/plugins/wpforms-lite/" target="_blank" rel="noreferrer noopener">WPForms</a> (Free)<br><br><strong>After installing:</strong><br>1. Go to your form plugin settings<br>2. Create a new form with these fields:<br>   • Name<br>   • Email<br>   • Phone<br>   • Service Type (dropdown)<br>   • Project Details (textarea)<br>3. Copy the shortcode<br>4. Replace this paragraph with the shortcode</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":3,"style":{"spacing":{"margin":{"top":"2rem"}}},"textColor":"deep-atlantic"} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color" style="margin-top:2rem">Or Call Directly</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Prefer to talk? Give us a call for immediate assistance.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","width":100,"style":{"border":{"radius":"9999px"},"spacing":{"padding":{"left":"2rem","right":"2rem","top":"1rem","bottom":"1rem"}}}} -->
+<div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7577855177" style="border-radius:9999px;padding-top:1rem;padding-right:2rem;padding-bottom:1rem;padding-left:2rem">📞 Call 757-785-5177</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"base","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"900"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-color" style="font-size:2.5rem;font-weight:900">Our Service Area</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"2rem"}}}} -->
+<p class="has-text-align-center" style="margin-bottom:2rem">We provide professional hydro-excavation services across the Mid-Atlantic region</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2rem"}}}} -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"backgroundColor":"white"} -->
+<div class="wp-block-column has-white-background-color has-background has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"safety-cyan"} -->
+<h3 class="wp-block-heading has-safety-cyan-color has-text-color">🏖️ Virginia</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Hampton Roads / Tidewater</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Virginia Beach (Home Base)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Norfolk, Chesapeake, Suffolk</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Richmond Metro</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Northern Virginia / DC Area</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"backgroundColor":"white"} -->
+<div class="wp-block-column has-white-background-color has-background has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"deep-atlantic"} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color">🌲 North Carolina</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Outer Banks</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Triangle (Raleigh/Durham)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Triad (Greensboro/Winston-Salem)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Charlotte Metro</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Eastern NC Coastal Region</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"backgroundColor":"white"} -->
+<div class="wp-block-column has-white-background-color has-background has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"warm-shoreline"} -->
+<h3 class="wp-block-heading has-warm-shoreline-color has-text-color">🦀 Maryland & Delaware</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Eastern Shore (MD)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Baltimore Metro</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Greater DC Area (MD)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Delaware - Statewide</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Delmarva Peninsula</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"2rem"}}}} -->
+<p class="has-text-align-center" style="margin-top:2rem"><em>Project outside our typical service area? Contact us - we may be able to accommodate special projects.</em></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"white","layout":{"type":"constrained","contentSize":"900px"}} -->
+<div class="wp-block-group has-white-background-color has-background" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"900"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-color" style="font-size:2.5rem;font-weight:900">What to Expect</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2rem"},"margin":{"top":"2rem"}}}} -->
+<div class="wp-block-columns" style="margin-top:2rem"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"3rem"}},"textColor":"safety-cyan"} -->
+<h3 class="wp-block-heading has-safety-cyan-color has-text-color" style="font-size:3rem">1️⃣</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4,"textColor":"deep-atlantic"} -->
+<h4 class="wp-block-heading has-deep-atlantic-color has-text-color">Contact Us</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Call, email, or submit the form. We'll respond within 24 hours.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"3rem"}},"textColor":"safety-cyan"} -->
+<h3 class="wp-block-heading has-safety-cyan-color has-text-color" style="font-size:3rem">2️⃣</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4,"textColor":"deep-atlantic"} -->
+<h4 class="wp-block-heading has-deep-atlantic-color has-text-color">Project Assessment</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We'll discuss your needs and provide a detailed quote.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"style":{"typography":{"fontSize":"3rem"}},"textColor":"safety-cyan"} -->
+<h3 class="wp-block-heading has-safety-cyan-color has-text-color" style="font-size:3rem">3️⃣</h3>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":4,"textColor":"deep-atlantic"} -->
+<h4 class="wp-block-heading has-deep-atlantic-color has-text-color">Precise Execution</h4>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Our team arrives on time and completes the work safely.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | BeachHydrovac | Veteran-Owned Excavation Company</title>
+    <meta name="description" content="Learn about BeachHydrovac, a veteran-owned hydro-excavation company serving Virginia Beach and surrounding states. A division of AIM Locating.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Warm Beach Color Palette */
+        .sandy-beige { color: #E8D4B0; }
+        .bg-sandy-beige { background-color: #E8D4B0; }
+        .sunset-orange { color: #E07A5F; }
+        .bg-sunset-orange { background-color: #E07A5F; }
+        .warm-coral { color: #F4A261; }
+        .bg-warm-coral { background-color: #F4A261; }
+        .ocean-teal { color: #2A9D8F; }
+        .bg-ocean-teal { background-color: #2A9D8F; }
+        .soft-cream { color: #FFF8F0; }
+        .bg-soft-cream { background-color: #FFF8F0; }
+        .warm-blue { color: #457B9D; }
+        .bg-warm-blue { background-color: #457B9D; }
+
+        .font-inter { font-family: 'Inter', sans-serif; }
+        .font-montserrat { font-family: 'Montserrat', sans-serif; }
+        .font-roboto { font-family: 'Roboto', sans-serif; }
+
+        .warm-beach-gradient {
+            background: linear-gradient(135deg, #E07A5F 0%, #F4A261 50%, #E8D4B0 100%);
+        }
+        .ocean-gradient {
+            background: linear-gradient(135deg, #2A9D8F 0%, #457B9D 100%);
+        }
+        .soft-gradient {
+            background: linear-gradient(135deg, #FFF8F0 0%, #E8D4B0 100%);
+        }
+        .logo-shadow {
+            filter: drop-shadow(0 2px 8px rgba(0,0,0,0.15));
+        }
+
+        .veteran-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(135deg, #B91C1C 0%, #DC2626 100%);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 9999px;
+            font-weight: bold;
+            font-size: 0.75rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sandy-beige': '#E8D4B0',
+                        'sunset-orange': '#E07A5F',
+                        'warm-coral': '#F4A261',
+                        'ocean-teal': '#2A9D8F',
+                        'soft-cream': '#FFF8F0',
+                        'warm-blue': '#457B9D',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-roboto text-gray-900 bg-white">
+
+    <!-- Navigation -->
+    <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-soft-cream shadow-md sticky top-0 z-50">
+        <div class="flex items-center">
+            <img src="/images/logo-main.svg" alt="Beach Hydrovac Logo" class="h-12 md:h-16 logo-shadow">
+        </div>
+        <div class="hidden md:flex space-x-8 font-semibold warm-blue">
+            <a href="/" class="hover:text-sunset-orange transition">Home</a>
+            <a href="/services.html" class="hover:text-sunset-orange transition">Services</a>
+            <a href="/about.html" class="text-sunset-orange">About</a>
+            <a href="/contact.html" class="hover:text-sunset-orange transition">Contact</a>
+        </div>
+        <a href="tel:7577855177" class="bg-sunset-orange text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-bold hover:bg-ocean-teal transition shadow-lg text-sm md:text-base">
+            <i class="fas fa-phone mr-2"></i>757-785-5177
+        </a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="warm-beach-gradient py-20 md:py-32 text-white">
+        <div class="max-w-6xl mx-auto px-6 md:px-12 text-center">
+            <div class="veteran-badge mb-6 inline-flex">
+                <i class="fas fa-flag-usa"></i>
+                <span>VETERAN OWNED</span>
+            </div>
+            <h1 class="font-inter font-black text-4xl md:text-6xl mb-6">
+                Built on Service & Precision
+            </h1>
+            <p class="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
+                A Virginia Beach-based hydro-excavation company bringing military discipline to infrastructure protection
+            </p>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-8 warm-blue text-center">Our Story</h2>
+
+            <div class="prose prose-lg max-w-none">
+                <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                    BeachHydrovac was founded with a simple mission: <strong class="sunset-orange">protect Virginia's underground infrastructure with the same dedication we brought to serving our country.</strong>
+                </p>
+
+                <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                    As a veteran-owned business, we understand the importance of precision, discipline, and attention to detail. These aren't just buzzwords—they're the foundation of everything we do. Every pothole we excavate, every utility we expose, and every project we complete is executed with military-grade standards.
+                </p>
+
+                <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                    Based in Virginia Beach and serving throughout Hampton Roads, we've built our reputation on reliability and excellence. Our clients—from municipal contractors to engineering firms—trust us because we show up on time, communicate clearly, and deliver results that exceed expectations.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AIM Partnership -->
+    <section class="py-16 md:py-24 soft-gradient">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <h2 class="font-inter font-black text-3xl md:text-4xl mb-6 warm-blue">
+                        A Division of <span class="sunset-orange">AIM Locating</span>
+                    </h2>
+                    <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                        BeachHydrovac operates as a specialized division of <strong>AIM Locating</strong> (Advanced Infrastructure Mapping), one of Virginia's leading subsurface utility engineering firms.
+                    </p>
+                    <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                        This partnership creates a unique advantage: <strong class="ocean-teal">"Map First, Dig Second."</strong> When you hire BeachHydrovac, you're getting the combined expertise of locating specialists and excavation professionals working together seamlessly.
+                    </p>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="ocean-gradient p-8 rounded-2xl shadow-2xl text-white">
+                        <h3 class="font-montserrat font-bold text-2xl mb-6">The AIM + BeachHydrovac Advantage</h3>
+                        <ul class="space-y-4 text-lg">
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-handshake text-2xl"></i>
+                                <div>
+                                    <strong>No Blame Game:</strong>
+                                    <p class="text-gray-100 mt-1">Locator and excavator work for the same company</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-map-marked-alt text-2xl"></i>
+                                <div>
+                                    <strong>Integrated Workflow:</strong>
+                                    <p class="text-gray-100 mt-1">Mapping data flows directly to excavation team</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fas fa-shield-alt text-2xl"></i>
+                                <div>
+                                    <strong>Maximum Safety:</strong>
+                                    <p class="text-gray-100 mt-1">Utilities located and verified before excavation begins</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-12 warm-blue text-center">Our Core Values</h2>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-ocean-teal/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-medal text-4xl ocean-teal"></i>
+                    </div>
+                    <h3 class="font-montserrat font-bold text-xl warm-blue mb-3">Excellence</h3>
+                    <p class="text-gray-600 leading-relaxed">We don't cut corners. Every project is completed to the highest standards, whether it's a single pothole or a large-scale excavation.</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-sunset-orange/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-handshake text-4xl sunset-orange"></i>
+                    </div>
+                    <h3 class="font-montserrat font-bold text-xl warm-blue mb-3">Integrity</h3>
+                    <p class="text-gray-600 leading-relaxed">Honest communication, transparent pricing, and doing what we say we'll do. Your trust is our most valuable asset.</p>
+                </div>
+
+                <div class="text-center">
+                    <div class="w-20 h-20 bg-warm-coral/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-heart text-4xl warm-coral"></i>
+                    </div>
+                    <h3 class="font-montserrat font-bold text-xl warm-blue mb-3">Community</h3>
+                    <p class="text-gray-600 leading-relaxed">We're proud to call Virginia Beach home. Supporting local infrastructure means supporting our neighbors and community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="py-16 md:py-24 soft-gradient">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-12 warm-blue text-center">Why Contractors Choose BeachHydrovac</h2>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-ocean-teal/10 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-truck text-xl ocean-teal"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-montserrat font-bold text-lg warm-blue mb-2">Industrial-Grade Equipment</h3>
+                            <p class="text-gray-600 leading-relaxed">We've upgraded from portable units to full-size vacuum trucks with 600ft hose reach and high-volume capacity.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-sunset-orange/10 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-clock text-xl sunset-orange"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-montserrat font-bold text-lg warm-blue mb-2">Reliable Scheduling</h3>
+                            <p class="text-gray-600 leading-relaxed">Military discipline means we show up on time, ready to work. Your project timeline matters to us.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-warm-coral/10 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-comments text-xl warm-coral"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-montserrat font-bold text-lg warm-blue mb-2">Clear Communication</h3>
+                            <p class="text-gray-600 leading-relaxed">No surprises. We provide upfront quotes, progress updates, and documentation you can trust.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white p-6 rounded-xl shadow-lg">
+                    <div class="flex items-start gap-4">
+                        <div class="w-12 h-12 bg-ocean-teal/10 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-users text-xl ocean-teal"></i>
+                        </div>
+                        <div>
+                            <h3 class="font-montserrat font-bold text-lg warm-blue mb-2">Experienced Operators</h3>
+                            <p class="text-gray-600 leading-relaxed">Our team brings years of excavation experience combined with ongoing training in the latest techniques.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Area -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-8 warm-blue text-center">Serving Virginia & Beyond</h2>
+
+            <div class="max-w-3xl mx-auto">
+                <p class="text-lg text-gray-700 mb-8 text-center leading-relaxed">
+                    Headquartered in Virginia Beach, we're proud to serve clients throughout the Mid-Atlantic region.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-soft-cream p-6 rounded-xl">
+                        <h3 class="font-montserrat font-bold text-lg warm-blue mb-4">Primary Service Area</h3>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <span>Virginia Beach</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <span>Norfolk</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <span>Chesapeake</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <span>Portsmouth</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle ocean-teal"></i>
+                                <span>Hampton Roads Region</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-soft-cream p-6 rounded-xl">
+                        <h3 class="font-montserrat font-bold text-lg warm-blue mb-4">Extended Coverage</h3>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle sunset-orange"></i>
+                                <span>Richmond & Central Virginia</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle sunset-orange"></i>
+                                <span>Eastern North Carolina</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle sunset-orange"></i>
+                                <span>Southern Maryland</span>
+                            </li>
+                            <li class="flex items-center gap-2">
+                                <i class="fas fa-check-circle sunset-orange"></i>
+                                <span>Delaware</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 md:py-24 ocean-gradient text-white">
+        <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
+            <h2 class="font-inter font-black text-3xl md:text-5xl mb-6">
+                Ready to Work With a Team You Can Trust?
+            </h2>
+            <p class="text-lg md:text-xl mb-8 leading-relaxed">
+                Experience the BeachHydrovac difference on your next project.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="tel:7577855177" class="bg-white text-warm-blue hover:bg-sunset-orange hover:text-white px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                    <i class="fas fa-phone mr-2"></i>Call 757-785-5177
+                </a>
+                <a href="/contact.html" class="bg-sunset-orange hover:bg-white hover:text-warm-blue px-8 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                    Request Quote
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-warm-blue text-white py-12">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <div class="grid md:grid-cols-3 gap-8 mb-8">
+                <div>
+                    <h4 class="font-montserrat font-bold text-lg mb-4">BeachHydrovac</h4>
+                    <p class="text-gray-200 mb-4">Professional hydro-excavation services for Virginia and surrounding states.</p>
+                    <div class="veteran-badge">
+                        <i class="fas fa-flag-usa"></i>
+                        <span>VETERAN OWNED</span>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-montserrat font-bold text-lg mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="/" class="hover:text-sandy-beige transition">Home</a></li>
+                        <li><a href="/services.html" class="hover:text-sandy-beige transition">Services</a></li>
+                        <li><a href="/about.html" class="hover:text-sandy-beige transition">About</a></li>
+                        <li><a href="/contact.html" class="hover:text-sandy-beige transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-montserrat font-bold text-lg mb-4">Contact</h4>
+                    <ul class="space-y-2 text-gray-200">
+                        <li><i class="fas fa-phone mr-2"></i> 757-785-5177</li>
+                        <li><i class="fas fa-map-marker-alt mr-2"></i> Virginia Beach, VA</li>
+                        <li><i class="fas fa-building mr-2"></i> A Division of AIM Locating</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-500 pt-8 text-center text-gray-300">
+                <p>&copy; 2026 BeachHydrovac. All rights reserved. A division of AIM Locating.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

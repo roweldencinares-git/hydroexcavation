@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog & News | BeachHydrovac</title>
+    <meta name="description" content="Expert insights on hydro excavation, utility location, and infrastructure protection from BeachHydrovac's team.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Warm Tech Color Palette */
+        .deep-atlantic { color: #00416A; }
+        .bg-deep-atlantic { background-color: #00416A; }
+        .safety-cyan { color: #27AEFD; }
+        .bg-safety-cyan { background-color: #27AEFD; }
+        .warm-shoreline { color: #D4A373; }
+        .bg-warm-shoreline { background-color: #D4A373; }
+
+        /* Typography */
+        .font-inter { font-family: 'Inter', sans-serif; }
+        .font-montserrat { font-family: 'Montserrat', sans-serif; }
+        .font-roboto { font-family: 'Roboto', sans-serif; }
+
+        .warm-tech-gradient {
+            background: linear-gradient(135deg, #00416A 0%, #27AEFD 100%);
+        }
+        .logo-shadow {
+            filter: drop-shadow(0 2px 8px rgba(0,0,0,0.15));
+        }
+
+        /* Blog Card Hover Effects */
+        .blog-card {
+            transition: all 0.3s ease;
+        }
+        .blog-card:hover {
+            transform: translateY(-4px);
+        }
+
+        /* Loading Animation */
+        .loading-spinner {
+            border: 4px solid #f3f4f6;
+            border-top: 4px solid #27AEFD;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'deep-atlantic': '#00416A',
+                        'safety-cyan': '#27AEFD',
+                        'warm-shoreline': '#D4A373',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-roboto text-gray-900 bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-white shadow-md sticky top-0 z-50">
+        <div class="flex items-center">
+            <a href="/index.html">
+                <img src="/images/logo-main.svg" alt="Beach Hydrovac Logo" class="h-12 md:h-16 logo-shadow">
+            </a>
+        </div>
+        <div class="hidden md:flex space-x-8 font-semibold deep-atlantic">
+            <a href="/index.html" class="hover:text-safety-cyan transition">Home</a>
+            <a href="/index.html#services" class="hover:text-safety-cyan transition">Services</a>
+            <a href="/blog.html" class="text-safety-cyan">Blog</a>
+            <a href="/index.html#contact" class="hover:text-safety-cyan transition">Contact</a>
+        </div>
+        <a href="tel:7577855177" class="bg-safety-cyan text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-bold hover:bg-deep-atlantic transition shadow-lg text-sm md:text-base">
+            <i class="fas fa-phone mr-2"></i>757-785-5177
+        </a>
+    </nav>
+
+    <!-- Blog Header -->
+    <section class="warm-tech-gradient text-white py-16 md:py-20">
+        <div class="max-w-6xl mx-auto px-6 md:px-12 text-center">
+            <h1 class="font-inter font-black text-4xl md:text-5xl mb-4">Blog & Industry Insights</h1>
+            <p class="font-roboto text-lg md:text-xl max-w-2xl mx-auto">
+                Expert knowledge on hydro excavation, utility protection, and infrastructure safety.
+            </p>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-6xl mx-auto px-6 md:px-12">
+            <!-- Loading State -->
+            <div id="loading" class="flex flex-col items-center justify-center py-20">
+                <div class="loading-spinner"></div>
+                <p class="text-gray-600 mt-4">Loading articles...</p>
+            </div>
+
+            <!-- Blog Posts Container -->
+            <div id="blog-posts" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 hidden"></div>
+
+            <!-- No Posts Message -->
+            <div id="no-posts" class="text-center py-20 hidden">
+                <i class="fas fa-newspaper text-6xl text-gray-300 mb-4"></i>
+                <p class="text-gray-600 text-lg">No articles found. Check back soon!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 md:py-20 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-6 md:px-12 text-center">
+            <h2 class="font-inter font-black text-3xl md:text-4xl mb-6 deep-atlantic">Need Hydro Excavation Services?</h2>
+            <p class="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+                Get a free quote today for your next project.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="tel:7577855177" class="bg-safety-cyan hover:bg-deep-atlantic text-white px-10 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                    <i class="fas fa-phone mr-2"></i>Call 757-785-5177
+                </a>
+                <a href="mailto:info@beachhydrovac.com" class="bg-warm-shoreline hover:bg-deep-atlantic text-white px-10 py-4 rounded-full font-bold text-lg transition shadow-xl">
+                    <i class="fas fa-envelope mr-2"></i>Email Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-deep-atlantic text-gray-300 py-12 px-6 md:px-12">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-10 text-center md:text-left mb-8">
+                <div>
+                    <h4 class="text-white font-montserrat font-bold mb-4 uppercase tracking-widest text-sm">Beach Hydrovac</h4>
+                    <p class="leading-relaxed">Specialized Hydro-Excavation Services<br>Virginia Beach, VA 23456</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-montserrat font-bold mb-4 uppercase tracking-widest text-sm">Contact</h4>
+                    <p class="mb-2"><i class="fas fa-phone mr-2 safety-cyan"></i>757-785-5177</p>
+                    <p class="mb-2"><i class="fas fa-envelope mr-2 safety-cyan"></i>info@beachhydrovac.com</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-montserrat font-bold mb-4 uppercase tracking-widest text-sm">AIM Partnership</h4>
+                    <p class="mb-2 font-semibold warm-shoreline">"Map First, Dig Second"</p>
+                    <a href="https://aimlocatingva.com" target="_blank" class="inline-block text-sm safety-cyan hover:text-warm-shoreline transition">
+                        Visit AIM Locating <i class="fas fa-external-link-alt ml-1"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-white/20 pt-6 text-center text-sm">
+                <p>&copy; 2025 Beach Hydrovac LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // WordPress API Configuration
+        const WP_API_URL = 'https://silver-raccoon-464412.hostingersite.com/wp-json/wp/v2/posts';
+
+        // Format date
+        function formatDate(dateString) {
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            return new Date(dateString).toLocaleDateString('en-US', options);
+        }
+
+        // Strip HTML and truncate
+        function truncateText(html, maxLength = 150) {
+            const text = html.replace(/<[^>]*>/g, '');
+            return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
+        }
+
+        // Fetch and display blog posts
+        async function loadBlogPosts() {
+            const loadingEl = document.getElementById('loading');
+            const postsContainer = document.getElementById('blog-posts');
+            const noPostsEl = document.getElementById('no-posts');
+
+            try {
+                const response = await fetch(WP_API_URL + '?per_page=12&_embed');
+
+                if (!response.ok) {
+                    throw new Error('Failed to fetch posts');
+                }
+
+                const posts = await response.json();
+
+                loadingEl.classList.add('hidden');
+
+                if (posts.length === 0) {
+                    noPostsEl.classList.remove('hidden');
+                    return;
+                }
+
+                postsContainer.classList.remove('hidden');
+
+                posts.forEach(post => {
+                    const excerpt = truncateText(post.excerpt.rendered);
+                    const featuredImage = post._embedded?.['wp:featuredmedia']?.[0]?.source_url || '/images/hero-beach-truck.jpg';
+
+                    const postCard = `
+                        <article class="blog-card bg-white rounded-xl shadow-lg overflow-hidden">
+                            <img src="${featuredImage}" alt="${post.title.rendered}" class="w-full h-48 object-cover">
+                            <div class="p-6">
+                                <div class="text-sm text-gray-500 mb-2">
+                                    <i class="fas fa-calendar mr-2"></i>${formatDate(post.date)}
+                                </div>
+                                <h2 class="font-montserrat font-bold text-xl deep-atlantic mb-3 leading-tight">
+                                    ${post.title.rendered}
+                                </h2>
+                                <p class="text-gray-600 leading-relaxed mb-4">
+                                    ${excerpt}
+                                </p>
+                                <a href="post.html?id=${post.id}" class="inline-flex items-center safety-cyan hover:text-deep-atlantic font-semibold transition">
+                                    Read More <i class="fas fa-arrow-right ml-2"></i>
+                                </a>
+                            </div>
+                        </article>
+                    `;
+
+                    postsContainer.innerHTML += postCard;
+                });
+
+            } catch (error) {
+                console.error('Error loading posts:', error);
+                loadingEl.classList.add('hidden');
+                noPostsEl.classList.remove('hidden');
+            }
+        }
+
+        // Load posts on page load
+        document.addEventListener('DOMContentLoaded', loadBlogPosts);
+    </script>
+
+</body>
+</html>

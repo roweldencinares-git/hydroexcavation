@@ -1,9 +1,15 @@
 {
   "name": "beachhydrovac-website",
   "version": "1.0.0",
+  "type": "module",
   "description": "Beach Hydrovac - Specialized Hydro-Excavation Services",
   "scripts": {
     "dev": "python -m http.server 8000",
-    "preview": "python -m http.server 8000"
+    "preview": "python -m http.server 8000",
+    "create-pages": "node create-wordpress-pages.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
   }
 }

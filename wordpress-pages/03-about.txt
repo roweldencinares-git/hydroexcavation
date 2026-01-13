@@ -1,0 +1,281 @@
+<!-- wp:cover {"url":"YOUR_HERO_IMAGE_URL","dimRatio":60,"overlayColor":"deep-atlantic","minHeight":350,"align":"full"} -->
+<div class="wp-block-cover alignfull" style="min-height:350px"><span aria-hidden="true" class="wp-block-cover__background has-deep-atlantic-background-color has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background" alt="" src="YOUR_HERO_IMAGE_URL" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"3.5rem","fontWeight":"900"}}} -->
+<h1 class="wp-block-heading has-text-align-center" style="font-size:3.5rem;font-weight:900">About Beach Hydrovac</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.25rem"}}} -->
+<p class="has-text-align-center" style="font-size:1.25rem">Veteran-owned. Locally operated. Precision-focused.</p>
+<!-- /wp:paragraph --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"white","layout":{"type":"constrained","contentSize":"900px"}} -->
+<div class="wp-block-group has-white-background-color has-background" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"900"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-color" style="font-size:2.5rem;font-weight:900">Our Story</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"2rem"}}}} -->
+<p class="has-text-align-center" style="margin-bottom:2rem">Founded in Virginia Beach, Beach Hydrovac was created to address a critical need in the construction and infrastructure industry: <strong>safe, precise excavation that protects underground utilities.</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>As a specialized division of <strong>Advanced Infrastructure Mapping (AIM Locating)</strong>, we bring together two essential services:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><strong>The Brains:</strong> AIM's advanced utility location and subsurface mapping technology</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>The Muscle:</strong> Beach Hydrovac's high-capacity vacuum excavation equipment</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>This unique partnership eliminates the traditional "blame game" between the locator and the excavator, delivering a complete subsurface solution from mapping to verification.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"2rem"} -->
+<div style="height:2rem" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:spacer {"height":"2rem"} -->
+<div style="height:2rem" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2rem","fontWeight":"700"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-color" style="font-size:2rem;font-weight:700">⭐ Veteran-Owned Business</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Beach Hydrovac is proudly veteran-owned, bringing military values of <strong>discipline, precision, and mission focus</strong> to every project we undertake.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center">Our commitment to excellence is rooted in the same principles that guided our service: <em>attention to detail, accountability, and always getting the job done right.</em></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}},"color":{"gradient":"linear-gradient(135deg,rgb(0,65,106) 0%,rgb(39,174,253) 100%)"}},"layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group has-background" style="background:linear-gradient(135deg,rgb(0,65,106) 0%,rgb(39,174,253) 100%);padding-top:4rem;padding-bottom:4rem"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"900"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+<h2 class="wp-block-heading has-text-align-center has-white-color has-text-color has-link-color" style="font-size:2.5rem;font-weight:900">"Map First, Dig Second"</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.5rem"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+<p class="has-text-align-center has-white-color has-text-color has-link-color" style="font-size:1.5rem">The AIM Partnership Advantage</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:spacer {"height":"2rem"} -->
+<div style="height:2rem" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"3rem"}}}} -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"border":{"radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"backgroundColor":"white"} -->
+<div class="wp-block-column has-white-background-color has-background" style="border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"safety-cyan"} -->
+<h3 class="wp-block-heading has-safety-cyan-color has-text-color">🗺️ AIM Locating</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600"}}} -->
+<p style="font-weight:600">The Technical "Brains"</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>AIM provides advanced infrastructure mapping and precise utility location services using the latest subsurface imaging technology.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Ground Penetrating Radar (GPR)</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Electromagnetic Location</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>SUE-Certified Technicians</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>CAD Mapping & Documentation</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"border":{"radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}},"backgroundColor":"white"} -->
+<div class="wp-block-column has-white-background-color has-background" style="border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"warm-shoreline"} -->
+<h3 class="wp-block-heading has-warm-shoreline-color has-text-color">🚛 Beach Hydrovac</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontWeight":"600"}}} -->
+<p style="font-weight:600">The Specialized "Muscle"</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Beach Hydrovac provides high-capacity vacuum trucks for surgical excavation and physical verification of underground utilities.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Industrial Vacuum Excavation</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>600ft Hose Reach</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Mechanical Boom Precision</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>SUE Level A Verification</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:spacer {"height":"2rem"} -->
+<div style="height:2rem" aria-hidden="true" class="wp-block-spacer"></div>
+<!-- /wp:spacer -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.125rem","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
+<p class="has-text-align-center has-white-color has-text-color has-link-color" style="font-size:1.125rem;font-weight:600">✅ The Result: A complete subsurface solution that eliminates the traditional "blame game" between locator and excavator.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"2rem"}}}} -->
+<div class="wp-block-buttons" style="margin-top:2rem"><!-- wp:button {"style":{"border":{"radius":"9999px","width":"2px"},"spacing":{"padding":{"left":"2rem","right":"2rem","top":"0.875rem","bottom":"0.875rem"}}},"borderColor":"white","className":"is-style-outline"} -->
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-border-color has-white-border-color wp-element-button" href="https://aimlocatingva.com" target="_blank" rel="noreferrer noopener" style="border-width:2px;border-radius:9999px;padding-top:0.875rem;padding-right:2rem;padding-bottom:0.875rem;padding-left:2rem">Visit AIM Locating →</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"white","layout":{"type":"constrained","contentSize":"1200px"}} -->
+<div class="wp-block-group has-white-background-color has-background" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"900"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-color" style="font-size:2.5rem;font-weight:900">Our Core Values</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"3rem"}}}} -->
+<p class="has-text-align-center" style="margin-bottom:3rem">Principles that guide every excavation, every project, every day.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2rem"}}}} -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"safety-cyan"} -->
+<h3 class="wp-block-heading has-safety-cyan-color has-text-color">🎯 Precision</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We treat every excavation like surgery - precise, controlled, and focused on protecting what lies beneath.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"deep-atlantic"} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color">🛡️ Safety First</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Underground utilities power communities. Our primary mission is protecting this critical infrastructure from damage.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"warm-shoreline"} -->
+<h3 class="wp-block-heading has-warm-shoreline-color has-text-color">🤝 Local Commitment</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Virginia Beach is our home. We're invested in the long-term success of our community and its infrastructure.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2rem"},"margin":{"top":"2rem"}}}} -->
+<div class="wp-block-columns" style="margin-top:2rem"><!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"safety-cyan"} -->
+<h3 class="wp-block-heading has-safety-cyan-color has-text-color">📞 Responsiveness</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>As a local business, we're always available. No corporate phone trees - just direct communication with our team.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"deep-atlantic"} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color">🔧 Professional Equipment</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We've invested in industrial-grade vacuum trucks because your project deserves professional-grade tools.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"warm-shoreline"} -->
+<h3 class="wp-block-heading has-warm-shoreline-color has-text-color">✅ Accountability</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>With AIM and Beach Hydrovac, there's no finger-pointing. We own the entire process from mapping to verification.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"base","layout":{"type":"constrained","contentSize":"900px"}} -->
+<div class="wp-block-group has-base-background-color has-background" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"900"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-color" style="font-size:2.5rem;font-weight:900">Serving the Mid-Atlantic Region</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"2rem"}},"typography":{"fontSize":"1.125rem"}}} -->
+<p class="has-text-align-center" style="margin-bottom:2rem;font-size:1.125rem">Based in Virginia Beach, we provide hydro-excavation services across:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list {"className":"has-text-align-center"} -->
+<ul class="has-text-align-center"><!-- wp:list-item -->
+<li><strong>Virginia</strong> - Hampton Roads, Richmond, Northern Virginia</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>North Carolina</strong> - Outer Banks, Triangle, Charlotte regions</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Maryland</strong> - Eastern Shore, Baltimore, Greater DC area</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Delaware</strong> - Statewide coverage</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph {"align":"center"} -->
+<p class="has-text-align-center"><em>Need service outside our coverage area? Contact us - we may be able to accommodate special projects.</em></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"white","layout":{"type":"constrained","contentSize":"900px"}} -->
+<div class="wp-block-group has-white-background-color has-background" style="padding-top:4rem;padding-bottom:4rem"><!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"900"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-color" style="font-size:2.5rem;font-weight:900">Work With Us</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"2rem"}},"typography":{"fontSize":"1.125rem"}}} -->
+<p class="has-text-align-center" style="margin-bottom:2rem;font-size:1.125rem">Ready to experience the Beach Hydrovac difference? Let's talk about your project.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"},"spacing":{"padding":{"left":"2.5rem","right":"2.5rem","top":"1rem","bottom":"1rem"}}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7577855177" style="border-radius:9999px;padding-top:1rem;padding-right:2.5rem;padding-bottom:1rem;padding-left:2.5rem">📞 Call 757-785-5177</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"backgroundColor":"warm-shoreline","style":{"border":{"radius":"9999px"},"spacing":{"padding":{"left":"2.5rem","right":"2.5rem","top":"1rem","bottom":"1rem"}}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-warm-shoreline-background-color has-background wp-element-button" href="mailto:info@beachhydrovac.com" style="border-radius:9999px;padding-top:1rem;padding-right:2.5rem;padding-bottom:1rem;padding-left:2.5rem">✉️ Email Us</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div>
+<!-- /wp:group -->

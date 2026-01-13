@@ -1,0 +1,369 @@
+/* ========================================
+   BEACH HYDROVAC - PREMIUM DESIGN
+   Modern, Professional Hydro-Excavation Website
+   ======================================== */
+
+/* Brand Colors */
+:root {
+  --beach-deep-atlantic: #00416A;
+  --beach-safety-cyan: #27AEFD;
+  --beach-warm-shoreline: #D4A373;
+  --beach-soft-sand: #F5F1E8;
+  --beach-dark: #1A202C;
+  --beach-light: #F7FAFC;
+}
+
+/* ========================================
+   TYPOGRAPHY & BASE STYLES
+   ======================================== */
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #2D3748;
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--beach-deep-atlantic) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.02em;
+  line-height: 1.2 !important;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem) !important;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 3rem) !important;
+}
+
+h3 {
+  font-size: clamp(1.5rem, 3vw, 2rem) !important;
+}
+
+/* ========================================
+   HERO SECTION - STUNNING DESIGN
+   ======================================== */
+
+.wp-block-cover {
+  min-height: 100vh !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+/* Hero overlay for better text contrast */
+.wp-block-cover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 65, 106, 0.85) 0%,
+    rgba(39, 174, 253, 0.75) 100%
+  );
+  z-index: 1;
+}
+
+.wp-block-cover__background {
+  opacity: 0.3 !important;
+}
+
+.wp-block-cover__inner-container {
+  position: relative;
+  z-index: 2;
+  padding: 80px 20px !important;
+}
+
+.wp-block-cover__inner-container h1 {
+  color: white !important;
+  font-size: clamp(2.5rem, 6vw, 5rem) !important;
+  font-weight: 800 !important;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 1.5rem !important;
+  line-height: 1.1 !important;
+}
+
+.wp-block-cover__inner-container p {
+  color: rgba(255, 255, 255, 0.95) !important;
+  font-size: clamp(1.1rem, 2vw, 1.5rem) !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 2.5rem !important;
+  font-weight: 400;
+}
+
+/* ========================================
+   BUTTONS - PREMIUM DESIGN
+   ======================================== */
+
+.wp-block-button__link {
+  background: linear-gradient(135deg, var(--beach-safety-cyan) 0%, #1E90FF 100%) !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 18px 40px !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  color: white !important;
+  box-shadow: 0 8px 25px rgba(39, 174, 253, 0.4) !important;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  letter-spacing: 0.02em;
+  text-transform: none !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.wp-block-button__link:hover {
+  transform: translateY(-3px) !important;
+  box-shadow: 0 12px 35px rgba(39, 174, 253, 0.5) !important;
+  background: linear-gradient(135deg, #1E90FF 0%, var(--beach-safety-cyan) 100%) !important;
+}
+
+.wp-block-button__link:active {
+  transform: translateY(-1px) !important;
+}
+
+/* Outline button style */
+.wp-block-button.is-style-outline .wp-block-button__link {
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 2px solid white !important;
+  color: white !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover {
+  background: white !important;
+  color: var(--beach-deep-atlantic) !important;
+  border-color: white !important;
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.3) !important;
+}
+
+/* ========================================
+   SERVICE CARDS - BEAUTIFUL DESIGN
+   ======================================== */
+
+.wp-block-columns {
+  gap: 2rem !important;
+}
+
+.wp-block-group {
+  background: white !important;
+  border-radius: 20px !important;
+  padding: 3rem 2.5rem !important;
+  box-shadow: 0 4px 20px rgba(0, 65, 106, 0.08) !important;
+  border: 1px solid rgba(0, 65, 106, 0.08) !important;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Gradient accent on cards */
+.wp-block-group::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--beach-safety-cyan), var(--beach-warm-shoreline));
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.wp-block-group:hover::before {
+  transform: scaleX(1);
+}
+
+.wp-block-group:hover {
+  transform: translateY(-8px) !important;
+  box-shadow: 0 20px 50px rgba(0, 65, 106, 0.15) !important;
+  border-color: rgba(39, 174, 253, 0.3) !important;
+}
+
+.wp-block-group h3 {
+  color: var(--beach-deep-atlantic) !important;
+  margin-bottom: 1rem !important;
+  font-size: 1.5rem !important;
+}
+
+.wp-block-group p {
+  color: #4A5568;
+  line-height: 1.7;
+  font-size: 1rem;
+}
+
+/* ========================================
+   ANIMATIONS - SMOOTH & PROFESSIONAL
+   ======================================== */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wp-block-column {
+  animation: fadeInUp 0.8s ease-out;
+  animation-fill-mode: both;
+}
+
+.wp-block-columns .wp-block-column:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.wp-block-columns .wp-block-column:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.wp-block-columns .wp-block-column:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.wp-block-columns .wp-block-column:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+/* Section animations */
+.wp-block-heading {
+  animation: fadeInUp 0.7s ease-out;
+}
+
+/* ========================================
+   SPACING & LAYOUT
+   ======================================== */
+
+.wp-block-spacer {
+  margin: 0 !important;
+}
+
+/* Section backgrounds */
+.entry-content {
+  background: linear-gradient(180deg,
+    #ffffff 0%,
+    var(--beach-light) 50%,
+    #ffffff 100%
+  );
+}
+
+/* Content sections */
+.wp-block-group.alignwide,
+.wp-block-columns.alignwide {
+  max-width: 1400px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+@media (max-width: 768px) {
+  .wp-block-cover {
+    min-height: 80vh !important;
+  }
+
+  .wp-block-cover__inner-container h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .wp-block-cover__inner-container p {
+    font-size: 1.1rem !important;
+  }
+
+  .wp-block-button__link {
+    padding: 14px 28px !important;
+    font-size: 1rem !important;
+  }
+
+  .wp-block-group {
+    padding: 2rem 1.5rem !important;
+  }
+
+  .wp-block-columns {
+    gap: 1.5rem !important;
+  }
+}
+
+/* ========================================
+   SMOOTH INTERACTIONS
+   ======================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Selection colors */
+::selection {
+  background: var(--beach-safety-cyan);
+  color: white;
+}
+
+/* Focus states */
+*:focus-visible {
+  outline: 3px solid var(--beach-safety-cyan);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ========================================
+   EXTRA POLISH
+   ======================================== */
+
+/* Add subtle gradient to headings */
+.entry-content > h2 {
+  background: linear-gradient(135deg, var(--beach-deep-atlantic), var(--beach-safety-cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Improve paragraph spacing */
+.entry-content p {
+  margin-bottom: 1.5rem;
+}
+
+/* Better link styles */
+.entry-content a:not(.wp-block-button__link) {
+  color: var(--beach-safety-cyan);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.entry-content a:not(.wp-block-button__link):hover {
+  border-bottom-color: var(--beach-safety-cyan);
+}
+
+/* Loading animation for images */
+img {
+  transition: opacity 0.3s ease;
+}
+
+img:not([src]) {
+  opacity: 0;
+}

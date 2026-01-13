@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Blog Post | BeachHydrovac</title>
+    <meta name="description" id="page-description" content="Expert insights on hydro excavation from BeachHydrovac.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        /* Warm Tech Color Palette */
+        .deep-atlantic { color: #00416A; }
+        .bg-deep-atlantic { background-color: #00416A; }
+        .safety-cyan { color: #27AEFD; }
+        .bg-safety-cyan { background-color: #27AEFD; }
+        .warm-shoreline { color: #D4A373; }
+        .bg-warm-shoreline { background-color: #D4A373; }
+
+        /* Typography */
+        .font-inter { font-family: 'Inter', sans-serif; }
+        .font-montserrat { font-family: 'Montserrat', sans-serif; }
+        .font-roboto { font-family: 'Roboto', sans-serif; }
+
+        .logo-shadow {
+            filter: drop-shadow(0 2px 8px rgba(0,0,0,0.15));
+        }
+
+        /* WordPress Content Styling */
+        .wp-content h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 1.875rem;
+            color: #00416A;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .wp-content h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 1.5rem;
+            color: #00416A;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .wp-content p {
+            margin-bottom: 1.25rem;
+            line-height: 1.75;
+            color: #374151;
+        }
+        .wp-content ul, .wp-content ol {
+            margin-bottom: 1.25rem;
+            padding-left: 2rem;
+        }
+        .wp-content li {
+            margin-bottom: 0.5rem;
+            line-height: 1.75;
+        }
+        .wp-content a {
+            color: #27AEFD;
+            text-decoration: underline;
+        }
+        .wp-content a:hover {
+            color: #00416A;
+        }
+        .wp-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            margin: 2rem 0;
+        }
+        .wp-content blockquote {
+            border-left: 4px solid #27AEFD;
+            padding-left: 1.5rem;
+            margin: 2rem 0;
+            font-style: italic;
+            color: #6B7280;
+        }
+
+        /* Loading */
+        .loading-spinner {
+            border: 4px solid #f3f4f6;
+            border-top: 4px solid #27AEFD;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'deep-atlantic': '#00416A',
+                        'safety-cyan': '#27AEFD',
+                        'warm-shoreline': '#D4A373',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-roboto text-gray-900 bg-white">
+
+    <!-- Navigation -->
+    <nav class="flex items-center justify-between px-6 md:px-12 py-4 bg-white shadow-md sticky top-0 z-50">
+        <div class="flex items-center">
+            <a href="/index.html">
+                <img src="/images/logo-main.svg" alt="Beach Hydrovac Logo" class="h-12 md:h-16 logo-shadow">
+            </a>
+        </div>
+        <div class="hidden md:flex space-x-8 font-semibold deep-atlantic">
+            <a href="/index.html" class="hover:text-safety-cyan transition">Home</a>
+            <a href="/index.html#services" class="hover:text-safety-cyan transition">Services</a>
+            <a href="/blog.html" class="hover:text-safety-cyan transition">Blog</a>
+            <a href="/index.html#contact" class="hover:text-safety-cyan transition">Contact</a>
+        </div>
+        <a href="tel:7577855177" class="bg-safety-cyan text-white px-4 md:px-8 py-2 md:py-3 rounded-full font-bold hover:bg-deep-atlantic transition shadow-lg text-sm md:text-base">
+            <i class="fas fa-phone mr-2"></i>757-785-5177
+        </a>
+    </nav>
+
+    <!-- Loading State -->
+    <div id="loading" class="flex flex-col items-center justify-center py-40">
+        <div class="loading-spinner"></div>
+        <p class="text-gray-600 mt-4">Loading article...</p>
+    </div>
+
+    <!-- Blog Post Container -->
+    <article id="post-content" class="hidden">
+        <!-- Featured Image -->
+        <div id="featured-image-container" class="w-full h-[400px] md:h-[500px] overflow-hidden bg-gray-100">
+            <img id="featured-image" src="" alt="" class="w-full h-full object-cover">
+        </div>
+
+        <!-- Post Content -->
+        <div class="max-w-4xl mx-auto px-6 md:px-12 py-16">
+            <!-- Breadcrumb -->
+            <div class="mb-6">
+                <a href="/blog.html" class="safety-cyan hover:text-deep-atlantic transition">
+                    <i class="fas fa-arrow-left mr-2"></i>Back to Blog
+                </a>
+            </div>
+
+            <!-- Meta Info -->
+            <div class="mb-6">
+                <div class="flex items-center gap-4 text-sm text-gray-500">
+                    <span><i class="fas fa-calendar mr-2"></i><span id="post-date"></span></span>
+                    <span><i class="fas fa-user mr-2"></i><span id="post-author"></span></span>
+                </div>
+            </div>
+
+            <!-- Title -->
+            <h1 id="post-title" class="font-inter font-black text-4xl md:text-5xl deep-atlantic mb-8 leading-tight"></h1>
+
+            <!-- Content -->
+            <div id="post-body" class="wp-content text-lg leading-relaxed"></div>
+
+            <!-- Back to Blog CTA -->
+            <div class="mt-12 pt-8 border-t border-gray-200">
+                <a href="/blog.html" class="inline-flex items-center bg-safety-cyan text-white px-6 py-3 rounded-full font-bold hover:bg-deep-atlantic transition">
+                    <i class="fas fa-arrow-left mr-2"></i>Back to All Articles
+                </a>
+            </div>
+        </div>
+    </article>
+
+    <!-- Error State -->
+    <div id="error-message" class="hidden max-w-4xl mx-auto px-6 md:px-12 py-40 text-center">
+        <i class="fas fa-exclamation-triangle text-6xl text-gray-300 mb-4"></i>
+        <h2 class="font-montserrat font-bold text-2xl deep-atlantic mb-4">Article Not Found</h2>
+        <p class="text-gray-600 mb-8">Sorry, we couldn't load this article.</p>
+        <a href="/blog.html" class="inline-flex items-center bg-safety-cyan text-white px-6 py-3 rounded-full font-bold hover:bg-deep-atlantic transition">
+            <i class="fas fa-arrow-left mr-2"></i>Back to Blog
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-deep-atlantic text-gray-300 py-12 px-6 md:px-12">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-3 gap-10 text-center md:text-left mb-8">
+                <div>
+                    <h4 class="text-white font-montserrat font-bold mb-4 uppercase tracking-widest text-sm">Beach Hydrovac</h4>
+                    <p class="leading-relaxed">Specialized Hydro-Excavation Services<br>Virginia Beach, VA 23456</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-montserrat font-bold mb-4 uppercase tracking-widest text-sm">Contact</h4>
+                    <p class="mb-2"><i class="fas fa-phone mr-2 safety-cyan"></i>757-785-5177</p>
+                    <p class="mb-2"><i class="fas fa-envelope mr-2 safety-cyan"></i>info@beachhydrovac.com</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-montserrat font-bold mb-4 uppercase tracking-widest text-sm">AIM Partnership</h4>
+                    <p class="mb-2 font-semibold warm-shoreline">"Map First, Dig Second"</p>
+                    <a href="https://aimlocatingva.com" target="_blank" class="inline-block text-sm safety-cyan hover:text-warm-shoreline transition">
+                        Visit AIM Locating <i class="fas fa-external-link-alt ml-1"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-white/20 pt-6 text-center text-sm">
+                <p>&copy; 2025 Beach Hydrovac LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Get post ID from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const postId = urlParams.get('id');
+
+        // WordPress API Configuration
+        const WP_API_URL = 'https://silver-raccoon-464412.hostingersite.com/wp-json/wp/v2/posts';
+
+        // Format date
+        function formatDate(dateString) {
+            const options = { year: 'numeric', month: 'long', day: 'numeric' };
+            return new Date(dateString).toLocaleDateString('en-US', options);
+        }
+
+        // Load single post
+        async function loadPost() {
+            if (!postId) {
+                showError();
+                return;
+            }
+
+            const loadingEl = document.getElementById('loading');
+            const postContentEl = document.getElementById('post-content');
+            const errorEl = document.getElementById('error-message');
+
+            try {
+                const response = await fetch(`${WP_API_URL}/${postId}?_embed`);
+
+                if (!response.ok) {
+                    throw new Error('Post not found');
+                }
+
+                const post = await response.json();
+
+                // Update page title and meta
+                document.getElementById('page-title').textContent = `${post.title.rendered} | BeachHydrovac`;
+                document.getElementById('page-description').content = post.excerpt.rendered.replace(/<[^>]*>/g, '').substring(0, 160);
+
+                // Set featured image
+                const featuredImage = post._embedded?.['wp:featuredmedia']?.[0]?.source_url;
+                if (featuredImage) {
+                    document.getElementById('featured-image').src = featuredImage;
+                    document.getElementById('featured-image').alt = post.title.rendered;
+                } else {
+                    document.getElementById('featured-image-container').classList.add('hidden');
+                }
+
+                // Set content
+                document.getElementById('post-title').innerHTML = post.title.rendered;
+                document.getElementById('post-date').textContent = formatDate(post.date);
+                document.getElementById('post-author').textContent = post._embedded?.author?.[0]?.name || 'BeachHydrovac Team';
+                document.getElementById('post-body').innerHTML = post.content.rendered;
+
+                // Show content, hide loading
+                loadingEl.classList.add('hidden');
+                postContentEl.classList.remove('hidden');
+
+            } catch (error) {
+                console.error('Error loading post:', error);
+                showError();
+            }
+        }
+
+        function showError() {
+            document.getElementById('loading').classList.add('hidden');
+            document.getElementById('error-message').classList.remove('hidden');
+        }
+
+        // Load post on page load
+        document.addEventListener('DOMContentLoaded', loadPost);
+    </script>
+
+</body>
+</html>

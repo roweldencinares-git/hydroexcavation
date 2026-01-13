@@ -1,0 +1,513 @@
+/**
+ * Beach Hydrovac - Advanced Animations & Effects
+ * Add sophisticated animations, transitions, and interactive elements
+ */
+
+/* ========================================
+   SCROLL ANIMATIONS
+   ======================================== */
+
+/* Fade in from bottom */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-up.animated {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fade in from left */
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-left.animated {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Fade in from right */
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in-right.animated {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Scale up animation */
+.scale-in {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scale-in.animated {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Staggered animation delays for multiple elements */
+.stagger-delay-1 { transition-delay: 0.1s; }
+.stagger-delay-2 { transition-delay: 0.2s; }
+.stagger-delay-3 { transition-delay: 0.3s; }
+.stagger-delay-4 { transition-delay: 0.4s; }
+.stagger-delay-5 { transition-delay: 0.5s; }
+.stagger-delay-6 { transition-delay: 0.6s; }
+
+/* ========================================
+   INTERACTIVE SERVICE CARDS
+   ======================================== */
+
+.service-card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(39, 174, 253, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 65, 106, 0.2);
+  border-color: #27AEFD;
+}
+
+.service-card:hover::before {
+  left: 100%;
+}
+
+.service-card-icon {
+  transition: all 0.4s ease;
+}
+
+.service-card:hover .service-card-icon {
+  transform: scale(1.2) rotate(5deg);
+  color: #27AEFD;
+}
+
+/* ========================================
+   PARALLAX EFFECTS
+   ======================================== */
+
+.parallax-section {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.parallax-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 65, 106, 0.85) 0%, rgba(39, 174, 253, 0.85) 100%);
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 2;
+}
+
+/* ========================================
+   GRADIENT ANIMATIONS
+   ======================================== */
+
+.gradient-animation {
+  background: linear-gradient(45deg, #00416A, #27AEFD, #D4A373, #00416A);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ========================================
+   BUTTON ANIMATIONS
+   ======================================== */
+
+.btn-animated {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.btn-animated::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s ease, height 0.6s ease;
+}
+
+.btn-animated:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+.btn-animated:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Pulse animation for CTA buttons */
+.btn-pulse {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(39, 174, 253, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(39, 174, 253, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(39, 174, 253, 0);
+  }
+}
+
+/* ========================================
+   IMAGE HOVER EFFECTS
+   ======================================== */
+
+.image-hover-zoom {
+  overflow: hidden;
+}
+
+.image-hover-zoom img {
+  transition: transform 0.6s ease;
+}
+
+.image-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+/* Image overlay on hover */
+.image-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.image-overlay::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(0, 65, 106, 0.8) 0%, rgba(39, 174, 253, 0.8) 100%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.image-overlay:hover::after {
+  opacity: 1;
+}
+
+/* ========================================
+   ICON ANIMATIONS
+   ======================================== */
+
+.icon-bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.icon-rotate {
+  animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ========================================
+   GLOWING EFFECTS
+   ======================================== */
+
+.glow-on-hover {
+  transition: all 0.3s ease;
+}
+
+.glow-on-hover:hover {
+  box-shadow: 0 0 20px rgba(39, 174, 253, 0.6),
+              0 0 40px rgba(39, 174, 253, 0.4),
+              0 0 60px rgba(39, 174, 253, 0.2);
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(39, 174, 253, 0.5);
+}
+
+/* ========================================
+   PROGRESS BARS / LOADING ANIMATIONS
+   ======================================== */
+
+.loading-bar {
+  width: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #27AEFD, #D4A373);
+  animation: loadingBar 2s ease-in-out forwards;
+}
+
+@keyframes loadingBar {
+  to {
+    width: 100%;
+  }
+}
+
+/* ========================================
+   CARD FLIP EFFECTS
+   ======================================== */
+
+.flip-card {
+  perspective: 1000px;
+  height: 300px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(135deg, #00416A 0%, #27AEFD 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* ========================================
+   FLOATING ANIMATION
+   ======================================== */
+
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+/* ========================================
+   TYPING EFFECT
+   ======================================== */
+
+.typing-effect {
+  overflow: hidden;
+  border-right: 3px solid #27AEFD;
+  white-space: nowrap;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #27AEFD;
+  }
+}
+
+/* ========================================
+   BACKGROUND PATTERNS
+   ======================================== */
+
+.pattern-dots {
+  background-image: radial-gradient(circle, rgba(39, 174, 253, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.pattern-grid {
+  background-image:
+    linear-gradient(rgba(39, 174, 253, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(39, 174, 253, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+/* ========================================
+   SHIMMER EFFECT
+   ======================================== */
+
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+  animation: shimmer 3s infinite;
+}
+
+@keyframes shimmer {
+  to {
+    left: 100%;
+  }
+}
+
+/* ========================================
+   COUNTER ANIMATION
+   ======================================== */
+
+.counter {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #27AEFD;
+  line-height: 1;
+}
+
+/* ========================================
+   RESPONSIVE ADJUSTMENTS
+   ======================================== */
+
+@media (max-width: 768px) {
+  .fade-in-up,
+  .fade-in-left,
+  .fade-in-right,
+  .scale-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  .parallax-section {
+    background-attachment: scroll;
+  }
+
+  .service-card:hover {
+    transform: none;
+  }
+}
+
+/* ========================================
+   SCROLL PROGRESS BAR
+   ======================================== */
+
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 4px;
+  background: linear-gradient(90deg, #27AEFD, #D4A373);
+  z-index: 9999;
+  transition: width 0.1s ease;
+}
+
+/* ========================================
+   SECTION DIVIDERS
+   ======================================== */
+
+.section-divider {
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #27AEFD, #D4A373);
+  margin: 2rem auto;
+  position: relative;
+}
+
+.section-divider::before,
+.section-divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #27AEFD;
+}
+
+.section-divider::before {
+  left: -15px;
+}
+
+.section-divider::after {
+  right: -15px;
+}
