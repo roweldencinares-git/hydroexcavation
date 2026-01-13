@@ -19,14 +19,9 @@
         .font-montserrat { font-family: 'Montserrat', sans-serif; }
         .font-roboto { font-family: 'Roboto', sans-serif; }
 
+        /* Gradients */
         .golden-gradient {
-            background: linear-gradient(135deg, #E07A5F 0%, #f7bb14 50%, #E8D4B0 100%);
-        }
-        .bg-deep-navy {
-            background: linear-gradient(135deg, #2A9D8F 0%, #457B9D 100%);
-        }
-        .bg-white {
-            background: linear-gradient(135deg, #FFF8F0 0%, #E8D4B0 100%);
+            background: linear-gradient(135deg, #f7bb14 0%, #ffd65a 100%);
         }
         .logo-shadow {
             filter: drop-shadow(0 2px 8px rgba(0,0,0,0.15));
@@ -48,7 +43,7 @@
         .form-input {
             width: 100%;
             padding: 12px 16px;
-            border: 2px solid #E8D4B0;
+            border: 2px solid #e5e7eb;
             border-radius: 8px;
             font-size: 16px;
             transition: all 0.3s ease;
@@ -56,8 +51,8 @@
 
         .form-input:focus {
             outline: none;
-            border-color: #2A9D8F;
-            box-shadow: 0 0 0 3px rgba(42, 157, 143, 0.1);
+            border-color: #f7bb14;
+            box-shadow: 0 0 0 3px rgba(247, 187, 20, 0.1);
         }
 
         textarea.form-input {
@@ -70,11 +65,8 @@
             theme: {
                 extend: {
                     colors: {
-                                                'golden-sun': '#f7bb14',
-                        'golden-sun': '#2A9D8F',
-                        'white': '#FFF8F0',
                         'deep-navy': '#1a365d',
-                        'deep-navy': '#457B9D',
+                        'golden-sun': '#f7bb14',
                     }
                 }
             }
