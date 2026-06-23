@@ -1,0 +1,118 @@
+SERVICE PAGE: Emergency Hydro Excavation Virginia
+==================================================
+
+INSTRUCTIONS:
+1. Go to: Pages → Add New
+2. Title: Emergency Hydro Excavation Virginia | 24/7 Response
+3. Slug: emergency-hydro-excavation-virginia
+4. Click ⋮ menu → Code editor
+5. Paste the content below
+6. Yoast SEO: Title = "Emergency Hydro Excavation Virginia | 24/7 | Beach Hydrovac"
+7. Yoast Meta: "Emergency hydro excavation in Virginia. Rapid response for utility strikes, emergency potholing, and urgent excavation. Hampton Roads & beyond. Call 757-510-5220."
+8. Publish
+
+---
+
+<!-- wp:cover {"url":"YOUR_HERO_IMAGE_URL","dimRatio":70,"overlayColor":"deep-atlantic","minHeight":380,"align":"full"} -->
+<div class="wp-block-cover alignfull" style="min-height:380px"><span aria-hidden="true" class="wp-block-cover__background has-deep-atlantic-background-color has-background-dim-70 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Emergency hydro excavation response Virginia" src="YOUR_HERO_IMAGE_URL" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"3.5rem","fontWeight":"900"}}} -->
+<h1 class="wp-block-heading has-text-align-center" style="font-size:3.5rem;font-weight:900">Emergency Hydro Excavation Virginia</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.25rem"}}} -->
+<p class="has-text-align-center" style="font-size:1.25rem">Rapid Response · Utility Strike Support · Emergency Potholing · Urgent Excavation</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"2rem"}}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7575105220" style="border-radius:9999px">📞 Emergency Line: 757-510-5220</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"white","layout":{"type":"constrained","contentSize":"900px"}} -->
+<div class="wp-block-group has-white-background-color has-background" style="padding-top:4rem;padding-bottom:4rem">
+
+<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"900"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-content" style="font-size:2.5rem;font-weight:900">When Minutes Matter, We Respond</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"2rem"}}}} -->
+<p class="has-text-align-center" style="margin-bottom:2rem">Utility strikes. Unexpected buried lines. Active construction delays. When your project hits a critical excavation emergency in Virginia, Beach Hydrovac deploys fast — with industrial-grade equipment and the precision to resolve the situation without making it worse.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"1.75rem","fontWeight":"800"},"spacing":{"margin":{"top":"3rem"}}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.75rem;font-weight:800;margin-top:3rem">What Counts as a Hydrovac Emergency?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"style":{"spacing":{"margin":{"top":"1rem"}}}} -->
+<ul style="margin-top:1rem"><!-- wp:list-item -->
+<li><strong>Utility strike during excavation</strong> — gas line, fiber, water main, or electric conduit hit by mechanical equipment</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Unknown buried utilities blocking active construction</strong> — project halted until utilities are safely exposed and verified</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Emergency potholing before time-sensitive pours</strong> — concrete or asphalt scheduled and utility clearance still needed</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Flooded or collapsed utility corridor</strong> — vacuum excavation to remove debris without further structural damage</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Urgent SUE verification</strong> — engineering deadline or permit requirement driving same-day or next-day need</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"1.75rem","fontWeight":"800"},"spacing":{"margin":{"top":"3rem"}}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.75rem;font-weight:800;margin-top:3rem">Emergency Pricing</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Emergency hydro excavation commands premium rates due to rapid mobilization and after-hours deployment. Typical emergency rates in Virginia:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table {"style":{"border":{"radius":"8px"}}} -->
+<figure class="wp-block-table"><table><thead><tr><th>Service</th><th>Standard Rate</th><th>Emergency Rate</th></tr></thead><tbody><tr><td>Hourly Rate</td><td>$300–$450/hr</td><td>$400–$550/hr</td></tr><tr><td>Minimum Call-Out</td><td>4 hours</td><td>4 hours</td></tr><tr><td>Mobilization</td><td>Included</td><td>May apply for distant sites</td></tr><tr><td>After-Hours Premium</td><td>N/A</td><td>+20–30%</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1rem"}}}} -->
+<p style="margin-top:1rem"><strong>Note:</strong> Full-day emergency bookings reduce per-hour cost. Contact us for a project-specific quote.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"1.75rem","fontWeight":"800"},"spacing":{"margin":{"top":"3rem"}}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.75rem;font-weight:800;margin-top:3rem">Virginia Emergency Response Coverage</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Virginia Beach, Norfolk, Chesapeake — fastest response (&lt;2 hours typical)</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Hampton, Newport News, Suffolk, Portsmouth — same-day response</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Richmond, Northern Virginia, Roanoke — next-day or urgent dispatch</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>North Carolina, Maryland, Delaware — available for critical emergencies</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"1.75rem","fontWeight":"800"},"spacing":{"margin":{"top":"3rem"}}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.75rem;font-weight:800;margin-top:3rem">Call Now — Don't Wait</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>In a hydrovac emergency, the longer you wait, the more the situation escalates. Our team picks up the phone and dispatches fast. Call the number below and tell us your situation — we'll give you an honest ETA and rate before you commit.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7575105220" style="border-radius:9999px">📞 757-510-5220 — Call Now</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"backgroundColor":"deep-atlantic","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-deep-atlantic-background-color has-background wp-element-button" href="tel:7576338922" style="border-radius:9999px">📱 757-633-8922 — Mobile</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+</div>
+<!-- /wp:group -->

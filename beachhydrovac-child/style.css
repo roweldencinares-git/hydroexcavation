@@ -1,0 +1,232 @@
+/*
+ Theme Name:   Beach Hydrovac Child
+ Theme URI:    https://beachhydrovac.com
+ Description:  Child theme for Astra - Beach Hydrovac with navy blue, yellow, and white colors
+ Author:       Beach Hydrovac
+ Author URI:   https://beachhydrovac.com
+ Template:     astra
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  beachhydrovac-child
+*/
+
+/* Beach Hydrovac Brand Colors & Fonts */
+:root {
+    /* Colors */
+    --bh-navy: #1a365d;
+    --bh-navy-dark: #0f2442;
+    --bh-navy-light: #2c5282;
+    --bh-yellow: #f6c915;
+    --bh-yellow-dark: #d4a90a;
+    --bh-yellow-light: #fbd94a;
+    --bh-white: #ffffff;
+    --bh-off-white: #f7fafc;
+    --bh-gray: #e2e8f0;
+
+    /* Fonts - system fonts as fallback prevent layout shift while web fonts load */
+    --bh-font-primary: 'Montserrat', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --bh-font-secondary: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    --bh-font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+/* Base Typography */
+body {
+    font-family: var(--bh-font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--bh-font-primary);
+}
+
+.site-title,
+.hero-title,
+.section-title {
+    font-family: var(--bh-font-primary);
+    font-weight: 700;
+}
+
+/* Font Utility Classes */
+.font-inter {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.font-roboto {
+    font-family: 'Inter', system-ui, sans-serif !important;
+}
+
+/* Global Link Colors */
+a {
+    color: var(--bh-navy);
+}
+
+a:hover {
+    color: var(--bh-yellow-dark);
+}
+
+/* Primary Buttons */
+.wp-block-button__link,
+button,
+input[type="submit"],
+.button,
+.btn-primary {
+    background-color: var(--bh-yellow) !important;
+    color: var(--bh-navy) !important;
+    border: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.wp-block-button__link:hover,
+button:hover,
+input[type="submit"]:hover,
+.button:hover,
+.btn-primary:hover {
+    background-color: var(--bh-yellow-dark) !important;
+    color: var(--bh-navy-dark) !important;
+}
+
+/* Secondary Buttons */
+.btn-secondary,
+.wp-block-button.is-style-outline .wp-block-button__link {
+    background-color: transparent !important;
+    color: var(--bh-navy) !important;
+    border: 2px solid var(--bh-navy) !important;
+}
+
+.btn-secondary:hover,
+.wp-block-button.is-style-outline .wp-block-button__link:hover {
+    background-color: var(--bh-navy) !important;
+    color: var(--bh-white) !important;
+}
+
+/* Header Styles */
+.site-header {
+    background-color: var(--bh-navy);
+}
+
+.site-header a,
+.site-header .site-title {
+    color: var(--bh-white);
+}
+
+.site-header a:hover {
+    color: var(--bh-yellow);
+}
+
+/* Navigation */
+.main-navigation a {
+    color: var(--bh-white);
+}
+
+.main-navigation a:hover,
+.main-navigation .current-menu-item a {
+    color: var(--bh-yellow);
+}
+
+/* Footer Styles */
+.site-footer {
+    background-color: var(--bh-navy-dark);
+    color: var(--bh-white);
+}
+
+.site-footer a {
+    color: var(--bh-yellow);
+}
+
+.site-footer a:hover {
+    color: var(--bh-yellow-light);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--bh-navy);
+}
+
+/* Hero Section */
+.hero-section,
+.wp-block-cover.has-navy-background {
+    background-color: var(--bh-navy);
+}
+
+/* Accent Elements */
+.accent-bar,
+.highlight {
+    background-color: var(--bh-yellow);
+}
+
+/* Cards and Boxes */
+.service-card,
+.feature-box {
+    border-top: 4px solid var(--bh-yellow);
+    background-color: var(--bh-white);
+}
+
+.service-card:hover,
+.feature-box:hover {
+    border-top-color: var(--bh-navy);
+}
+
+/* Call to Action Sections */
+.cta-section {
+    background-color: var(--bh-yellow);
+    color: var(--bh-navy);
+}
+
+.cta-section .button {
+    background-color: var(--bh-navy) !important;
+    color: var(--bh-white) !important;
+}
+
+.cta-section .button:hover {
+    background-color: var(--bh-navy-dark) !important;
+}
+
+/* Form Styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    border: 1px solid var(--bh-gray);
+    border-radius: 4px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--bh-navy);
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(26, 54, 93, 0.2);
+}
+
+/* Utility Classes */
+.bg-navy {
+    background-color: var(--bh-navy) !important;
+}
+
+.bg-yellow {
+    background-color: var(--bh-yellow) !important;
+}
+
+.bg-white {
+    background-color: var(--bh-white) !important;
+}
+
+.text-navy {
+    color: var(--bh-navy) !important;
+}
+
+.text-yellow {
+    color: var(--bh-yellow) !important;
+}
+
+.text-white {
+    color: var(--bh-white) !important;
+}

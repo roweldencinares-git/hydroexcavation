@@ -31,13 +31,7 @@ function beachhydrovac_kadence_enqueue_styles() {
         wp_get_theme()->get('Version')
     );
 
-    // Load Google Fonts - Inter (Black 900), Montserrat (Bold 700), Roboto (Regular 400)
-    wp_enqueue_style(
-        'beachhydrovac-fonts',
-        'https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@600;700&family=Roboto:wght@400;500&display=swap',
-        array(),
-        null
-    );
+    // Fonts served locally via Astra — no Google Fonts CDN request needed
 
     // Enqueue Advanced Animations CSS
     wp_enqueue_style(
@@ -227,7 +221,7 @@ function beachhydrovac_customize_register( $wp_customize ) {
 
     // Service Area
     $wp_customize->add_setting( 'beachhydrovac_service_area', array(
-        'default'           => 'Virginia Beach, VA | Serving VA, NC, MD & DE',
+        'default'           => 'Norfolk, VA | Serving VA, NC, MD & DE',
         'sanitize_callback' => 'sanitize_text_field',
         'transport'         => 'refresh',
     ) );
@@ -258,7 +252,7 @@ function beachhydrovac_get_email() {
  * Helper function to get service area
  */
 function beachhydrovac_get_service_area() {
-    return get_theme_mod( 'beachhydrovac_service_area', 'Virginia Beach, VA | Serving VA, NC, MD & DE' );
+    return get_theme_mod( 'beachhydrovac_service_area', 'Norfolk, VA | Serving VA, NC, MD & DE' );
 }
 
 /**
@@ -284,12 +278,12 @@ function beachhydrovac_local_business_schema() {
             '@context'  => 'https://schema.org',
             '@type'     => 'LocalBusiness',
             'name'      => 'BeachHydrovac',
-            'description' => 'Professional hydro-excavation services in Virginia Beach. Specialized in SUE Level A verification, potholing, and utility location.',
+            'description' => 'Professional hydro-excavation services in Norfolk, VA. Specialized in SUE Level A verification, potholing, and utility location.',
             'telephone' => beachhydrovac_get_phone(),
             'email'     => beachhydrovac_get_email(),
             'address'   => array(
                 '@type'           => 'PostalAddress',
-                'addressLocality' => 'Virginia Beach',
+                'addressLocality' => 'Norfolk',
                 'addressRegion'   => 'VA',
                 'addressCountry'  => 'US',
             ),
@@ -319,11 +313,48 @@ function beachhydrovac_custom_excerpt( $excerpt ) {
 add_filter( 'get_the_excerpt', 'beachhydrovac_custom_excerpt' );
 
 /**
- * Preload key requests for performance
+ * Preload key resources for performance
+ * - Preload local Inter variable font (eliminates 291ms resource load delay)
+ * - Add fetchpriority=high hint for LCP hero image
+ * - Remove Google Fonts preconnects (font is served locally, not from googleapis.com)
  */
 function beachhydrovac_preload_resources() {
-    echo '<link rel="preconnect" href="https://fonts.googleapis.com">';
-    echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>';
-    echo '<link rel="dns-prefetch" href="//fonts.googleapis.com">';
+    // Preload local Inter variable font — prevents FOUT and reduces CLS
+    // Update this path to match the actual font URL from your WordPress media/fonts directory
+    $font_url = home_url( '/wp-content/themes/kadence/assets/fonts/inter/Inter-Variable.woff2' );
+    echo '<link rel="preload" href="' . esc_url( $font_url ) . '" as="font" type="font/woff2" crossorigin="anonymous">' . "\n";
+
+    // Preconnect to GoDaddy CDN (actually used — img1.wsimg.com scripts load at 359ms)
+    echo '<link rel="preconnect" href="https://img1.wsimg.com">' . "\n";
+    echo '<link rel="dns-prefetch" href="//img1.wsimg.com">' . "\n";
 }
 add_action( 'wp_head', 'beachhydrovac_preload_resources', 1 );
+
+/**
+ * Add fetchpriority=high to the LCP hero image
+ * Targets the first image inside a Spectra/cover block on the front page
+ */
+function beachhydrovac_fetchpriority_lcp( $attr, $attachment, $size ) {
+    // Only apply on front page and to the first image encountered
+    static $applied = false;
+    if ( ! $applied && ( is_front_page() || is_page() ) ) {
+        $attr['fetchpriority'] = 'high';
+        $attr['loading']       = 'eager';
+        $applied = true;
+    }
+    return $attr;
+}
+add_filter( 'wp_get_attachment_image_attributes', 'beachhydrovac_fetchpriority_lcp', 10, 3 );
+
+/**
+ * Defer Kadence flexibility.min.js — it's render-blocking (450ms penalty)
+ * Only defer scripts that are not needed for initial render
+ */
+function beachhydrovac_defer_scripts( $tag, $handle, $src ) {
+    $defer_handles = array( 'kadence-flexibility' );
+    if ( in_array( $handle, $defer_handles, true ) ) {
+        return str_replace( ' src=', ' defer src=', $tag );
+    }
+    return $tag;
+}
+add_filter( 'script_loader_tag', 'beachhydrovac_defer_scripts', 10, 3 );

@@ -1,0 +1,7 @@
+<!-- wp:heading -->
+<h2>Our Mission</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>This is the mission statement page for Beach Hydrovac. Our goal is to provide safe, efficient, and non-destructive excavation services. We are committed to excellence and customer satisfaction.</p>
+<!-- /wp:paragraph -->

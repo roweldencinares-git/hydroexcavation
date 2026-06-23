@@ -1,0 +1,202 @@
+STATE PAGE: Hydro Excavation North Carolina
+============================================
+
+INSTRUCTIONS:
+1. Go to: Pages → Add New
+2. Title: Hydro Excavation North Carolina | Beach Hydrovac
+3. Slug: hydro-excavation-north-carolina
+4. Click ⋮ menu → Code editor
+5. Paste the content below
+6. Yoast SEO: Title = "Hydro Excavation North Carolina | Potholing & SUE Services | Beach Hydrovac"
+7. Yoast Meta: "North Carolina's trusted hydro excavation contractor. Potholing, daylighting, SUE Level A verification. Serving Outer Banks, Elizabeth City & northeast NC. Call 757-510-5220."
+8. Publish
+
+---
+
+<!-- wp:cover {"url":"YOUR_HERO_IMAGE_URL","dimRatio":70,"overlayColor":"deep-atlantic","minHeight":380,"align":"full"} -->
+<div class="wp-block-cover alignfull" style="min-height:380px"><span aria-hidden="true" class="wp-block-cover__background has-deep-atlantic-background-color has-background-dim-70 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Hydro excavation truck serving North Carolina" src="YOUR_HERO_IMAGE_URL" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"3.5rem","fontWeight":"900"}}} -->
+<h1 class="wp-block-heading has-text-align-center" style="font-size:3.5rem;font-weight:900">Hydro Excavation North Carolina</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.25rem"}}} -->
+<p class="has-text-align-center" style="font-size:1.25rem">Potholing · Daylighting · SUE Level A · Slot Trenching · Non-Destructive Excavation</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"2rem"}}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7575105220" style="border-radius:9999px">📞 Call 757-510-5220</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"style":{"border":{"radius":"9999px"},"color":{"background":"transparent","text":"#ffffff"},"spacing":{"padding":{"top":"12px","bottom":"12px","left":"28px","right":"28px"}},"border":{"color":"#ffffff","width":"2px","radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact" style="border-radius:9999px;border:2px solid #ffffff;color:#ffffff;background:transparent">Get a Free Quote</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"white","layout":{"type":"constrained","contentSize":"1100px"}} -->
+<div class="wp-block-group has-white-background-color has-background" style="padding-top:4rem;padding-bottom:4rem">
+
+<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"900"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-color" style="font-size:2.5rem;font-weight:900">Serving North Carolina from Virginia Beach</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"3rem"}}}} -->
+<p class="has-text-align-center" style="margin-bottom:3rem">Beach Hydrovac is a Virginia Beach-based hydro excavation company that regularly serves contractors, utilities, and municipalities across northeastern North Carolina. Our industrial-grade vacuum trucks with 600-foot hose reach and mechanical boom precision make us the go-to partner for NC projects that demand accuracy and zero utility strikes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2rem"}}}} -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"deep-atlantic"} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color">Potholing / Daylighting</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Safe utility exposure across NC job sites. We achieve SUE Level A verification using high-pressure water — no mechanical damage to buried lines.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"deep-atlantic"} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color">Slot Trenching</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>Precision narrow trenches for fiber optic, conduit, or pipe installation. Minimal surface disruption — ideal for NC coastal and rural environments.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"2rem","right":"2rem","bottom":"2rem","left":"2rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding-top:2rem;padding-right:2rem;padding-bottom:2rem;padding-left:2rem"><!-- wp:heading {"level":3,"textColor":"deep-atlantic"} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color">SUE Level A Verification</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph -->
+<p>ASCE 38-compliant subsurface utility engineering for NC NCDOT projects, private engineering firms, and federal contractors.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"light-gray","layout":{"type":"constrained","contentSize":"1100px"}} -->
+<div class="wp-block-group has-background" style="background-color:#f3f4f6;padding-top:4rem;padding-bottom:4rem">
+
+<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2rem","fontWeight":"800"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-color" style="font-size:2rem;font-weight:800">North Carolina Service Areas</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2rem"},"margin":{"top":"2rem"}}}} -->
+<div class="wp-block-columns"><!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"textColor":"deep-atlantic","style":{"typography":{"fontSize":"1.1rem"}}} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.1rem">Coastal / Outer Banks</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Outer Banks (OBX)</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Kill Devil Hills</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Nags Head</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Kitty Hawk</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Manteo / Roanoke Island</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"textColor":"deep-atlantic","style":{"typography":{"fontSize":"1.1rem"}}} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.1rem">Northeastern NC</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Elizabeth City</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Edenton</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Hertford</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Ahoskie</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Murfreesboro</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column -->
+
+<!-- wp:column -->
+<div class="wp-block-column"><!-- wp:heading {"level":3,"textColor":"deep-atlantic","style":{"typography":{"fontSize":"1.1rem"}}} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.1rem">Northeast Corridor</h3>
+<!-- /wp:heading -->
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Moyock</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Currituck</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Camden</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Pasquotank County</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Gates County</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+</div>
+<!-- /wp:group -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"white","layout":{"type":"constrained","contentSize":"900px"}} -->
+<div class="wp-block-group has-white-background-color has-background" style="padding-top:4rem;padding-bottom:4rem">
+
+<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2rem","fontWeight":"800"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-color" style="font-size:2rem;font-weight:800">Why NC Contractors Choose Beach Hydrovac</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list {"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
+<ul style="margin-top:1.5rem"><!-- wp:list-item -->
+<li><strong>Cross-border expertise:</strong> We work seamlessly across VA/NC state lines — one call, one contractor, zero coordination headaches</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Map First, Dig Second:</strong> Our AIM Locating partnership means utilities are identified before we ever break ground</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Veteran-owned precision:</strong> Military discipline applied to every NC project — on time, on spec, zero utility strikes</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Sandy coastal soils:</strong> NC coastal geology excavates efficiently with our high-pressure water system — faster than clay-heavy inland sites</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>NCDOT-ready documentation:</strong> We produce legally defensible records that meet NC DOT and ASCE 38 standards</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"1.75rem","fontWeight":"800"},"spacing":{"margin":{"top":"3rem"}}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.75rem;font-weight:800;margin-top:3rem">Ready to Schedule a North Carolina Project?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We serve NC contractors, municipalities, utility companies, and engineering firms. Call to discuss your project requirements — most NC jobs can be scheduled within 48–72 hours.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7575105220" style="border-radius:9999px">📞 757-510-5220</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"backgroundColor":"deep-atlantic","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-deep-atlantic-background-color has-background wp-element-button" href="/contact" style="border-radius:9999px">Request a Quote</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+</div>
+<!-- /wp:group -->

@@ -1,0 +1,72 @@
+# Beach Hydrovac - AI & LLM Information
+
+> Beach Hydrovac is a veteran-owned hydro excavation company serving Virginia, North Carolina, Maryland, and Delaware.
+
+## Company Information
+
+Name: Beach Hydrovac
+Type: Hydro Excavation Contractor
+Location: Virginia Beach, VA
+Service Area: Virginia, North Carolina, Maryland, Delaware
+Phone: 757-785-5177
+Email: info@beachhydrovac.com
+Website: https://beachhydrovac.com
+
+## Services Offered
+
+1. **Hydro Excavation** - Non-destructive digging using pressurized water and vacuum
+2. **Potholing** - Exposing underground utilities for verification
+3. **Daylighting** - Bringing buried utilities to daylight for inspection
+4. **Slot Trenching** - Narrow precision trenches for cables and conduit
+5. **Remote Excavation** - 600ft hose reach for restricted access areas
+6. **SUE Level A Verification** - ASCE 38 compliant utility verification
+
+## Key Facts
+
+- Veteran-owned business
+- Serves Hampton Roads, Richmond, Northern Virginia
+- Available 24/7 for emergencies
+- VDOT compliant methodology
+- Equipment: Industrial hydrovac trucks with 600ft hose reach
+- Industries served: Electrical, Telecom, Civil, Plumbing, Municipalities
+
+## Pricing Information
+
+- Standard hydrovac services: $300-$450/hour
+- Emergency/after-hours: $400-$550/hour
+- SUE Level A potholing: $350-$475/hour
+
+## Contact for Quotes
+
+For accurate project quotes, contact:
+- Phone: 757-785-5177
+- Email: info@beachhydrovac.com
+- Website: https://beachhydrovac.com/contact/
+
+## Frequently Asked Questions
+
+Q: What is hydro excavation?
+A: Hydro excavation is a non-destructive digging method that uses pressurized water to break up soil and a powerful vacuum to remove debris, safely exposing underground utilities.
+
+Q: What areas does Beach Hydrovac serve?
+A: Beach Hydrovac serves Virginia (including Virginia Beach, Norfolk, Chesapeake, Richmond), North Carolina, Maryland, and Delaware.
+
+Q: What is SUE Level A verification?
+A: SUE Level A is the highest accuracy level in Subsurface Utility Engineering per ASCE 38 standards, involving physical exposure of utilities through non-destructive excavation.
+
+Q: Is hydro excavation safer than traditional excavation?
+A: Yes, hydro excavation eliminates the risk of utility strikes that can cause injuries and costly damage to underground infrastructure.
+
+Q: Can hydro excavation work in frozen ground?
+A: Yes, heated water systems allow hydro excavation to work effectively in cold weather and frozen ground conditions.
+
+## Documentation
+
+- Services: https://beachhydrovac.com/services/
+- Locations: https://beachhydrovac.com/locations/
+- FAQ: https://beachhydrovac.com/faq/
+- Contact: https://beachhydrovac.com/contact/
+
+## Sitemap
+
+https://beachhydrovac.com/sitemap_index.xml

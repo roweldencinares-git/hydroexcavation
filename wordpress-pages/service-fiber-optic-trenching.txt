@@ -1,0 +1,127 @@
+SERVICE PAGE: Fiber Optic Trenching Virginia
+=============================================
+
+INSTRUCTIONS:
+1. Go to: Pages → Add New
+2. Title: Fiber Optic Trenching Virginia | Hydrovac Slot Trenching
+3. Slug: fiber-optic-trenching-virginia
+4. Click ⋮ menu → Code editor
+5. Paste the content below
+6. Yoast SEO: Title = "Fiber Optic Trenching Virginia | Hydrovac Slot Trenching | Beach Hydrovac"
+7. Yoast Meta: "Precision fiber optic trenching in Virginia using hydro excavation. Protect existing utilities during broadband & telecom installation. Hampton Roads & statewide. 757-510-5220."
+8. Publish
+
+---
+
+<!-- wp:cover {"url":"YOUR_HERO_IMAGE_URL","dimRatio":70,"overlayColor":"deep-atlantic","minHeight":380,"align":"full"} -->
+<div class="wp-block-cover alignfull" style="min-height:380px"><span aria-hidden="true" class="wp-block-cover__background has-deep-atlantic-background-color has-background-dim-70 has-background-dim"></span><img class="wp-block-cover__image-background" alt="Fiber optic trench hydro excavation Virginia" src="YOUR_HERO_IMAGE_URL" data-object-fit="cover"/><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"3.5rem","fontWeight":"900"}}} -->
+<h1 class="wp-block-heading has-text-align-center" style="font-size:3.5rem;font-weight:900">Fiber Optic Trenching Virginia</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontSize":"1.25rem"}}} -->
+<p class="has-text-align-center" style="font-size:1.25rem">Hydrovac Slot Trenching for Broadband · Telecom · 5G · Fiber Installation</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"2rem"}}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7575105220" style="border-radius:9999px">📞 Call 757-510-5220</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"style":{"border":{"radius":"9999px","color":"#ffffff","width":"2px"},"color":{"background":"transparent","text":"#ffffff"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="/contact" style="border-radius:9999px;border:2px solid #ffffff;color:#ffffff;background:transparent">Get a Quote</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"4rem","bottom":"4rem"}}},"backgroundColor":"white","layout":{"type":"constrained","contentSize":"900px"}} -->
+<div class="wp-block-group has-white-background-color has-background" style="padding-top:4rem;padding-bottom:4rem">
+
+<!-- wp:heading {"textAlign":"center","style":{"typography":{"fontSize":"2.5rem","fontWeight":"900"}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-text-align-center has-deep-atlantic-color has-text-color" style="font-size:2.5rem;font-weight:900">The Safest Way to Trench for Fiber in Virginia</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"2rem"}}}} -->
+<p class="has-text-align-center" style="margin-bottom:2rem">Virginia's broadband expansion is accelerating — and the number one cause of costly project delays is mechanical trenching equipment hitting existing buried utilities. Beach Hydrovac uses hydro excavation to cut precise, narrow trenches for fiber optic conduit without damaging gas lines, electric cables, water mains, or existing fiber.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"1.75rem","fontWeight":"800"},"spacing":{"margin":{"top":"3rem"}}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.75rem;font-weight:800;margin-top:3rem">Why Hydrovac for Fiber Optic Trenching?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:columns {"style":{"spacing":{"blockGap":{"left":"2rem"},"margin":{"top":"1.5rem"}}}} -->
+<div class="wp-block-columns"><!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"1.5rem","right":"1.5rem","bottom":"1.5rem","left":"1.5rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding:1.5rem"><!-- wp:heading {"level":3,"textColor":"deep-atlantic","style":{"typography":{"fontSize":"1.1rem"}}} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.1rem">Zero Cable Strikes</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.95rem"}}} -->
+<p style="font-size:0.95rem">High-pressure water cuts soil without touching buried utilities. Mechanical trenchers can't make that guarantee.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"1.5rem","right":"1.5rem","bottom":"1.5rem","left":"1.5rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding:1.5rem"><!-- wp:heading {"level":3,"textColor":"deep-atlantic","style":{"typography":{"fontSize":"1.1rem"}}} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.1rem">Tight Corridor Access</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.95rem"}}} -->
+<p style="font-size:0.95rem">Our 600-foot hose reach allows trenching in areas where wheeled trenchers can't operate — under decks, near foundations, in congested utility corridors.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column -->
+
+<!-- wp:column {"style":{"border":{"width":"1px","color":"#e5e7eb","radius":"12px"},"spacing":{"padding":{"top":"1.5rem","right":"1.5rem","bottom":"1.5rem","left":"1.5rem"}}}} -->
+<div class="wp-block-column has-border-color" style="border-color:#e5e7eb;border-width:1px;border-radius:12px;padding:1.5rem"><!-- wp:heading {"level":3,"textColor":"deep-atlantic","style":{"typography":{"fontSize":"1.1rem"}}} -->
+<h3 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.1rem">Minimal Restoration</h3>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"0.95rem"}}} -->
+<p style="font-size:0.95rem">Narrow slot trenches mean less disturbed soil, less pavement damage, and lower restoration costs — critical for urban fiber routes.</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"1.75rem","fontWeight":"800"},"spacing":{"margin":{"top":"3rem"}}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.75rem;font-weight:800;margin-top:3rem">Who We Serve</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><strong>Broadband ISPs</strong> expanding fiber-to-the-home in Hampton Roads, Richmond, and Northern Virginia</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Telecom contractors</strong> installing backbone fiber and last-mile connections</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>5G infrastructure teams</strong> deploying small cell and fronthaul conduit runs</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Municipal broadband projects</strong> through Virginia's BEAD program funding</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Electric utilities</strong> installing fiber for SCADA and smart grid infrastructure</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"1.75rem","fontWeight":"800"},"spacing":{"margin":{"top":"3rem"}}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.75rem;font-weight:800;margin-top:3rem">Map First, Trench Second</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Our partnership with <strong>AIM Locating</strong> means we don't just trench — we verify what's buried first. Before hydrovac equipment moves, our utility locating team maps the corridor. This "Map First, Dig Second" workflow eliminates the locator/trencher conflict that causes most fiber installation delays and utility strikes.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"style":{"typography":{"fontSize":"1.75rem","fontWeight":"800"},"spacing":{"margin":{"top":"3rem"}}},"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-size:1.75rem;font-weight:800;margin-top:3rem">Get a Fiber Trenching Quote</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Tell us your project: route length, soil type, urban vs. rural, and number of existing utilities in the corridor. We'll give you a straightforward quote.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7575105220" style="border-radius:9999px">📞 757-510-5220</a></div>
+<!-- /wp:button -->
+<!-- wp:button {"backgroundColor":"deep-atlantic","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-deep-atlantic-background-color has-background wp-element-button" href="/contact" style="border-radius:9999px">Request a Quote</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+</div>
+<!-- /wp:group -->

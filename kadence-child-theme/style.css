@@ -13,6 +13,20 @@ Tags: hydro-excavation, business, professional, kadence-child
 */
 
 /* ========================================
+   FONT DISPLAY — Prevent layout shift (CLS fix)
+   font-display: swap shows fallback font immediately,
+   swaps when Inter loads → eliminates the 0.006 CLS penalty
+   ======================================== */
+
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'), url('/wp-content/themes/kadence/assets/fonts/inter/Inter-Variable.woff2') format('woff2');
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ========================================
    BEACHHYDROVAC BRAND IDENTITY
    "Warm Tech" Color Palette
    ======================================== */
@@ -334,6 +348,52 @@ a.kb-button:hover,
 }
 
 /* ========================================
+   REAL PERFORMANCE CSS
+   ======================================== */
+
+/* 1. Defer rendering of off-screen sections (biggest win) */
+.site-footer,
+#colophon,
+.wp-block-group:not(:first-child) {
+    content-visibility: auto;
+    contain-intrinsic-size: 0 400px;
+}
+
+/* 2. Fix expensive "transition: all" — only transition what actually changes */
+.wp-block-button__link,
+.wp-element-button,
+.button,
+.kadence-button,
+a.kb-button {
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease !important;
+}
+
+.header-navigation .header-menu-container > ul > li > a,
+.primary-navigation a,
+.entry-content a,
+.site-footer a {
+    transition: color 0.2s ease !important;
+}
+
+/* 3. Remove will-change from static elements — only apply on hover to save GPU memory */
+.wp-block-post-template li,
+.loop-entry,
+.button {
+    will-change: auto;
+}
+.wp-block-post-template li:hover,
+.loop-entry:hover {
+    will-change: transform;
+}
+
+/* 4. CSS containment — isolates layout recalculations */
+.wp-block-columns,
+.wp-block-post-template li,
+.loop-entry {
+    contain: layout style;
+}
+
+/* ========================================
    RESPONSIVE ADJUSTMENTS
    ======================================== */
 
@@ -373,12 +433,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* GPU Acceleration for Transforms */
-.wp-block-post-template li,
-.loop-entry,
-.button {
-    will-change: transform;
-}
+/* GPU Acceleration for Transforms — only on hover (set above in REAL PERFORMANCE CSS) */
 
 /* Reduce Motion for Accessibility */
 @media (prefers-reduced-motion: reduce) {

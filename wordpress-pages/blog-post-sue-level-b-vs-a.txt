@@ -1,0 +1,199 @@
+BLOG POST: SUE Level B vs Level A — What's the Difference?
+===========================================================
+
+INSTRUCTIONS:
+1. Go to: Posts → Add New
+2. Title: SUE Level B vs Level A: What's the Difference and When Do You Need Each?
+3. Slug: sue-level-b-vs-level-a
+4. Click ⋮ menu → Code editor
+5. Paste content below
+6. Category: Industry Education
+7. Yoast SEO: Title = "SUE Level B vs Level A: Key Differences Explained | Beach Hydrovac"
+8. Yoast Meta: "What's the difference between SUE Level B and Level A? Learn when each is required, what they cost, and why Level A verification requires hydro excavation. Virginia guide."
+9. Add featured image (utility mapping / engineering theme)
+10. Publish
+
+---
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.125rem"}}} -->
+<p style="font-size:1.125rem">If you're a contractor, engineer, or project manager working on Virginia infrastructure, you've probably heard the terms <strong>SUE Level B</strong> and <strong>SUE Level A</strong> thrown around. But what's actually different between them — and when does your project require each level?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">What is SUE? A Quick Primer</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Subsurface Utility Engineering (SUE)</strong> is a branch of engineering that manages the risks associated with subsurface utility information. It's governed by <strong>ASCE Standard 38-02</strong>, which defines four quality levels (A through D) for how accurately underground utilities are located and documented.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The higher the level (A being highest), the more accurate and legally defensible the data. Each level requires progressively more invasive — and more reliable — methods.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">The Four SUE Quality Levels</h2>
+<!-- /wp:heading -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table><thead><tr><th>Quality Level</th><th>Method</th><th>Accuracy</th><th>Best For</th></tr></thead><tbody><tr><td><strong>Level D</strong></td><td>Records &amp; maps only</td><td>Lowest — often wrong</td><td>Early planning only</td></tr><tr><td><strong>Level C</strong></td><td>Field surveys of visible features</td><td>Surface indicators only</td><td>Preliminary design</td></tr><tr><td><strong>Level B</strong></td><td>Geophysical (GPR, EM, etc.)</td><td>Horizontal location ±3 feet typical</td><td>Design, planning, bid documents</td></tr><tr><td><strong>Level A</strong></td><td>Physical exposure (hydro excavation)</td><td>Exact — verified X, Y, Z coordinates</td><td>Final design, construction, legal</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">SUE Level B: Geophysical Detection</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Level B uses non-invasive geophysical equipment — ground-penetrating radar (GPR), electromagnetic induction (EM), or acoustic tools — to detect buried utilities from the surface. The result is a map showing <em>approximate</em> horizontal location.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What Level B Gives You</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Horizontal position of utilities (±1–3 feet accuracy depending on soil and depth)</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Utility type identification in many cases</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Mapping suitable for design drawings and bid documents</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>No physical excavation required</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What Level B Cannot Tell You</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Exact depth of buried utilities</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Condition, material, or size of the utility</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Whether a utility has been abandoned or rerouted</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Precise vertical location for conflict analysis</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">SUE Level A: Physical Exposure (Hydro Excavation)</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Level A is the gold standard. It requires physically exposing the utility — and <strong>hydro excavation (potholing/daylighting)</strong> is the accepted method. A technician uses high-pressure water and vacuum to safely expose the utility, then a surveyor records its exact X, Y, and Z (depth) coordinates.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">What Level A Gives You</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Exact horizontal and vertical position — surveyed to sub-inch accuracy</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Physical confirmation of utility type, size, material, and condition</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Legally defensible documentation for engineering records</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Required data for VDOT SUE submittals on qualifying projects</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Conflict analysis confidence — you know exactly where the utility is in 3D space</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Why Hydro Excavation is Required for Level A</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>ASCE 38 specifies that Level A data must come from <em>physical exposure</em>. Mechanical excavation (backhoes, hand digging) risks damaging the very utilities you're trying to locate. Hydro excavation — using pressurized water and vacuum — safely exposes utilities without contact damage, making it the only practical method for achieving Level A verification at scale.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">When Do You Need Level B vs Level A?</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Use Level B When:</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>You're in early design and need approximate utility locations for planning</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The project area is large and budget doesn't support full Level A coverage</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>You need to identify which specific locations require Level A follow-up</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The contract or agency only requires Level B for design submission</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {"level":3} -->
+<h3 class="wp-block-heading">Use Level A When:</h3>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>VDOT or other agencies require it for the project scope</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Mechanical excavation is planned near existing utilities</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>The design has utility conflicts that must be resolved before construction</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>You need legally defensible documentation for liability protection</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>A utility owner requires exposure before granting construction clearance</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Cost Comparison: Level B vs Level A</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Level B is significantly cheaper per location — geophysical scanning costs a fraction of physical exposure. However, Level A provides data that Level B cannot, and the cost of a utility strike ($50,000–$500,000+ in repairs, delays, and liability) dwarfs the cost of proper Level A verification.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:table -->
+<figure class="wp-block-table"><table><thead><tr><th></th><th>Level B</th><th>Level A</th></tr></thead><tbody><tr><td>Cost per location</td><td>Lower (geophysical scan)</td><td>Higher (hydrovac + survey)</td></tr><tr><td>Depth data</td><td>No</td><td>Yes — exact</td></tr><tr><td>VDOT accepted</td><td>For design only</td><td>For construction + design</td></tr><tr><td>Legal defensibility</td><td>Limited</td><td>Full</td></tr><tr><td>Utility strike prevention</td><td>Reduces risk</td><td>Eliminates risk</td></tr></tbody></table></figure>
+<!-- /wp:table -->
+
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Beach Hydrovac Provides Level A Verification Across Virginia</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We perform SUE Level A potholing for engineering firms, general contractors, VDOT projects, and utility companies across Hampton Roads, Richmond, Northern Virginia, and into NC, MD, and DE. Our work meets ASCE 38 standards and produces documentation your engineers can use for final design submittals.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7575105220" style="border-radius:9999px">📞 Call 757-510-5220</a></div>
+<!-- /wp:button -->
+
+<!-- wp:button {"backgroundColor":"deep-atlantic","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-deep-atlantic-background-color has-background wp-element-button" href="/services/sue-level-a/" style="border-radius:9999px">Learn About Our SUE Level A Services</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->

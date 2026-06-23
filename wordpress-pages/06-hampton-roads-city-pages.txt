@@ -1,0 +1,331 @@
+GEOGRAPHIC EXPANSION: Hampton Roads City Landing Pages
+=======================================================
+PURPOSE: Rank for "[city] hydrovac" and "[city] hydro excavation" searches
+STRATEGY: One page per city. Each page is unique content targeting that city's specific context.
+
+CITIES TO CREATE (in order of priority based on search volume):
+1. Norfolk - largest city, most searches
+2. Chesapeake - large population, lots of construction
+3. Newport News - shipyard = tons of utility work
+4. Hampton - military base = government contracts
+5. Suffolk - fastest growing, new construction
+6. Portsmouth - HRSD infrastructure projects
+
+=======================================================
+PAGE 1: NORFOLK
+=======================================================
+META TITLE: Hydrovac Services Norfolk VA | Hydro Excavation | Beach HydroVac
+META DESCRIPTION: Professional hydrovac and hydro excavation services in Norfolk, VA. Potholing, slot trenching, SUE Level A. Veteran-owned. Call 757-785-5177.
+SLUG: /service-areas/norfolk-hydrovac/
+
+INSTRUCTIONS: Pages → Add New → paste below → slug: norfolk-hydrovac
+
+---
+
+<!-- wp:cover {"dimRatio":60,"overlayColor":"deep-atlantic","minHeight":350,"align":"full"} -->
+<div class="wp-block-cover alignfull" style="min-height:350px"><span aria-hidden="true" class="wp-block-cover__background has-deep-atlantic-background-color has-background-dim-60 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"2.75rem","fontWeight":"900"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
+<h1 class="wp-block-heading has-text-align-center has-base-color has-text-color has-link-color" style="font-size:2.75rem;font-weight:900">Hydrovac Services in Norfolk, Virginia</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
+<p class="has-text-align-center has-base-color has-text-color has-link-color">Hydro excavation, potholing & slot trenching for Norfolk contractors. Veteran-owned. Fast mobilization.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
+<div class="wp-block-buttons" style="margin-top:1.5rem"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7577855177" style="border-radius:9999px">Call 757-785-5177</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"3rem","bottom":"3rem"}}},"layout":{"type":"constrained","contentSize":"860px"}} -->
+<div class="wp-block-group" style="padding-top:3rem;padding-bottom:3rem">
+
+<!-- wp:heading {"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color">Hydrovac Contractor Serving Norfolk, VA</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Norfolk is one of Virginia's most utility-dense cities — home to Naval Station Norfolk, a dense downtown corridor, and aging underground infrastructure that demands extreme care during excavation.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Beach HydroVac provides hydro excavation services throughout Norfolk for electrical contractors, civil engineers, telecom installers, and municipal crews. Our "Map First, Dig Second" approach with <strong>AIM Locating</strong> ensures every pothole is safely executed before digging begins.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color">Services Available in Norfolk</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><strong>Potholing / Daylighting</strong> — Safely expose buried utilities for SUE Level A verification</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Slot Trenching</strong> — Narrow, precise trenches for fiber, conduit, and water lines</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Remote Excavation</strong> — 600ft hose reach for tight access areas and high-density zones</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>SUE Level A Verification</strong> — ASCE-compliant utility documentation for engineering projects</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Based in Virginia Beach, we mobilize quickly to Norfolk job sites across all zip codes including 23501, 23502, 23503, 23504, 23505, 23507, 23508, 23509, 23510, 23511.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7577855177" style="border-radius:9999px">Call for Norfolk Quote: 757-785-5177</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+</div>
+<!-- /wp:group -->
+
+<!-- Norfolk Schema -->
+<!-- wp:html -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Beach HydroVac",
+  "description": "Hydrovac and hydro excavation services in Norfolk, VA. Potholing, slot trenching, SUE Level A verification.",
+  "telephone": "+1-757-785-5177",
+  "email": "info@beachhydrovac.com",
+  "url": "https://beachhydrovac.com",
+  "areaServed": {
+    "@type": "City",
+    "name": "Norfolk",
+    "addressRegion": "VA"
+  },
+  "serviceType": ["Hydrovac Excavation", "Potholing", "Slot Trenching", "SUE Level A Verification"]
+}
+</script>
+<!-- /wp:html -->
+
+=======================================================
+PAGE 2: CHESAPEAKE
+=======================================================
+META TITLE: Hydrovac Chesapeake VA | Hydro Excavation Contractor | Beach HydroVac
+META DESCRIPTION: Hydrovac and hydro excavation in Chesapeake, VA. Potholing, daylighting, slot trenching for new construction. Veteran-owned. Call 757-785-5177.
+SLUG: /service-areas/chesapeake-hydrovac/
+
+---
+
+<!-- wp:cover {"dimRatio":60,"overlayColor":"deep-atlantic","minHeight":350,"align":"full"} -->
+<div class="wp-block-cover alignfull" style="min-height:350px"><span aria-hidden="true" class="wp-block-cover__background has-deep-atlantic-background-color has-background-dim-60 has-background-dim"></span><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"center","level":1,"style":{"typography":{"fontSize":"2.75rem","fontWeight":"900"},"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
+<h1 class="wp-block-heading has-text-align-center has-base-color has-text-color has-link-color" style="font-size:2.75rem;font-weight:900">Hydrovac Services in Chesapeake, Virginia</h1>
+<!-- /wp:heading -->
+<!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|base"}}}},"textColor":"base"} -->
+<p class="has-text-align-center has-base-color has-text-color has-link-color">Hydro excavation for Chesapeake's growing construction corridor. Fast, safe, precise.</p>
+<!-- /wp:paragraph -->
+<!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"},"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
+<div class="wp-block-buttons" style="margin-top:1.5rem"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7577855177" style="border-radius:9999px">Call 757-785-5177</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons --></div></div>
+<!-- /wp:cover -->
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"3rem","bottom":"3rem"}}},"layout":{"type":"constrained","contentSize":"860px"}} -->
+<div class="wp-block-group" style="padding-top:3rem;padding-bottom:3rem">
+
+<!-- wp:heading {"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color">Hydrovac Contractor Serving Chesapeake, VA</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Chesapeake is one of Virginia's fastest-growing cities — with massive commercial development along Battlefield Blvd, Indian River Road, and the Route 17 corridor. New construction means new utility conflicts, which is exactly where hydro excavation is essential.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Beach HydroVac serves Chesapeake contractors, developers, and utility crews with fast mobilization and industrial-grade vacuum trucks. Our 600ft hose reach is especially valuable in Chesapeake's suburban residential developments where truck access is often limited.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color">Services Available in Chesapeake</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><strong>Potholing / Daylighting</strong> — Pre-construction utility verification</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Slot Trenching</strong> — Fiber, conduit, gas, water line installation</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Remote Excavation</strong> — Residential areas with restricted truck access</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>SUE Level A</strong> — Engineering-grade documentation for major projects</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Serving all Chesapeake zip codes: 23320, 23321, 23322, 23323, 23324, 23325.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7577855177" style="border-radius:9999px">Call for Chesapeake Quote: 757-785-5177</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+</div>
+<!-- /wp:group -->
+
+<!-- Chesapeake Schema -->
+<!-- wp:html -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Beach HydroVac",
+  "description": "Hydrovac and hydro excavation services in Chesapeake, VA.",
+  "telephone": "+1-757-785-5177",
+  "url": "https://beachhydrovac.com",
+  "areaServed": {
+    "@type": "City",
+    "name": "Chesapeake",
+    "addressRegion": "VA"
+  },
+  "serviceType": ["Hydrovac Excavation", "Potholing", "Slot Trenching", "SUE Level A Verification"]
+}
+</script>
+<!-- /wp:html -->
+
+=======================================================
+PAGE 3: NEWPORT NEWS
+=======================================================
+META TITLE: Hydrovac Newport News VA | Hydro Excavation | Beach HydroVac
+META DESCRIPTION: Hydrovac and potholing services in Newport News, VA. SUE Level A, slot trenching, shipyard-area utility work. Veteran-owned. Call 757-785-5177.
+SLUG: /service-areas/newport-news-hydrovac/
+
+---
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"3rem","bottom":"3rem"}}},"layout":{"type":"constrained","contentSize":"860px"}} -->
+<div class="wp-block-group" style="padding-top:3rem;padding-bottom:3rem">
+
+<!-- wp:heading {"level":1,"textColor":"deep-atlantic","style":{"typography":{"fontWeight":"900"}}} -->
+<h1 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-weight:900">Hydrovac Services in Newport News, Virginia</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.125rem"}}} -->
+<p style="font-size:1.125rem">Hydro excavation and potholing for Newport News contractors, shipyard-adjacent projects, and utility installation.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Newport News's industrial waterfront and dense utility corridors make it one of the most complex excavation environments in Hampton Roads. Beach HydroVac's precision hydro excavation ensures utility work near the shipyard, industrial parks, and residential areas is performed safely and documented accurately.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"textColor":"deep-atlantic"} -->
+<h2 class="wp-block-heading has-deep-atlantic-color has-text-color">Why Newport News Contractors Choose Beach HydroVac</h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li>Government and DOD-adjacent project experience</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>Veteran-owned — understanding of military installation requirements</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>SUE Level A documentation for federal and state project compliance</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li>600ft hose reach for restricted shipyard-area access</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Serving Newport News zip codes: 23601, 23602, 23603, 23604, 23605, 23606, 23607, 23608.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7577855177" style="border-radius:9999px">Call 757-785-5177 for Newport News</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+</div>
+<!-- /wp:group -->
+
+=======================================================
+PAGE 4: SUFFOLK
+=======================================================
+META TITLE: Hydrovac Suffolk VA | Hydro Excavation Contractor | Beach HydroVac
+META DESCRIPTION: Hydrovac services in Suffolk, VA. Potholing, slot trenching, SUE Level A for new development and infrastructure. Veteran-owned. 757-785-5177.
+SLUG: /service-areas/suffolk-hydrovac/
+
+---
+
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"3rem","bottom":"3rem"}}},"layout":{"type":"constrained","contentSize":"860px"}} -->
+<div class="wp-block-group" style="padding-top:3rem;padding-bottom:3rem">
+
+<!-- wp:heading {"level":1,"textColor":"deep-atlantic","style":{"typography":{"fontWeight":"900"}}} -->
+<h1 class="wp-block-heading has-deep-atlantic-color has-text-color" style="font-weight:900">Hydrovac Services in Suffolk, Virginia</h1>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph {"style":{"typography":{"fontSize":"1.125rem"}}} -->
+<p style="font-size:1.125rem">Suffolk is one of Virginia's fastest-growing cities. New residential and commercial development means new underground utility installation — and that means hydrovac.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Beach HydroVac supports Suffolk's construction boom with safe, non-destructive hydro excavation services. Whether you're building along Route 58, Harbour View, or anywhere in between, we deliver precision potholing and slot trenching that keeps projects on schedule.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul><!-- wp:list-item -->
+<li><strong>New development potholing</strong> — Verify existing utilities before breaking ground</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Slot trenching</strong> — Fast fiber and conduit installation in new corridors</li>
+<!-- /wp:list-item -->
+<!-- wp:list-item -->
+<li><strong>Remote excavation</strong> — 600ft reach for large-lot suburban properties</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>Serving Suffolk zip codes: 23432, 23433, 23434, 23435, 23436, 23437, 23438, 23439.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:buttons -->
+<div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"safety-cyan","style":{"border":{"radius":"9999px"}}} -->
+<div class="wp-block-button"><a class="wp-block-button__link has-safety-cyan-background-color has-background wp-element-button" href="tel:7577855177" style="border-radius:9999px">Call 757-785-5177 for Suffolk</a></div>
+<!-- /wp:button --></div>
+<!-- /wp:buttons -->
+
+</div>
+<!-- /wp:group -->
+
+=======================================================
+INTERNAL LINKING STRATEGY
+=======================================================
+Add this links section to the bottom of EACH city page:
+
+"Also serving: [Virginia Beach](/), [Norfolk](/service-areas/norfolk-hydrovac/),
+[Chesapeake](/service-areas/chesapeake-hydrovac/), [Newport News](/service-areas/newport-news-hydrovac/),
+[Suffolk](/service-areas/suffolk-hydrovac/), [Hampton](/service-areas/hampton-hydrovac/),
+[Portsmouth](/service-areas/portsmouth-hydrovac/)"
+
+This creates a hub-and-spoke internal link structure that signals to Google
+that Beach HydroVac serves ALL of Hampton Roads, not just Virginia Beach.
+
+=======================================================
+WORDPRESS MENU STRUCTURE RECOMMENDATION
+=======================================================
+Services (dropdown)
+  ├── Potholing & Daylighting → /services/potholing-daylighting-virginia-beach/
+  ├── Slot Trenching → /services/slot-trenching-virginia-beach/
+  ├── Remote Excavation → /services/remote-excavation/
+  └── SUE Level A Verification → /services/sue-level-a-verification/
+
+Service Areas (dropdown)
+  ├── Virginia Beach → / (homepage)
+  ├── Norfolk → /service-areas/norfolk-hydrovac/
+  ├── Chesapeake → /service-areas/chesapeake-hydrovac/
+  ├── Newport News → /service-areas/newport-news-hydrovac/
+  ├── Suffolk → /service-areas/suffolk-hydrovac/
+  ├── Hampton → /service-areas/hampton-hydrovac/
+  └── Portsmouth → /service-areas/portsmouth-hydrovac/

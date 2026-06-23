@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // WordPress Configuration
-const WP_URL = 'https://silver-raccoon-464412.hostingersite.com';
+const WP_URL = 'https://beachhydrovac.com';
 const WP_USER = process.env.BEACH_HYDROVAC_WP_USER;
 const WP_APP_PASSWORD = process.env.BEACH_HYDROVAC_WP_PASSWORD;
 
@@ -174,6 +174,11 @@ async function main() {
   // Create Contact Page
   const contactContent = cleanGutenbergContent(join(__dirname, 'wordpress-pages/04-contact.txt'));
   await createPage('Contact', contactContent);
+  await new Promise(resolve => setTimeout(resolve, 1000));
+
+  // Create Our Mission Page
+  const missionContent = cleanGutenbergContent(join(__dirname, 'wordpress-pages/05-our-mission.txt'));
+  await createPage('Our Mission', missionContent);
   await new Promise(resolve => setTimeout(resolve, 1000));
 
   console.log('\n==========================================');

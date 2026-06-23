@@ -1,0 +1,233 @@
+/*
+Theme Name: BeachHydrovac Child
+Theme URI: https://beachhydrovac.com
+Description: Optimized child theme for BeachHydrovac
+Author: BeachHydrovac
+Author URI: https://beachhydrovac.com
+Template: flavor
+Version: 1.0.0
+*/
+
+/* ============================================
+   BEACHHYDROVAC - OPTIMIZED CSS
+   Performance Optimized
+   ============================================ */
+
+/* Critical: Font loading optimization */
+@font-face {
+  font-family: 'Inter';
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/inter/v13/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2') format('woff2');
+  font-weight: 400 700 900;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/montserrat/v26/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aXo.woff2') format('woff2');
+  font-weight: 600 700;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-display: swap;
+  src: url('https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2') format('woff2');
+  font-weight: 400 500;
+}
+
+/* CSS Variables */
+:root {
+  --deep-navy: #1a365d;
+  --golden-sun: #f7bb14;
+  --golden-light: #ffd65a;
+  --text-gray: #64748b;
+  --bg-light: #f8fafc;
+}
+
+/* Full Width Fixes */
+body.page-id-10,
+body.page-id-10 .site,
+body.page-id-10 .site-content,
+body.page-id-10 .content-area,
+body.page-id-10 .entry-content,
+body.page-id-10 article,
+.kadence-content-wrap,
+.content-wrap,
+.site-main {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin: 0 !important;
+}
+
+body.page-id-10 .container,
+body.page-id-10 .site-container,
+body.page-id-10 .content-container {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding: 0 !important;
+}
+
+body.page-id-10 .alignfull {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin-left: calc(-50vw + 50%) !important;
+  margin-right: calc(-50vw + 50%) !important;
+}
+
+/* Canvas template fixes */
+body.elementor-template-canvas header,
+body.elementor-template-canvas footer,
+body.elementor-template-canvas .site-header,
+body.elementor-template-canvas .site-footer {
+  display: none !important;
+}
+
+/* Typography */
+.font-inter { font-family: 'Inter', -apple-system, sans-serif !important; }
+.font-montserrat { font-family: 'Montserrat', -apple-system, sans-serif !important; }
+.font-roboto { font-family: 'Roboto', -apple-system, sans-serif !important; }
+
+/* Colors */
+.deep-navy { color: var(--deep-navy) !important; }
+.golden-sun { color: var(--golden-sun) !important; }
+.bg-deep-navy { background-color: var(--deep-navy) !important; }
+.bg-golden-sun { background-color: var(--golden-sun) !important; }
+
+/* Hero */
+.hero-text-shadow {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5), 0 4px 8px rgba(0,0,0,0.4), 0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* Gradients */
+.golden-gradient {
+  background: linear-gradient(135deg, var(--golden-sun) 0%, var(--golden-light) 100%) !important;
+}
+
+/* Veteran Badge */
+.veteran-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #B91C1C 0%, #DC2626 100%);
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: .85rem;
+  box-shadow: 0 4px 12px rgba(185,28,28,0.3);
+  letter-spacing: .5px;
+}
+
+/* Cards */
+.card-navy-border {
+  border-top: 4px solid var(--deep-navy) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08) !important;
+  transition: transform .3s, box-shadow .3s !important;
+}
+
+.card-gold-border {
+  border-top: 4px solid var(--golden-sun) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.08) !important;
+  transition: transform .3s, box-shadow .3s !important;
+}
+
+.card-navy-border:hover,
+.card-gold-border:hover,
+.capability-card:hover {
+  box-shadow: 0 20px 60px rgba(0,0,0,0.12) !important;
+  transform: translateY(-4px);
+}
+
+/* Icon Circles */
+.icon-circle {
+  width: 52px;
+  height: 52px;
+  min-width: 52px;
+  background: rgba(247,187,20,0.12);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle-lg {
+  width: 68px;
+  height: 68px;
+  min-width: 68px;
+  background: rgba(247,187,20,0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Buttons */
+.btn-primary .wp-block-button__link {
+  background-color: var(--golden-sun) !important;
+  color: #fff !important;
+  padding: 18px 36px !important;
+  border-radius: 9999px !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  box-shadow: 0 10px 30px rgba(247,187,20,0.3) !important;
+  transition: all .3s !important;
+  border: none !important;
+}
+
+.btn-primary .wp-block-button__link:hover {
+  background-color: var(--deep-navy) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 15px 40px rgba(26,54,93,0.3) !important;
+}
+
+.btn-secondary .wp-block-button__link {
+  background-color: #fff !important;
+  color: var(--deep-navy) !important;
+  padding: 18px 36px !important;
+  border-radius: 9999px !important;
+  font-weight: 700 !important;
+  font-size: 18px !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+  transition: all .3s !important;
+  border: none !important;
+}
+
+.btn-secondary .wp-block-button__link:hover {
+  background-color: var(--golden-sun) !important;
+  color: #fff !important;
+  transform: translateY(-2px);
+}
+
+/* Cover Block */
+.wp-block-cover__inner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Capability Card */
+.capability-card {
+  transition: transform .3s, box-shadow .3s !important;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .hero-heading { font-size: 44px !important; }
+  .section-heading { font-size: 36px !important; }
+}
+
+@media (max-width: 782px) {
+  .hero-heading { font-size: 32px !important; }
+  .section-heading { font-size: 28px !important; }
+  .wp-block-columns { flex-direction: column !important; }
+  .wp-block-column { flex-basis: 100% !important; margin-bottom: 24px; }
+  .btn-primary .wp-block-button__link,
+  .btn-secondary .wp-block-button__link {
+    padding: 16px 28px !important;
+    font-size: 16px !important;
+  }
+}

@@ -53,7 +53,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"1.125rem","fontWeight":"700"}},"textColor":"deep-atlantic"} -->
-<p class="has-deep-atlantic-color has-text-color" style="font-size:1.125rem;font-weight:700">Virginia Beach, VA 23456</p>
+<p class="has-deep-atlantic-color has-text-color" style="font-size:1.125rem;font-weight:700">Norfolk, VA</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"typography":{"fontSize":"0.9rem"}}} -->
@@ -133,11 +133,11 @@
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Virginia Beach (Home Base)</li>
+<li>Norfolk, VA (Home Base)</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
-<li>Norfolk, Chesapeake, Suffolk</li>
+<li>Chesapeake, Suffolk, Portsmouth</li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item -->
